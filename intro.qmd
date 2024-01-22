@@ -1,9 +1,71 @@
 # Week 1: Introduction to Remote Sensing
 
-This is a book created from markdown and executable code.
+---
+output:
+  format:
+  html:
+toc: true
+toc-location: right
+toc-title: Contents
+html-math-method: katex
+css: styles.css
+bibliography: references.bib
+---
 
-See @knuth84 for additional discussion of literate programming.
+## **Summary:**
 
-```{r}
-1 + 1
-```
+## **What is remote sensing?** 
+
+Remote sensing is the science of collecting information about an object, phenomenon, or area from a distance (NOAA, 2020). This is typically done using sensors that are mounted on satellites or aircrafts.
+
+## **Types of Sensors**
+
+There are two main types of sensors that are used to collect remotely sensed data. However, both types of sensors monitor electromagnetic radiation.
+
+### **Passive**
+
+Passive sensors detect energy that is emitted or reflected naturally. In the case of remotely sensing data from a satellite, this natural energy would be reflected energy from the sun as demonstrated in the diagram below. This does mean that passive sensors are often restricted by the availability of the naturally occurring energy, so reflected energy from the sun can only be measured anytime.
+
+### **Active**
+
+Active sensors provide their own energy and instead emit radiation which is then reflected to the sensor. As active radars are not reliant on naturally occurring energy, they can be used during both day and night.
+
+![](images/Screenshot 2024-01-22 130949.png){fig-align="center" width="553"}
+
+## **Electromagnetic Radiation and Spectral Signatures**
+
+As mentioned, sensors detect electromagnetic radiation. Electromagnetic radiation describes specific types of energy that travels in waves at the speed of light. It exists on a spectrum with the shortest wavelengths on one end of the spectrum and the longest wavelengths on the other.
+
+In remote sensing, different surfaces of the earth reflect and absorb different wavelengths across the electromagnetic spectrum and in varying amounts, allowing us to identify different objects, phenomena and landcover through remote sensing imagery. Taking the values for each wavelength across the electromagnetic spectrum creates **spectral signature** which are unique for each thing observed.
+
+## **The Four Resolutions**
+
+**Spatial Resolution:**
+
+-   The size of each raster cell (pixel). 
+
+**Spectral Resolution:**
+
+-    The ability of the sensor to distinguish different wavelengths and therefore the number of bands it records. Most sensors are multispectral (typically 3-15 bands), while some are hyperspectral (thousands of bands).
+
+**Temporal Resolution:**
+
+-    The amount of time it takes to revisit the same area.
+
+**Radiometric:**
+
+-    The amount of information in a raster cell. The higher radiometric resolution, the more sensitive.
+
+## **Applications:**
+
+-   Remote sensing is often used for assessing both environmental and anthropogenic features on the earth\'s surface.
+
+A specific application of remote sensing which I found particularly interesting was the exploration of the influence of environmental risk factors on malaria cases (McMahon et al., 2021). This was done by assessing the relationship between remotely sensed environmental data (vegetation, climate, land cover and land use, topography, and surface wate) and the number of malaria cases. By identifying high risk and vulnerable areas, this can help often scarce resources and funding to be efficiently used in a targeted manner.
+
+I found this example interesting as it demonstrated how remote sensing can be used even in areas that are generally data poor or where good quality data is hard to find. As the study used the freely available MODIS data I can also see how the study could be easily reproduced in other areas that are at high risk to malaria and other mosquito borne diseases.
+
+## **Reflection:**
+
+This week was actually my second introduction to remote sensing! Having done my undergraduate degree in physical geography, remote sensing was touched upon a couple times in relation to monitoring and measuring different environmental phenomena. However, having focused on environmental phenomena I was surprised to learn that its relevance extends beyond environmental monitoring and that it is even used for law enforcement and security.
+
+With my interests in environmental hazards, climate change and Indonesia it made me think about how remote sensing could be used to monitor the development and impact of the new capital city, Nusantara being built in Kalimantan (Indonesian Borneo). Although this will be quite far into the future, I\'m sure the city will change the whole of the island, potentially at the expense of the environment.
