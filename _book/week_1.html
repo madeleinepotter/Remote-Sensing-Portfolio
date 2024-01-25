@@ -148,7 +148,22 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">3.1</span> <strong>Summary:</strong></a>
+  <ul class="collapse">
+  <li><a href="#key-words-and-phrases-from-this-week" id="toc-key-words-and-phrases-from-this-week" class="nav-link" data-scroll-target="#key-words-and-phrases-from-this-week"><span class="header-section-number">3.1.1</span> <strong>Key words and phrases from this week:</strong></a></li>
+  <li><a href="#corrections" id="toc-corrections" class="nav-link" data-scroll-target="#corrections"><span class="header-section-number">3.1.2</span> <strong>Corrections</strong></a></li>
+  </ul></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">3.2</span> <strong>Applications</strong></a>
+  <ul class="collapse">
+  <li><a href="#ratio-enhancements-ndvi-normalised-difference-vegetation-index" id="toc-ratio-enhancements-ndvi-normalised-difference-vegetation-index" class="nav-link" data-scroll-target="#ratio-enhancements-ndvi-normalised-difference-vegetation-index"><span class="header-section-number">3.2.1</span> <strong>Ratio Enhancements: NDVI (Normalised Difference Vegetation Index)</strong></a></li>
+  </ul></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">3.3</span> <strong>Reflection</strong></a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -172,8 +187,61 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="summary" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">3.1</span> <strong>Summary:</strong></h2>
+<section id="key-words-and-phrases-from-this-week" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="key-words-and-phrases-from-this-week"><span class="header-section-number">3.1.1</span> <strong>Key words and phrases from this week:</strong></h3>
+<p><strong>Digital Number (DN</strong>): a raw value assigned to a pixel which has not yet been calibrated to describe the intensity of electromagnetic radiation of the pixel. To be meaningful, needs to be adjusted by gain and offset.</p>
+<p><strong>Radiance</strong>: The brightness or light that the sensor 'observes'. Usually measured in watt/(steradian/square metre) and might be called Top of Atmosphere (TOA) reflectance.</p>
+<p><strong>Reflectance</strong>: The ratio of light reflected by a surface to the total amount of light hitting the surface. It has no units. Can come as surface reflectance, Bottom of Atmosphere (BOA) and Top of Atmosphere.</p>
+<p><strong>Solar Zenith:</strong> The zenith angle of the sun which is the angle between the sun and the vertical. ( 90 degrees – angle of elevation of sun)</p>
+</section>
+<section id="corrections" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="corrections"><span class="header-section-number">3.1.2</span> <strong>Corrections</strong></h3>
+<p>Remotely sensed data can contain errors created by the atmosphere, the sensor itself and the surface it is observing. There are four types of corrections that aim to correct for such errors. These are atmospheric correction, geometric correction, orthorectification and radiometric calibration.</p>
+<p>Orthorectification is a subset of georectification. It removes distortions caused by the topography of the Earth's surface and the tilt of the sensor by stretching the image. Radiometric calibration is the process of converting the raw satellite data (digital numbers) into physical units.</p>
+<p>Here I will go into more detail on atmospheric and geometric correction as I found them to be the most interesting.</p>
+<section id="atmospheric-correction" class="level4" data-number="3.1.2.1">
+<h4 data-number="3.1.2.1" class="anchored" data-anchor-id="atmospheric-correction"><span class="header-section-number">3.1.2.1</span> <strong>Atmospheric Correction:</strong></h4>
+<p>Atmospheric correction is the process of removing the effects of atmospheric scattering and absorption on reflectance values. It is required when using biophysical parameters and using spectral signatures through time and space. There are two types of atmospheric correction, relative and absolute correction. Relative correction can compare and normalise the different bands within a single image or across several images of the same scene. Absolute correction converts digital brightness of the pixels to units of radiance or reflectance to compare against the scaled surface values over the earth.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Screenshot 2024-01-25 164333.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="497"></p>
+<figcaption>Mexican Gulf Coast The image on the left is impacted by smoke effects from agriculture, the image on the right is the result of atmospheric correction (Groeneveld, Ruggles and Gao, 2023).</figcaption>
+</figure>
+</div>
+</section>
+<section id="geometric-correction" class="level4" data-number="3.1.2.2">
+<h4 data-number="3.1.2.2" class="anchored" data-anchor-id="geometric-correction"><span class="header-section-number">3.1.2.2</span> <strong>Geometric Correction:</strong></h4>
+<p>Geometric correction is the process of correcting for positional errors caused by factors such as satellite or aircraft instability, the earth's rotation and curvature and instrument error.&nbsp; Ground control points (GCP) and a reference dataset are needed to model the coordinates to give them transformation coefficients. GCPs are usually points that highly contrast against the surround area often being roads, corners of buildings, distinctive water bodies or the edges of land cover areas.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Screenshot 2024-01-25 164530.png" class="img-fluid figure-img"></p>
+<figcaption>The left image is an uncorrected image and the one on the right is the geo-referenced image after geometric correction (Arif, 2009).</figcaption>
+</figure>
+</div>
+<p>We also covered enhancement which I will explore in the applications section.</p>
+</section>
+</section>
+</section>
+<section id="applications" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">3.2</span> <strong>Applications</strong></h2>
+<p>As corrections made to remotely sensed data can significantly improve the quality by removing errors and distortions, I can imagine it is used in all areas of remote sensing, whether you are manually correcting the data yourself or using data that has already been corrected.</p>
+<p>Therefore, for the application section I would like to focus on the applications of remote sensing enhancements.</p>
+<section id="ratio-enhancements-ndvi-normalised-difference-vegetation-index" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="ratio-enhancements-ndvi-normalised-difference-vegetation-index"><span class="header-section-number">3.2.1</span> <strong>Ratio Enhancements: NDVI (Normalised Difference Vegetation Index)</strong></h3>
+<p>Studies that use NDVI cover a wide range of topics that appear to span over several disciplines. I decided look at NDVI in an urban context to see how it has been used to investigate cities. Most studies exploring the urban environment appear to investigate the impact of vegetation and greenery on the surrounding environment and even on inhabitants of cities.</p>
+<p>For example, several studies have used NDVI to explore the impact of urban greening on land surface temperatures. Zaitunah et al.&nbsp;(2022) through a visual analysis in the city of Medan, Indonesia and demonstrated that temperatures in urban parks which had lots of trees were significantly lower than the surrounding areas. By taking NDVI values, different parks could be compared to each other and classified into different vegetation density classes which allowed for the finding on the importance of trees. This shows just how effective NDVI is at identifying vegetation and drawing out its different characteristics.</p>
+<p>While NDVI has proven to be a useful tool when analysing and quantifying vegetation density, Reid et al.&nbsp;(2018) points out the difficulty of using NDVI to measure 'greenness' consistently across studies exploring health outcomes. Difficulties mainly arise in the different ways 'greenness' is measured, through the modifiable unit areal problem and differences in atmospheric correction, view angle and calibration of the different NDVI datasets used across studies. While some of these issues don't directly relate to the NDVI itself, it is certainly something to consider when using it.</p>
+</section>
+</section>
+<section id="reflection" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">3.3</span> <strong>Reflection</strong></h2>
+<p>I can't lie this was a lot of information to get my head around and I'm relieved that when we come to using Google Earth Engine the data will come already corrected. I can however understand why this was covered and just how necessary corrections are (even if they look intimidating) to ensure data quality and allowing for different images to be compared. I also see the importance of understanding the ways remotely sensed images can be manipulated which means that we can look further than just what is on the surface of that data.</p>
+<p>As most data comes already corrected, I'm guessing my use of remote sensing corrections will be limited however I can see how I could use enhancements in the future to explore different features of the landscape. It's probably useful to keep in mind that all remote sensing enhancements will be used with a certain objective….</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

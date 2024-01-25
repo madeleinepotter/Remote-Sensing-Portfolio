@@ -104,7 +104,7 @@
     "href": "intro.html#applications",
     "title": "1  Week 1: Introduction to Remote Sensing",
     "section": "1.6 Applications:",
-    "text": "1.6 Applications:\n\nRemote sensing is often used for assessing both environmental and anthropogenic features on the earth's surface.\n\nA specific application of remote sensing which I found particularly interesting was the exploration of the influence of environmental risk factors on malaria cases (McMahon et al., 2021). This was done by assessing the relationship between remotely sensed environmental data (vegetation, climate, land cover and land use, topography, and surface wate) and the number of malaria cases. By identifying high risk and vulnerable areas, this can help often scarce resources and funding to be efficiently used in a targeted manner.\nI found this example interesting as it demonstrated how remote sensing can be used even in areas that are generally data poor or where good quality data is hard to find. As the study used the freely available MODIS data I can also see how the study could be easily reproduced in other areas that are at high risk to malaria and other mosquito borne diseases.",
+    "text": "1.6 Applications:\n\nRemote sensing is often used for assessing both environmental and anthropogenic features on the earth’s surface.\n\nA specific application of remote sensing which I found particularly interesting was the exploration of the influence of environmental risk factors on malaria cases (McMahon et al., 2021). This was done by assessing the relationship between remotely sensed environmental data (vegetation, climate, land cover and land use, topography, and surface wate) and the number of malaria cases. By identifying high risk and vulnerable areas, this can help often scarce resources and funding to be efficiently used in a targeted manner.\nI found this example interesting as it demonstrated how remote sensing can be used even in areas that are generally data poor or where good quality data is hard to find. As the study used the freely available MODIS data I can also see how the study could be easily reproduced in other areas that are at high risk to malaria and other mosquito borne diseases.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1: Introduction to Remote Sensing</span>"
     ]
@@ -114,9 +114,49 @@
     "href": "intro.html#reflection",
     "title": "1  Week 1: Introduction to Remote Sensing",
     "section": "1.7 Reflection:",
-    "text": "1.7 Reflection:\nThis week was actually my second introduction to remote sensing! Having done my undergraduate degree in physical geography, remote sensing was touched upon a couple times in relation to monitoring and measuring different environmental phenomena. However, having focused on environmental phenomena I was surprised to learn that its relevance extends beyond environmental monitoring and that it is even used for law enforcement and security.\nWith my interests in environmental hazards, climate change and Indonesia it made me think about how remote sensing could be used to monitor the development and impact of the new capital city, Nusantara being built in Kalimantan (Indonesian Borneo). Although this will be quite far into the future, I'm sure the city will change the whole of the island, potentially at the expense of the environment.",
+    "text": "1.7 Reflection:\nThis week was actually my second introduction to remote sensing! Having done my undergraduate degree in physical geography, remote sensing was touched upon a couple times in relation to monitoring and measuring different environmental phenomena. However, having focused on environmental phenomena I was surprised to learn that its relevance extends beyond environmental monitoring and that it is even used for law enforcement and security.\nWith my interests in environmental hazards, climate change and Indonesia it made me think about how remote sensing could be used to monitor the development and impact of the new capital city, Nusantara being built in Kalimantan (Indonesian Borneo). Although this will be quite far into the future, I’m sure the city will change the whole of the island, potentially at the expense of the environment.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1: Introduction to Remote Sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week_1.html",
+    "href": "week_1.html",
+    "title": "3  Week 3: Corrections",
+    "section": "",
+    "text": "3.1 Summary:",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3: Corrections</span>"
+    ]
+  },
+  {
+    "objectID": "week_1.html#summary",
+    "href": "week_1.html#summary",
+    "title": "3  Week 3: Corrections",
+    "section": "",
+    "text": "3.1.1 Key words and phrases from this week:\nDigital Number (DN): a raw value assigned to a pixel which has not yet been calibrated to describe the intensity of electromagnetic radiation of the pixel. To be meaningful, needs to be adjusted by gain and offset.\nRadiance: The brightness or light that the sensor 'observes'. Usually measured in watt/(steradian/square metre) and might be called Top of Atmosphere (TOA) reflectance.\nReflectance: The ratio of light reflected by a surface to the total amount of light hitting the surface. It has no units. Can come as surface reflectance, Bottom of Atmosphere (BOA) and Top of Atmosphere.\nSolar Zenith: The zenith angle of the sun which is the angle between the sun and the vertical. ( 90 degrees – angle of elevation of sun)\n\n\n3.1.2 Corrections\nRemotely sensed data can contain errors created by the atmosphere, the sensor itself and the surface it is observing. There are four types of corrections that aim to correct for such errors. These are atmospheric correction, geometric correction, orthorectification and radiometric calibration.\nOrthorectification is a subset of georectification. It removes distortions caused by the topography of the Earth's surface and the tilt of the sensor by stretching the image. Radiometric calibration is the process of converting the raw satellite data (digital numbers) into physical units.\nHere I will go into more detail on atmospheric and geometric correction as I found them to be the most interesting.\n\n3.1.2.1 Atmospheric Correction:\nAtmospheric correction is the process of removing the effects of atmospheric scattering and absorption on reflectance values. It is required when using biophysical parameters and using spectral signatures through time and space. There are two types of atmospheric correction, relative and absolute correction. Relative correction can compare and normalise the different bands within a single image or across several images of the same scene. Absolute correction converts digital brightness of the pixels to units of radiance or reflectance to compare against the scaled surface values over the earth.\n\n\n\nMexican Gulf Coast The image on the left is impacted by smoke effects from agriculture, the image on the right is the result of atmospheric correction (Groeneveld, Ruggles and Gao, 2023).\n\n\n\n\n3.1.2.2 Geometric Correction:\nGeometric correction is the process of correcting for positional errors caused by factors such as satellite or aircraft instability, the earth's rotation and curvature and instrument error.  Ground control points (GCP) and a reference dataset are needed to model the coordinates to give them transformation coefficients. GCPs are usually points that highly contrast against the surround area often being roads, corners of buildings, distinctive water bodies or the edges of land cover areas.\n\n\n\nThe left image is an uncorrected image and the one on the right is the geo-referenced image after geometric correction (Arif, 2009).\n\n\nWe also covered enhancement which I will explore in the applications section.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3: Corrections</span>"
+    ]
+  },
+  {
+    "objectID": "week_1.html#applications",
+    "href": "week_1.html#applications",
+    "title": "3  Week 3: Corrections",
+    "section": "3.2 Applications",
+    "text": "3.2 Applications\nAs corrections made to remotely sensed data can significantly improve the quality by removing errors and distortions, I can imagine it is used in all areas of remote sensing, whether you are manually correcting the data yourself or using data that has already been corrected.\nTherefore, for the application section I would like to focus on the applications of remote sensing enhancements.\n\n3.2.1 Ratio Enhancements: NDVI (Normalised Difference Vegetation Index)\nStudies that use NDVI cover a wide range of topics that appear to span over several disciplines. I decided look at NDVI in an urban context to see how it has been used to investigate cities. Most studies exploring the urban environment appear to investigate the impact of vegetation and greenery on the surrounding environment and even on inhabitants of cities.\nFor example, several studies have used NDVI to explore the impact of urban greening on land surface temperatures. Zaitunah et al. (2022) through a visual analysis in the city of Medan, Indonesia and demonstrated that temperatures in urban parks which had lots of trees were significantly lower than the surrounding areas. By taking NDVI values, different parks could be compared to each other and classified into different vegetation density classes which allowed for the finding on the importance of trees. This shows just how effective NDVI is at identifying vegetation and drawing out its different characteristics.\nWhile NDVI has proven to be a useful tool when analysing and quantifying vegetation density, Reid et al. (2018) points out the difficulty of using NDVI to measure 'greenness' consistently across studies exploring health outcomes. Difficulties mainly arise in the different ways 'greenness' is measured, through the modifiable unit areal problem and differences in atmospheric correction, view angle and calibration of the different NDVI datasets used across studies. While some of these issues don't directly relate to the NDVI itself, it is certainly something to consider when using it.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3: Corrections</span>"
+    ]
+  },
+  {
+    "objectID": "week_1.html#reflection",
+    "href": "week_1.html#reflection",
+    "title": "3  Week 3: Corrections",
+    "section": "3.3 Reflection",
+    "text": "3.3 Reflection\nI can't lie this was a lot of information to get my head around and I'm relieved that when we come to using Google Earth Engine the data will come already corrected. I can however understand why this was covered and just how necessary corrections are (even if they look intimidating) to ensure data quality and allowing for different images to be compared. I also see the importance of understanding the ways remotely sensed images can be manipulated which means that we can look further than just what is on the surface of that data.\nAs most data comes already corrected, I'm guessing my use of remote sensing corrections will be limited however I can see how I could use enhancements in the future to explore different features of the landscape. It's probably useful to keep in mind that all remote sensing enhancements will be used with a certain objective….",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3: Corrections</span>"
     ]
   }
 ]
