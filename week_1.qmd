@@ -26,7 +26,7 @@ Here I will go into more detail on atmospheric and geometric correction as I fou
 
 Atmospheric correction is the process of removing the effects of atmospheric scattering and absorption on reflectance values. It is required when using biophysical parameters and using spectral signatures through time and space. There are two types of atmospheric correction, relative and absolute correction. Relative correction can compare and normalise the different bands within a single image or across several images of the same scene. Absolute correction converts digital brightness of the pixels to units of radiance or reflectance to compare against the scaled surface values over the earth.
 
-![Mexican Gulf Coast The image on the left is impacted by smoke effects from agriculture, the image on the right is the result of atmospheric correction (Groeneveld, Ruggles and Gao, 2023).](images/Screenshot%202024-01-25%20164333.png){fig-align="center" width="497"}
+![Mexican Gulf Coast The image on the left is impacted by smoke effects from agriculture, the image on the right is the result of atmospheric correction [@SedimentGulfMexico2009].](images/Screenshot%202024-01-25%20164333.png){fig-align="center" width="497"}
 
 #### **Geometric Correction:**
 
