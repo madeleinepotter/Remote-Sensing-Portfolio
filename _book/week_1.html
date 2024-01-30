@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -213,7 +233,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Screenshot 2024-01-25 164333.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="497"></p>
-<figcaption>Mexican Gulf Coast The image on the left is impacted by smoke effects from agriculture, the image on the right is the result of atmospheric correction <span class="citation" data-cites="SedimentGulfMexico2009">(<a href="#ref-SedimentGulfMexico2009" role="doc-biblioref"><strong>SedimentGulfMexico2009?</strong></a>)</span>.</figcaption>
+<figcaption>Mexican Gulf Coast The image on the left is impacted by smoke effects from agriculture, the image on the right is the result of atmospheric correction <span class="citation" data-cites="noaa">(<a href="references.html#ref-noaa" role="doc-biblioref">NOAA, n.d.</a>)</span>.</figcaption>
 </figure>
 </div>
 </section>
@@ -223,7 +243,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Screenshot 2024-01-25 164530.png" class="img-fluid figure-img"></p>
-<figcaption>The left image is an uncorrected image and the one on the right is the geo-referenced image after geometric correction (Arif, 2009).</figcaption>
+<figcaption>The left image is an uncorrected image and the one on the right is the geo-referenced image after geometric correction <span class="citation" data-cites="arif2009">(<a href="references.html#ref-arif2009" role="doc-biblioref">Arif 2009</a>)</span>.</figcaption>
 </figure>
 </div>
 <p>We also covered enhancement which I will explore in the applications section.</p>
@@ -236,9 +256,21 @@ ul.task-list li input[type="checkbox"] {
 <p>Therefore, for the application section I would like to focus on the applications of remote sensing enhancements.</p>
 <section id="ratio-enhancements-ndvi-normalised-difference-vegetation-index" class="level3" data-number="3.2.1">
 <h3 data-number="3.2.1" class="anchored" data-anchor-id="ratio-enhancements-ndvi-normalised-difference-vegetation-index"><span class="header-section-number">3.2.1</span> <strong>Ratio Enhancements: NDVI (Normalised Difference Vegetation Index)</strong></h3>
-<p>Studies that use NDVI cover a wide range of topics that appear to span over several disciplines. I decided look at NDVI in an urban context to see how it has been used to investigate cities. Most studies exploring the urban environment appear to investigate the impact of vegetation and greenery on the surrounding environment and even on inhabitants of cities.</p>
-<p>For example, several studies have used NDVI to explore the impact of urban greening on land surface temperatures. Zaitunah et al.&nbsp;(2022) through a visual analysis in the city of Medan, Indonesia and demonstrated that temperatures in urban parks which had lots of trees were significantly lower than the surrounding areas. By taking NDVI values, different parks could be compared to each other and classified into different vegetation density classes which allowed for the finding on the importance of trees. This shows just how effective NDVI is at identifying vegetation and drawing out its different characteristics.</p>
-<p>While NDVI has proven to be a useful tool when analysing and quantifying vegetation density, Reid et al.&nbsp;(2018) points out the difficulty of using NDVI to measure ‘greenness’ consistently across studies exploring health outcomes. Difficulties mainly arise in the different ways ‘greenness’ is measured, through the modifiable unit areal problem and differences in atmospheric correction, view angle and calibration of the different NDVI datasets used across studies. While some of these issues don’t directly relate to the NDVI itself, it is certainly something to consider when using it.</p>
+<p>Studies that use NDVI cover a wide range of topics that appear to span over several disciplines.</p>
+<div id="fig-ndvia_practical" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ndvia_practical-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="NDVI.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ndvia_practical-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.1: An example of an NDVI analysis output for the San Francisco Bay Area, USA from this weeks practical.
+</figcaption>
+</figure>
+</div>
+<p><img src=".png" class="img-fluid"></p>
+<p>I decided look at NDVI in an urban context to see how it has been used to investigate phenomena in cities. Most studies exploring this appear to investigate the impact of vegetation and greenery on the surrounding environment and even on inhabitants of cities.</p>
+<p>Several studies have used NDVI to explore the impact of urban greening on land surface temperatures. <span class="citation" data-cites="zaitunah2022">(<a href="references.html#ref-zaitunah2022" role="doc-biblioref">Zaitunah et al. 2022</a>)</span> through a visual analysis in the city of Medan, Indonesia and demonstrated that temperatures in urban parks which had lots of trees were significantly lower than the surrounding areas. By taking NDVI values, different parks could be compared to each other and classified into different vegetation density classes which allowed for the finding on the importance of trees. This shows just how effective NDVI is at identifying vegetation and drawing out its different characteristics.</p>
+<p>While NDVI has proven to be a useful tool when analysing and quantifying vegetation density, <span class="citation" data-cites="reidItNotEasy2018">(<a href="references.html#ref-reidItNotEasy2018" role="doc-biblioref">Reid et al. 2018</a>)</span> points out the difficulty of using NDVI to measure ‘greenness’ consistently across studies exploring health outcomes. Difficulties mainly arise in the different ways ‘greenness’ is measured, through the modifiable unit areal problem and differences in atmospheric correction, view angle and calibration of the different NDVI datasets used across studies. While some of these issues don’t directly relate to the NDVI itself, it is certainly something to consider when using it.</p>
 </section>
 </section>
 <section id="reflection" class="level2" data-number="3.3">
@@ -247,6 +279,20 @@ ul.task-list li input[type="checkbox"] {
 <p>As most data comes already corrected, I’m guessing my use of remote sensing corrections will be limited however I can see how I could use enhancements in the future to explore different features of the landscape. It’s probably useful to keep in mind that all remote sensing enhancements will be used with a certain objective….</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-arif2009" class="csl-entry" role="listitem">
+Arif, F. 2009. <span>“Level-3 Geometric Correction of FORMOSAT-2 Satellite Imagery and Efficient Image Resampling.”</span> In. <a href="https://www.semanticscholar.org/paper/Level-3-Geometric-Correction-of-FORMOSAT-2-Imagery-Arif/789f4cf739e992090620f4c0e4598059eb5dedf5">https://www.semanticscholar.org/paper/Level-3-Geometric-Correction-of-FORMOSAT-2-Imagery-Arif/789f4cf739e992090620f4c0e4598059eb5dedf5</a>.
+</div>
+<div id="ref-noaa" class="csl-entry" role="listitem">
+NOAA. n.d. <span>“The Atmospheric Window.”</span> <a href="https://www.noaa.gov/jetstream/satellites/absorb">https://www.noaa.gov/jetstream/satellites/absorb</a>.
+</div>
+<div id="ref-reidItNotEasy2018" class="csl-entry" role="listitem">
+Reid, Colleen E., Laura D. Kubzansky, Jiayue Li, Jessie L. Shmool, and Jane E. Clougherty. 2018. <span>“It’s Not Easy Assessing Greenness: <span>A</span> Comparison of <span>NDVI</span> Datasets and Neighborhood Types and Their Associations with Self-Rated Health in <span>New York City</span>.”</span> <em>Health &amp; Place</em> 54 (November): 92–101. <a href="https://doi.org/10.1016/j.healthplace.2018.09.005">https://doi.org/10.1016/j.healthplace.2018.09.005</a>.
+</div>
+<div id="ref-zaitunah2022" class="csl-entry" role="listitem">
+Zaitunah, Anita, Samsuri, Angelia Frecella Silitonga, and Lailan Syaufina. 2022. <span>“Urban Greening Effect on Land Surface Temperature.”</span> <em>Sensors</em> 22 (11): 4168. <a href="https://doi.org/10.3390/s22114168">https://doi.org/10.3390/s22114168</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
