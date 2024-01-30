@@ -1,9 +1,5 @@
 # Remote Sensing Portfolio {.unnumbered}
 
-This is a Quarto book.
+Hi, I'm Madeleine and this is my Remote Sensing Portfolio.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
-
-```{r}
-1 + 2
-```
+My background is in Physical Geography...

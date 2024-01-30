@@ -121,7 +121,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2: Xaringan</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2: Xaringan Presentation</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -140,6 +140,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./corrections_w3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week 5: GEE</span></span></a>
   </div>
 </li>
     </ul>
@@ -192,14 +198,14 @@ ul.task-list li input[type="checkbox"] {
 <section id="key-words-and-phrases-from-this-week" class="level3" data-number="3.1.1">
 <h3 data-number="3.1.1" class="anchored" data-anchor-id="key-words-and-phrases-from-this-week"><span class="header-section-number">3.1.1</span> <strong>Key words and phrases from this week:</strong></h3>
 <p><strong>Digital Number (DN</strong>): a raw value assigned to a pixel which has not yet been calibrated to describe the intensity of electromagnetic radiation of the pixel. To be meaningful, needs to be adjusted by gain and offset.</p>
-<p><strong>Radiance</strong>: The brightness or light that the sensor 'observes'. Usually measured in watt/(steradian/square metre) and might be called Top of Atmosphere (TOA) reflectance.</p>
+<p><strong>Radiance</strong>: The brightness or light that the sensor ‘observes’. Usually measured in watt/(steradian/square metre) and might be called Top of Atmosphere (TOA) reflectance.</p>
 <p><strong>Reflectance</strong>: The ratio of light reflected by a surface to the total amount of light hitting the surface. It has no units. Can come as surface reflectance, Bottom of Atmosphere (BOA) and Top of Atmosphere.</p>
 <p><strong>Solar Zenith:</strong> The zenith angle of the sun which is the angle between the sun and the vertical. ( 90 degrees – angle of elevation of sun)</p>
 </section>
 <section id="corrections" class="level3" data-number="3.1.2">
 <h3 data-number="3.1.2" class="anchored" data-anchor-id="corrections"><span class="header-section-number">3.1.2</span> <strong>Corrections</strong></h3>
 <p>Remotely sensed data can contain errors created by the atmosphere, the sensor itself and the surface it is observing. There are four types of corrections that aim to correct for such errors. These are atmospheric correction, geometric correction, orthorectification and radiometric calibration.</p>
-<p>Orthorectification is a subset of georectification. It removes distortions caused by the topography of the Earth's surface and the tilt of the sensor by stretching the image. Radiometric calibration is the process of converting the raw satellite data (digital numbers) into physical units.</p>
+<p>Orthorectification is a subset of georectification. It removes distortions caused by the topography of the Earth’s surface and the tilt of the sensor by stretching the image. Radiometric calibration is the process of converting the raw satellite data (digital numbers) into physical units.</p>
 <p>Here I will go into more detail on atmospheric and geometric correction as I found them to be the most interesting.</p>
 <section id="atmospheric-correction" class="level4" data-number="3.1.2.1">
 <h4 data-number="3.1.2.1" class="anchored" data-anchor-id="atmospheric-correction"><span class="header-section-number">3.1.2.1</span> <strong>Atmospheric Correction:</strong></h4>
@@ -213,7 +219,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="geometric-correction" class="level4" data-number="3.1.2.2">
 <h4 data-number="3.1.2.2" class="anchored" data-anchor-id="geometric-correction"><span class="header-section-number">3.1.2.2</span> <strong>Geometric Correction:</strong></h4>
-<p>Geometric correction is the process of correcting for positional errors caused by factors such as satellite or aircraft instability, the earth's rotation and curvature and instrument error.&nbsp; Ground control points (GCP) and a reference dataset are needed to model the coordinates to give them transformation coefficients. GCPs are usually points that highly contrast against the surround area often being roads, corners of buildings, distinctive water bodies or the edges of land cover areas.</p>
+<p>Geometric correction is the process of correcting for positional errors caused by factors such as satellite or aircraft instability, the earth’s rotation and curvature and instrument error.&nbsp; Ground control points (GCP) and a reference dataset are needed to model the coordinates to give them transformation coefficients. GCPs are usually points that highly contrast against the surround area often being roads, corners of buildings, distinctive water bodies or the edges of land cover areas.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Screenshot 2024-01-25 164530.png" class="img-fluid figure-img"></p>
@@ -232,13 +238,13 @@ ul.task-list li input[type="checkbox"] {
 <h3 data-number="3.2.1" class="anchored" data-anchor-id="ratio-enhancements-ndvi-normalised-difference-vegetation-index"><span class="header-section-number">3.2.1</span> <strong>Ratio Enhancements: NDVI (Normalised Difference Vegetation Index)</strong></h3>
 <p>Studies that use NDVI cover a wide range of topics that appear to span over several disciplines. I decided look at NDVI in an urban context to see how it has been used to investigate cities. Most studies exploring the urban environment appear to investigate the impact of vegetation and greenery on the surrounding environment and even on inhabitants of cities.</p>
 <p>For example, several studies have used NDVI to explore the impact of urban greening on land surface temperatures. Zaitunah et al.&nbsp;(2022) through a visual analysis in the city of Medan, Indonesia and demonstrated that temperatures in urban parks which had lots of trees were significantly lower than the surrounding areas. By taking NDVI values, different parks could be compared to each other and classified into different vegetation density classes which allowed for the finding on the importance of trees. This shows just how effective NDVI is at identifying vegetation and drawing out its different characteristics.</p>
-<p>While NDVI has proven to be a useful tool when analysing and quantifying vegetation density, Reid et al.&nbsp;(2018) points out the difficulty of using NDVI to measure 'greenness' consistently across studies exploring health outcomes. Difficulties mainly arise in the different ways 'greenness' is measured, through the modifiable unit areal problem and differences in atmospheric correction, view angle and calibration of the different NDVI datasets used across studies. While some of these issues don't directly relate to the NDVI itself, it is certainly something to consider when using it.</p>
+<p>While NDVI has proven to be a useful tool when analysing and quantifying vegetation density, Reid et al.&nbsp;(2018) points out the difficulty of using NDVI to measure ‘greenness’ consistently across studies exploring health outcomes. Difficulties mainly arise in the different ways ‘greenness’ is measured, through the modifiable unit areal problem and differences in atmospheric correction, view angle and calibration of the different NDVI datasets used across studies. While some of these issues don’t directly relate to the NDVI itself, it is certainly something to consider when using it.</p>
 </section>
 </section>
 <section id="reflection" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">3.3</span> <strong>Reflection</strong></h2>
-<p>I can't lie this was a lot of information to get my head around and I'm relieved that when we come to using Google Earth Engine the data will come already corrected. I can however understand why this was covered and just how necessary corrections are (even if they look intimidating) to ensure data quality and allowing for different images to be compared. I also see the importance of understanding the ways remotely sensed images can be manipulated which means that we can look further than just what is on the surface of that data.</p>
-<p>As most data comes already corrected, I'm guessing my use of remote sensing corrections will be limited however I can see how I could use enhancements in the future to explore different features of the landscape. It's probably useful to keep in mind that all remote sensing enhancements will be used with a certain objective….</p>
+<p>I can’t lie this was a lot of information to get my head around and I’m relieved that when we come to using Google Earth Engine the data will come already corrected. I can however understand why this was covered and just how necessary corrections are (even if they look intimidating) to ensure data quality and allowing for different images to be compared. I also see the importance of understanding the ways remotely sensed images can be manipulated which means that we can look further than just what is on the surface of that data.</p>
+<p>As most data comes already corrected, I’m guessing my use of remote sensing corrections will be limited however I can see how I could use enhancements in the future to explore different features of the landscape. It’s probably useful to keep in mind that all remote sensing enhancements will be used with a certain objective….</p>
 
 
 </section>
@@ -633,8 +639,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./summary.html" class="pagination-link  aria-label=" &lt;span="" 2:="" xaringan&lt;="" span&gt;"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2: Xaringan</span></span>
+      <a href="./summary.html" class="pagination-link  aria-label=" &lt;span="" 2:="" xaringan="" presentation&lt;="" span&gt;"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2: Xaringan Presentation</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

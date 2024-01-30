@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -122,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2: Xaringan</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2: Xaringan Presentation</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -141,6 +161,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./corrections_w3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week 5: GEE</span></span></a>
   </div>
 </li>
     </ul>
@@ -215,8 +241,18 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="electromagnetic-radiation-and-spectral-signatures" class="level2" data-number="1.4">
 <h2 data-number="1.4" class="anchored" data-anchor-id="electromagnetic-radiation-and-spectral-signatures"><span class="header-section-number">1.4</span> <strong>Electromagnetic Radiation and Spectral Signatures</strong></h2>
-<p>As mentioned, sensors detect electromagnetic radiation. Electromagnetic radiation describes specific types of energy that travels in waves at the speed of light. It exists on a spectrum with the shortest wavelengths on one end of the spectrum and the longest wavelengths on the other.</p>
-<p>In remote sensing, different surfaces of the earth reflect and absorb different wavelengths across the electromagnetic spectrum and in varying amounts, allowing us to identify different objects, phenomena and landcover through remote sensing imagery. Taking the values for each wavelength across the electromagnetic spectrum creates <strong>spectral signature</strong> which are unique for each thing observed.</p>
+<p>As mentioned, sensors detect electromagnetic radiation. Electromagnetic radiation describes specific types of energy that travels in waves at the speed of light. It exists on a spectrum with the shortest wavelengths on one end of the spectrum and the longest wavelengths on the other. Most of the sun’s energy comes from from the visible light and infrared light section of the spectrum, while all of the outgoing energy emitted by the Earth is infrared. An atmospheric window a region on the electromagnetic spectrum where radiation can easily pass through the Earth’s atmosphere with little absorption.</p>
+<div id="fig-ems" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ems-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="atmospheric_window_EM_spectrum.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ems-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.1: Image showing the electromagnetic spectrum and atmospheric windows. From <span class="citation" data-cites="AtmosphericWindowNational">(<a href="references.html#ref-AtmosphericWindowNational" role="doc-biblioref"><span>“The <span>Atmospheric Window</span> | <span>National Oceanic</span> and <span>Atmospheric Administration</span>”</span> n.d.</a>)</span>
+</figcaption>
+</figure>
+</div>
+<p>In remote sensing, different surfaces of the earth reflect and absorb different wavelengths across the electromagnetic spectrum and in varying amounts, allowing us to identify different objects, phenomena and land cover through remote sensing imagery. Taking the values for each wavelength across the electromagnetic spectrum creates <strong>spectral signature</strong> which are unique for each thing observed.</p>
 </section>
 <section id="the-four-resolutions" class="level2" data-number="1.5">
 <h2 data-number="1.5" class="anchored" data-anchor-id="the-four-resolutions"><span class="header-section-number">1.5</span> <strong>The Four Resolutions</strong></h2>
@@ -242,8 +278,8 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Remote sensing is often used for assessing both environmental and anthropogenic features on the earth’s surface.</li>
 </ul>
-<p>A specific application of remote sensing which I found particularly interesting was the exploration of the influence of environmental risk factors on malaria cases (McMahon et al., 2021). This was done by assessing the relationship between remotely sensed environmental data (vegetation, climate, land cover and land use, topography, and surface wate) and the number of malaria cases. By identifying high risk and vulnerable areas, this can help often scarce resources and funding to be efficiently used in a targeted manner.</p>
-<p>I found this example interesting as it demonstrated how remote sensing can be used even in areas that are generally data poor or where good quality data is hard to find. As the study used the freely available MODIS data I can also see how the study could be easily reproduced in other areas that are at high risk to malaria and other mosquito borne diseases.</p>
+<p>A specific application of remote sensing which I found particularly interesting was the exploration of the influence of environmental risk factors on malaria cases in Ethiopia (McMahon et al., 2021). This was done by assessing the relationship between remotely sensed environmental data (vegetation, climate, land cover and land use, topography, and surface water) and the number of malaria cases. Identifying high risk and vulnerable areas can help scarce resources and funding to be efficiently used in a targeted manner.</p>
+<p>I found this example interesting as it demonstrated how remote sensing can be used even in areas that are generally data poor or where good quality data is hard to find. As the study used the freely available MODIS data I can also see how the study could be easily reproduced in other areas that might be data poor and are at high risk to malaria and other mosquito borne diseases. However, by focusing on environmental risk factors the study omits other factors that may also impact the number of malaria cases. I believe this is a good example of where remote sensing data can be partnered up with other spatial data to include factors such as socio-economic or demographic factors. This would allow for a fuller picture of all the risk factors associated with malaria cases.</p>
 </section>
 <section id="reflection" class="level2" data-number="1.7">
 <h2 data-number="1.7" class="anchored" data-anchor-id="reflection"><span class="header-section-number">1.7</span> <strong>Reflection:</strong></h2>
@@ -251,6 +287,11 @@ ul.task-list li input[type="checkbox"] {
 <p>With my interests in environmental hazards, climate change and Indonesia it made me think about how remote sensing could be used to monitor the development and impact of the new capital city, Nusantara being built in Kalimantan (Indonesian Borneo). Although this will be quite far into the future, I’m sure the city will change the whole of the island, potentially at the expense of the environment.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-AtmosphericWindowNational" class="csl-entry" role="listitem">
+<span>“The <span>Atmospheric Window</span> | <span>National Oceanic</span> and <span>Atmospheric Administration</span>.”</span> n.d. Accessed January 30, 2024. <a href="https://www.noaa.gov/jetstream/satellites/absorb">https://www.noaa.gov/jetstream/satellites/absorb</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -648,8 +689,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./summary.html" class="pagination-link" aria-label="<span class='chapter-number'>2</span>&nbsp; <span class='chapter-title'>Week 2: Xaringan</span>">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2: Xaringan</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./summary.html" class="pagination-link" aria-label="<span class='chapter-number'>2</span>&nbsp; <span class='chapter-title'>Week 2: Xaringan Presentation</span>">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2: Xaringan Presentation</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
