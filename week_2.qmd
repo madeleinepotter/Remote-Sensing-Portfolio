@@ -32,8 +32,12 @@ In remote sensing, Synthetic Aperture Radar (SAR) data has proven to be useful i
 
 ### **Monitoring land subsidence**
 
-Differential Interferometry Synthetic Aperture Radar (DInSAR) observes changes between two SAR images taken at different times and is often used to measure land subsidence. Calo et al. (2017) used DinSAR along with data on land cover, climate, and water storage in Turkey to correlate land subsidence to groundwater extraction.  In Jakarta, the use of such techniques could help identify areas with high rates of land subsidence allowing for necessary action taken before it can worsen the intensity of flood events.
+Differential Interferometry Synthetic Aperture Radar (DInSAR) observes changes between two SAR images taken at different times and is often used to measure land subsidence. An advantage of DInSAR is that it can detect centimeter-level surface displacements with each pixel representing the average displacement over an area of several square meters [@wempenApplicationDInSARShort2020]. In Jakarta this would be useful for monitoring land subsidence into the future which can help identify flood prone areas. Calo et al. (2017) used (DInSAR) along with data on land cover, climate and water storage to first map out areas of deformation and then correlate land subsidence to groundwater extraction.
 
 ### **Optimal site selection for mangroves**
 
 My favourite use of remotely sensed data to combat flood risks that I came across is for the optimal site selection for mangroves, which I think Jakarta\'s coastline would benefit greatly from. Luri et al. (2020) performed a weighted land suitability analysis using hydrodynamic, socio-economic, geomorphological, and climatic parameters to identify suitable areas for mangroves across southeast Asia. Restoring the mangrove forests that once existed along Jakarta\'s coastline instead of a constructing a giant sea wall would help with flood management while also providing potential benefits to the local fishing communities.
+
+## Reflection
+
+I really enjoyed
