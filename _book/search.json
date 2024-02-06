@@ -1,0 +1,172 @@
+[
+  {
+    "objectID": "week_2.html",
+    "href": "week_2.html",
+    "title": "4  Week 4: Policy",
+    "section": "",
+    "text": "4.1 Summary: Jakarta and the National Capital Integrated Coastal Development Plan\nThis week I have chosen to look at Jakarta, currently the capital city of Indonesia and home to over 10 million people in the immediate area and over 30 million people in the wider metropolitan area ‘Jabodetabek’. Sitting on swampy lands with 13 major rivers running through it, Jakarta has always been naturally vulnerable to floods which have gradually worsened since it’s occupation by the Dutch East India Company in the 17th century. This is mainly due to land subsidence caused by extensive ground water extraction meaning that Jakarta has quite literally dug itself into a hole. Currently, Jakarta is sinking at a rate of around 24cm a year and being located on the coast, it now also faces the issue of sea level rise caused by climate change. The image below shows just how much the coastline has changed in the past 39 years.\nOne of the worst floods occurred in 2007 where around 70% of the city was submerged with water after a period of heavy rain. Over 400,000 people were affected, 57 people died and economic losses totalled around USD 900 million [@RetrospectiveViewFloods]. Since then, significant flooding has also occurred in 2013, 2014, 2020, 2021 and 2022. It has become so bad it was one of the reasons the government decided it would be moving the capital city to a new site in Kalimantan.\nPolicy is being constantly revised to try and solve the issue of flooding with one of the most significant plans in recent years being the National Capital Integrated Coastal Development Plan (NCICD) which sits in the wider Jakarta Coastal Defence Strategy. This includes strengthening its existing coastal defence infrastructure and the construction of a large new sea wall, lagoons and 17 artificial islands to tackle tidal flooding. The plan was initially going to cost around $40 billion.\nSince its creation in 2012, the plan has been criticised heavily and opposed by many including NGO’s and local fishing communities resulting in in several revisions of the plan. As it sits today, the construction of 13 of the islands has been halted and the planned ‘Garuda-shaped’ sea wall has changed into just a normal sea wall.\nAddressing the issue of flooding through this plan would be a step towards the following Sustainable Development Goals (SDGs):\nHowever, there is potential the policy would move Jakarta away from the following SDGs as the development of hard infrastructure will further disrupt the coastal environment:",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4: Policy</span>"
+    ]
+  },
+  {
+    "objectID": "week_2.html#summary-jakarta-and-the-national-capital-integrated-coastal-development-plan",
+    "href": "week_2.html#summary-jakarta-and-the-national-capital-integrated-coastal-development-plan",
+    "title": "4  Week 4: Policy",
+    "section": "",
+    "text": "Landsat 5 (1990 image) and Landsat 8 (2019 image) images of Jakarta showing it’s rapid urban development and land cover change. From https://landsat.visibleearth.nasa.gov/view.php?id=148303\n\n\n\n\n\n\n\nA map of the first version of the NCICDP in North Jakarta. From (Permanasari 2019).",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4: Policy</span>"
+    ]
+  },
+  {
+    "objectID": "week_2.html#applications",
+    "href": "week_2.html#applications",
+    "title": "4  Week 4: Policy",
+    "section": "4.2 Applications",
+    "text": "4.2 Applications\nAs I am also quite critical to the NCICD policy as I believe it is more of a fast, short-term solution, I will focus on the goal itself and explore how remote sensing can be used to mitigate severe tidal flood events and increase Jakarta’s resilience to such flood events.\nIn remote sensing, Synthetic Aperture Radar (SAR) data has proven to be useful in flood management, which involves the monitoring, prevention, and mitigation of floods. The main reason as to why it is so useful in flood management is its advantage of being able to ‘see’ through clouds. Several satellites have a SAR on board, one example being the European Space Agency’s Sentinel 1A/B.\n\n4.2.1 Monitoring land subsidence\nDifferential Interferometry Synthetic Aperture Radar (DInSAR) observes changes between two SAR images taken at different times and is often used to measure land subsidence. An advantage of DInSAR is that it can detect centimeter-level surface displacements with each pixel representing the average displacement over an area of several square meters (“About,” n.d.). In Jakarta this would be useful for monitoring land subsidence into the future which can help identify flood prone areas. Calo et al. (2017) used (DInSAR) along with data on land cover, climate and water storage to first map out areas of deformation and then correlate land subsidence to groundwater extraction.\n\n\n4.2.2 Optimal site selection for mangroves\nMy favourite use of remotely sensed data to combat flood risks that I came across is for the optimal site selection for mangroves, which I think Jakarta’s coastline would benefit greatly from. Luri et al. (2020) performed a weighted land suitability analysis using hydrodynamic, socio-economic, geomorphological, and climatic parameters to identify suitable areas for mangroves across southeast Asia. Restoring the mangrove forests that once existed along Jakarta’s coastline instead of a constructing a giant sea wall would help with flood management while also providing potential benefits to the local fishing communities.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4: Policy</span>"
+    ]
+  },
+  {
+    "objectID": "week_2.html#reflection",
+    "href": "week_2.html#reflection",
+    "title": "4  Week 4: Policy",
+    "section": "4.3 Reflection",
+    "text": "4.3 Reflection\nI really enjoyed this week becauseeeee\n\n\n\n\n“About.” n.d. http://insideairbnb.com/about/.\n\n\nPermanasari, Eka. 2019. “Reading Political Insinuation in Urban Forms: Saving the Sinking Jakarta Through Giant Sea Wall Project.” Geographia Technica 14 (March): 56–65. https://doi.org/10.21163/GT_2019.141.19.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4: Policy</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Week 1: Introduction to Remote Sensing",
+    "section": "",
+    "text": "1.1 Summary:",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1: Introduction to Remote Sensing</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#what-is-remote-sensing",
+    "href": "intro.html#what-is-remote-sensing",
+    "title": "1  Week 1: Introduction to Remote Sensing",
+    "section": "1.2 What is remote sensing?",
+    "text": "1.2 What is remote sensing?\nRemote sensing is the science of collecting information about an object, phenomenon, or area from a distance (NOAA, 2020). This is typically done using sensors that are mounted on satellites or aircrafts.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1: Introduction to Remote Sensing</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#types-of-sensors",
+    "href": "intro.html#types-of-sensors",
+    "title": "1  Week 1: Introduction to Remote Sensing",
+    "section": "1.3 Types of Sensors",
+    "text": "1.3 Types of Sensors\nThere are two main types of sensors that are used to collect remotely sensed data. However, both types of sensors monitor electromagnetic radiation.\n\n1.3.1 Passive\nPassive sensors detect energy that is emitted or reflected naturally. In the case of remotely sensing data from a satellite, this natural energy would be reflected energy from the sun as demonstrated in the diagram below. This does mean that passive sensors are often restricted by the availability of the naturally occurring energy, so reflected energy from the sun can only be measured anytime.\n\n\n1.3.2 Active\nActive sensors provide their own energy and instead emit radiation which is then reflected to the sensor. As active radars are not reliant on naturally occurring energy, they can be used during both day and night.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1: Introduction to Remote Sensing</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#electromagnetic-radiation-and-spectral-signatures",
+    "href": "intro.html#electromagnetic-radiation-and-spectral-signatures",
+    "title": "1  Week 1: Introduction to Remote Sensing",
+    "section": "1.4 Electromagnetic Radiation and Spectral Signatures",
+    "text": "1.4 Electromagnetic Radiation and Spectral Signatures\nAs mentioned, sensors detect electromagnetic radiation. Electromagnetic radiation describes specific types of energy that travels in waves at the speed of light. It exists on a spectrum with the shortest wavelengths on one end of the spectrum and the longest wavelengths on the other. Most of the sun’s energy comes from from the visible light and infrared light section of the spectrum, while all of the outgoing energy emitted by the Earth is infrared. An atmospheric window a region on the electromagnetic spectrum where radiation can easily pass through the Earth’s atmosphere with little absorption.\n\n\n\n\n\n\nFigure 1.1: Image showing the electromagnetic spectrum and atmospheric windows. From (AtmosphericWindowNational?)\n\n\n\nIn remote sensing, different surfaces of the earth reflect and absorb different wavelengths across the electromagnetic spectrum and in varying amounts, allowing us to identify different objects, phenomena and land cover through remote sensing imagery. Taking the values for each wavelength across the electromagnetic spectrum creates spectral signature which are unique for each thing observed.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1: Introduction to Remote Sensing</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#the-four-resolutions",
+    "href": "intro.html#the-four-resolutions",
+    "title": "1  Week 1: Introduction to Remote Sensing",
+    "section": "1.5 The Four Resolutions",
+    "text": "1.5 The Four Resolutions\nSpatial Resolution:\n\nThe size of each raster cell (pixel). \n\nSpectral Resolution:\n\nThe ability of the sensor to distinguish different wavelengths and therefore the number of bands it records. Most sensors are multispectral (typically 3-15 bands), while some are hyperspectral (thousands of bands).\n\nTemporal Resolution:\n\nThe amount of time it takes to revisit the same area.\n\nRadiometric:\n\nThe amount of information in a raster cell. The higher radiometric resolution, the more sensitive.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1: Introduction to Remote Sensing</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#applications",
+    "href": "intro.html#applications",
+    "title": "1  Week 1: Introduction to Remote Sensing",
+    "section": "1.6 Applications:",
+    "text": "1.6 Applications:\n\nRemote sensing is often used for assessing both environmental and anthropogenic features on the earth’s surface.\n\nA specific application of remote sensing which I found particularly interesting was the exploration of the influence of environmental risk factors on malaria cases in Ethiopia (McMahon et al., 2021). This was done by assessing the relationship between remotely sensed environmental data (vegetation, climate, land cover and land use, topography, and surface water) and the number of malaria cases. Identifying high risk and vulnerable areas can help scarce resources and funding to be efficiently used in a targeted manner.\nI found this example interesting as it demonstrated how remote sensing can be used even in areas that are generally data poor or where good quality data is hard to find. As the study used the freely available MODIS data I can also see how the study could be easily reproduced in other areas that might be data poor and are at high risk to malaria and other mosquito borne diseases. However, by focusing on environmental risk factors the study omits other factors that may also impact the number of malaria cases. I believe this is a good example of where remote sensing data can be partnered up with other spatial data to include factors such as socio-economic or demographic factors. This would allow for a fuller picture of all the risk factors associated with malaria cases.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1: Introduction to Remote Sensing</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#reflection",
+    "href": "intro.html#reflection",
+    "title": "1  Week 1: Introduction to Remote Sensing",
+    "section": "1.7 Reflection:",
+    "text": "1.7 Reflection:\nThis week was actually my second introduction to remote sensing! Having done my undergraduate degree in physical geography, remote sensing was touched upon a couple times in relation to monitoring and measuring different environmental phenomena. However, having focused on environmental phenomena I was surprised to learn that its relevance extends beyond environmental monitoring and that it is even used for law enforcement and security.\nWith my interests in environmental hazards, climate change and Indonesia it made me think about how remote sensing could be used to monitor the development and impact of the new capital city, Nusantara being built in Kalimantan (Indonesian Borneo). Although this will be quite far into the future, I’m sure the city will change the whole of the island, potentially at the expense of the environment.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1: Introduction to Remote Sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week_1.html",
+    "href": "week_1.html",
+    "title": "3  Week 3: Corrections",
+    "section": "",
+    "text": "3.1 Summary:",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3: Corrections</span>"
+    ]
+  },
+  {
+    "objectID": "week_1.html#summary",
+    "href": "week_1.html#summary",
+    "title": "3  Week 3: Corrections",
+    "section": "",
+    "text": "3.1.1 Key words and phrases from this week:\nDigital Number (DN): a raw value assigned to a pixel which has not yet been calibrated to describe the intensity of electromagnetic radiation of the pixel. To be meaningful, needs to be adjusted by gain and offset.\nRadiance: The brightness or light that the sensor ‘observes’. Usually measured in watt/(steradian/square metre) and might be called Top of Atmosphere (TOA) reflectance.\nReflectance: The ratio of light reflected by a surface to the total amount of light hitting the surface. It has no units. Can come as surface reflectance, Bottom of Atmosphere (BOA) and Top of Atmosphere.\nSolar Zenith: The zenith angle of the sun which is the angle between the sun and the vertical. ( 90 degrees – angle of elevation of sun)\n\n\n3.1.2 Corrections\nRemotely sensed data can contain errors created by the atmosphere, the sensor itself and the surface it is observing. There are four types of corrections that aim to correct for such errors. These are atmospheric correction, geometric correction, orthorectification and radiometric calibration.\nOrthorectification is a subset of georectification. It removes distortions caused by the topography of the Earth’s surface and the tilt of the sensor by stretching the image. Radiometric calibration is the process of converting the raw satellite data (digital numbers) into physical units.\nHere I will go into more detail on atmospheric and geometric correction as I found them to be the most interesting.\n\n3.1.2.1 Atmospheric Correction:\nAtmospheric correction is the process of removing the effects of atmospheric scattering and absorption on reflectance values. It is required when using biophysical parameters and using spectral signatures through time and space. There are two types of atmospheric correction, relative and absolute correction. Relative correction can compare and normalise the different bands within a single image or across several images of the same scene. Absolute correction converts digital brightness of the pixels to units of radiance or reflectance to compare against the scaled surface values over the earth.\n\n\n\nMexican Gulf Coast The image on the left is impacted by smoke effects from agriculture, the image on the right is the result of atmospheric correction (NOAA, n.d.).\n\n\n\n\n3.1.2.2 Geometric Correction:\nGeometric correction is the process of correcting for positional errors caused by factors such as satellite or aircraft instability, the earth’s rotation and curvature and instrument error.  Ground control points (GCP) and a reference dataset are needed to model the coordinates to give them transformation coefficients. GCPs are usually points that highly contrast against the surround area often being roads, corners of buildings, distinctive water bodies or the edges of land cover areas.\n\n\n\nThe left image is an uncorrected image and the one on the right is the geo-referenced image after geometric correction (Arif 2009).\n\n\nWe also covered enhancement which I will explore in the applications section.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3: Corrections</span>"
+    ]
+  },
+  {
+    "objectID": "week_1.html#applications",
+    "href": "week_1.html#applications",
+    "title": "3  Week 3: Corrections",
+    "section": "3.2 Applications",
+    "text": "3.2 Applications\nAs corrections made to remotely sensed data can significantly improve the quality by removing errors and distortions, I can imagine it is used in all areas of remote sensing, whether you are manually correcting the data yourself or using data that has already been corrected.\nTherefore, for the application section I would like to focus on the applications of remote sensing enhancements.\n\n3.2.1 Ratio Enhancements: NDVI (Normalised Difference Vegetation Index)\nStudies that use NDVI cover a wide range of topics that appear to span over several disciplines.\n\n\n\n\n\n\nFigure 3.1: An example of an NDVI analysis output for the San Francisco Bay Area, USA from this weeks practical.\n\n\n\n\nI decided look at NDVI in an urban context to see how it has been used to investigate phenomena in cities. Most studies exploring this appear to investigate the impact of vegetation and greenery on the surrounding environment and even on inhabitants of cities.\nSeveral studies have used NDVI to explore the impact of urban greening on land surface temperatures. (Zaitunah et al. 2022) through a visual analysis in the city of Medan, Indonesia and demonstrated that temperatures in urban parks which had lots of trees were significantly lower than the surrounding areas. By taking NDVI values, different parks could be compared to each other and classified into different vegetation density classes which allowed for the finding on the importance of trees. This shows just how effective NDVI is at identifying vegetation and drawing out its different characteristics.\nWhile NDVI has proven to be a useful tool when analysing and quantifying vegetation density, (Reid et al. 2018) points out the difficulty of using NDVI to measure ‘greenness’ consistently across studies exploring health outcomes. Difficulties mainly arise in the different ways ‘greenness’ is measured, through the modifiable unit areal problem and differences in atmospheric correction, view angle and calibration of the different NDVI datasets used across studies. While some of these issues don’t directly relate to the NDVI itself, it is certainly something to consider when using it.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3: Corrections</span>"
+    ]
+  },
+  {
+    "objectID": "week_1.html#reflection",
+    "href": "week_1.html#reflection",
+    "title": "3  Week 3: Corrections",
+    "section": "3.3 Reflection",
+    "text": "3.3 Reflection\nI can’t lie this was a lot of information to get my head around and I’m relieved that when we come to using Google Earth Engine the data will come already corrected. I can however understand why this was covered and just how necessary corrections are (even if they look intimidating) to ensure data quality and allowing for different images to be compared. I also see the importance of understanding the ways remotely sensed images can be manipulated which means that we can look further than just what is on the surface of that data.\nAs most data comes already corrected, I’m guessing my use of remote sensing corrections will be limited however I can see how I could use enhancements in the future to explore different features of the landscape. It’s probably useful to keep in mind that all remote sensing enhancements will be used with a certain objective….\n\n\n\n\nArif, F. 2009. “Level-3 Geometric Correction of FORMOSAT-2 Satellite Imagery and Efficient Image Resampling.” In. https://www.semanticscholar.org/paper/Level-3-Geometric-Correction-of-FORMOSAT-2-Imagery-Arif/789f4cf739e992090620f4c0e4598059eb5dedf5.\n\n\nNOAA. n.d. “The Atmospheric Window.” https://www.noaa.gov/jetstream/satellites/absorb.\n\n\nReid, Colleen E., Laura D. Kubzansky, Jiayue Li, Jessie L. Shmool, and Jane E. Clougherty. 2018. “It’s Not Easy Assessing Greenness: A Comparison of NDVI Datasets and Neighborhood Types and Their Associations with Self-Rated Health in New York City.” Health & Place 54 (November): 92–101. https://doi.org/10.1016/j.healthplace.2018.09.005.\n\n\nZaitunah, Anita, Samsuri, Angelia Frecella Silitonga, and Lailan Syaufina. 2022. “Urban Greening Effect on Land Surface Temperature.” Sensors 22 (11): 4168. https://doi.org/10.3390/s22114168.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3: Corrections</span>"
+    ]
+  },
+  {
+    "objectID": "corrections_w3.html",
+    "href": "corrections_w3.html",
+    "title": "5  Week 5: GEE",
+    "section": "",
+    "text": "5.1",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 5: GEE</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "“About.” n.d. http://insideairbnb.com/about/.\n\n\nArif, F. 2009. “Level-3 Geometric Correction of FORMOSAT-2\nSatellite Imagery and Efficient Image Resampling.” In. https://www.semanticscholar.org/paper/Level-3-Geometric-Correction-of-FORMOSAT-2-Imagery-Arif/789f4cf739e992090620f4c0e4598059eb5dedf5.\n\n\nNOAA. n.d. “The Atmospheric Window.” https://www.noaa.gov/jetstream/satellites/absorb.\n\n\nPermanasari, Eka. 2019. “Reading Political Insinuation in Urban\nForms: Saving the Sinking Jakarta Through Giant Sea Wall\nProject.” Geographia Technica 14 (March): 56–65. https://doi.org/10.21163/GT_2019.141.19.\n\n\nReid, Colleen E., Laura D. Kubzansky, Jiayue Li, Jessie L. Shmool, and\nJane E. Clougherty. 2018. “It’s Not Easy Assessing Greenness:\nA Comparison of NDVI Datasets and Neighborhood\nTypes and Their Associations with Self-Rated Health in New York\nCity.” Health & Place 54 (November): 92–101.\nhttps://doi.org/10.1016/j.healthplace.2018.09.005.\n\n\nZaitunah, Anita, Samsuri, Angelia Frecella Silitonga, and Lailan\nSyaufina. 2022. “Urban Greening Effect on Land Surface\nTemperature.” Sensors 22 (11): 4168. https://doi.org/10.3390/s22114168.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
