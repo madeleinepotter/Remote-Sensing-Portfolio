@@ -11,8 +11,8 @@ book:
     - summary.qmd
     - week_1.qmd
     - week_2.qmd
-    - references.qmd
     - corrections_w3.qmd
+    - references.qmd
     
 
 bibliography: references.bib
