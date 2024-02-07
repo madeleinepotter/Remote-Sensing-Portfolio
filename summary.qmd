@@ -3,6 +3,6 @@
 ```{r echo = FALSE, out.width='40%'}
 
 xaringanExtra::embed_xaringan(
-  url = "file:///C:/Users/mperm/Documents/CASA/Remote%20Sensing/week_2_presentation/presentation_week2.html#1",
+  url = "https://madeleinepotter.github.io/presentation_xaringan/#3",
   ratio = "16:9")
 ```

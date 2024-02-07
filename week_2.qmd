@@ -32,7 +32,7 @@ In remote sensing, Synthetic Aperture Radar (SAR) data has proven to be useful i
 
 ### **Monitoring land subsidence**
 
-Differential Interferometry Synthetic Aperture Radar (DInSAR) observes changes between two SAR images taken at different times and is often used to measure land subsidence. An advantage of DInSAR is that it can detect centimeter-level surface displacements with each pixel representing the average displacement over an area of several square meters [@wempenApplicationDInSARShort2020]. In Jakarta this would be useful for monitoring land subsidence into the future which can help identify flood prone areas. Calo et al. (2017) used (DInSAR) along with data on land cover, climate and water storage to first map out areas of deformation and then correlate land subsidence to groundwater extraction.
+Differential Interferometry Synthetic Aperture Radar (DInSAR) observes changes between two SAR images taken at different times and is often used to measure land subsidence. An advantage of DInSAR is that it can detect centimeter-level surface displacements with each pixel representing the average displacement over an area of several square meters [@wempen2020]. In Jakarta this would be useful for monitoring land subsidence into the future which can help identify flood prone areas. Calo et al. (2017) used (DInSAR) along with data on land cover, climate and water storage to first map out areas of deformation and then correlate land subsidence to groundwater extraction.
 
 ### **Optimal site selection for mangroves**
 
