@@ -3,6 +3,6 @@
 ```{r echo = FALSE, out.width='40%'}
 
 xaringanExtra::embed_xaringan(
-  url = "https://madeleinepotter.github.io/presentation_xaringan/#3",
+  url = "https://madeleinepotter.github.io/presentation_xaringan/#1",
   ratio = "16:9")
 ```
