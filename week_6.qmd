@@ -1,0 +1,60 @@
+---
+title: "Google Earth Engine"
+bibliography: references.bib
+---
+
+## Summary 
+
+### Key Words When Using GEE:
+
+**Object:** Vector, raster, feature, string, number.
+
+**Image:** Raster data type.
+
+**Image Collection:** A set of images.
+
+**Geometry:** Vector data type.
+
+**Feature:** A geometry with attributes.
+
+**Reducer:** An object used to compute statistics or perform aggregations.
+
+**Join:** Used to combine datasets. (image or feature collection) based on time, location or an attribute.
+
+**Array:** Object for multi-dimensional analysis.
+
+**Chart:** An object for charting properties and spatiotemporal reductions.
+
+After much anticipation, this week we were finally introduced to Google Earth Engine (GEE). GEE is a freely available \"cloud-based geo-spatial analysis platform\" which has become a very powerful and time efficient tool for analysing and understanding the earth\'s surface. I think its effectiveness is reflected in the growing number of academic articles being published that use GEE, as shown below.
+
+![From [@pérez-cutillas2023].](GEE_trends.png){fig-align="center" width="511"}
+
+The lecture gave a quick overview into what may be different in GEE compared to other platforms, for example scale (pixel resolution) is determined by the output and not the input and rather nicely, you don\'t have to worry about projections!
+
+We then covered image reduction where we can reduce an image collection chosen by a place and dates, to the extreme values for each pixel (eg. min, max, mean, median, standard deviation). This results in an image collection being reduced to a single image. 
+
+Linear regression was also covered which in GEE, can be used for assessing change of pixel values over time to analyse features such as precipitation, land surface temperature and land use change. Finally, joins in GEE are similar to other GIS platforms and we can join feature collections and join image collections. We can also do spatial joins.
+
+In the practical we also ran some enhancements and conducted some band math which I have shown some examples of below.
+
+## Applications
+
+As I mentioned before, the use of GEE is now extensive among academics, NGOs, governments, and educational institutions as it\'s easily accessible and more time efficient than other GIS applications used for remote sensing. Because of this and its functionality, GEE applications are far and wide. Below are a few popular applications of GEE:
+
+![From [@lucas2019]](GEE_applications.png){fig-align="center" width="565"}
+
+A specific application I found was a study using GEE to detect palm oil plantations in Sumatra, Indonesia. It did this by combining optical and radar datasets (Landsat and SAR) and performing image classification using a Random Forest algorithm, finally assessing its accuracy by comparing it to other palm oil map sources [@sarzynski2020]. The whole methodology was performed in Google Earth Engine which has a RandomForest function and several other functions that help to calculate accuracy assessment metrics. Similar to several other studies I looked at, the combination of optical and radar datasets can often improve the identification and classification of features, which I did not know one could do.
+
+GEE also allows for the creation of applications which I think can appeal to wider audience as it is a more user-friendly method of displaying information to those with non-academic backgrounds or those with less time to read scientific papers. Dynamic world is an example of this. <https://dynamicworld.app/explore>
+
+Of course, GEE has it's advantages and disadvantages which are summarised in the table below from [@]\]
+
+![](table_GEE_adv_disadv.png){fig-align="center" width="588"}
+
+## Reflection
+
+After working with SNAP and R and seeing how long it takes to process remotely sensed data, I was excited to learn about how to use GEE.
+
+I can see how I can use Google Earth Engine for a dissertation topic surrounding natural hazards and impact assessments....
+
+## References
