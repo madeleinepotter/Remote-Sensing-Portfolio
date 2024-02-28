@@ -53,8 +53,8 @@ Of course, GEE has it's advantages and disadvantages which are summarised in the
 
 ## Reflection
 
-After working with SNAP and R and seeing how long it takes to process remotely sensed data, I was excited to learn about how to use GEE.
+After working with SNAP and R and seeing how long it takes to process remotely sensed data, I was excited to learn about how to use GEE. I think the difference in processing time for the enhancement measures such as PCA analysis really highlighted just how fast GEE is in comparison. Also, being able to load satellite images directly into GEE without having to go through a separate website is also very handy. It makes finding a suitable image a lot easier. The only issue for me at the moment is getting used to a new coding language, JavaScript, as I have not used it before.
 
-I can see how I can use Google Earth Engine for a dissertation topic surrounding natural hazards and impact assessments....
+I'm really interested in doing a dissertation that looks at the impact of natural hazards on the urban environment and I can see how I could potentially use GEE to do so.
 
 ## References
