@@ -61,3 +61,5 @@ While NDVI has proven to be a useful tool when analysing and quantifying vegetat
 I can't lie this was a lot of information to get my head around and I'm relieved that when we come to using Google Earth Engine the data will come already corrected. I can however understand why this was covered and just how necessary corrections are (even if they look intimidating) to ensure data quality and allowing for different images to be compared. I also see the importance of understanding the ways remotely sensed images can be manipulated which means that we can look further than just what is on the surface of that data.
 
 As most data comes already corrected, I'm guessing my use of remote sensing corrections will be limited however I can see how I could use enhancements in the future to explore different features of the landscape. It's probably useful to keep in mind that all remote sensing enhancements will be used with a certain objective....
+
+## References

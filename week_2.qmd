@@ -49,3 +49,5 @@ This week allowed for a more in-depth exploration of how remote sensing can be u
 I can see how remote sensing could really help inform better decision and policy-making in the long-term and why it should be used when dealing with a complex environmental issue such as this one, and in a place that generally lacks sufficient local data. In the future, it would be interesting to see if you could use remotely sensed data to assess the impact of Jakarta's NCICD policy by comparing images from before and after the plans completion. To assess this
 
 If assessing this I would focus on land subsidence and sea level rise.
+
+## References
