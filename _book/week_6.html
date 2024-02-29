@@ -233,7 +233,7 @@ div.csl-indent {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="GEE_trends.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="511"></p>
-<figcaption>From <span class="citation" data-cites="pérez-cutillas2023">(<a href="references.html#ref-pérez-cutillas2023" role="doc-biblioref">Pérez-Cutillas et al. 2023</a>)</span>.</figcaption>
+<figcaption>From <span class="citation" data-cites="perez-cutillasWhatGoingGoogle2023">(<a href="references.html#ref-perez-cutillasWhatGoingGoogle2023" role="doc-biblioref">Pérez-Cutillas et al. 2023</a>)</span>.</figcaption>
 </figure>
 </div>
 <p>The lecture gave a quick overview into what may be different in GEE compared to other platforms, for example scale (pixel resolution) is determined by the output and not the input and rather nicely, you don’t have to worry about projections!</p>
@@ -248,12 +248,12 @@ div.csl-indent {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="GEE_applications.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="565"></p>
-<figcaption>From <span class="citation" data-cites="lucas2019">(<a href="references.html#ref-lucas2019" role="doc-biblioref">Lucas et al. 2019</a>)</span></figcaption>
+<figcaption>From <span class="citation" data-cites="lucasLandCoverMapping2019">(<a href="references.html#ref-lucasLandCoverMapping2019" role="doc-biblioref">Lucas et al. 2019</a>)</span></figcaption>
 </figure>
 </div>
-<p>A specific application I found was a study using GEE to detect palm oil plantations in Sumatra, Indonesia. It did this by combining optical and radar datasets (Landsat and SAR) and performing image classification using a Random Forest algorithm, finally assessing its accuracy by comparing it to other palm oil map sources <span class="citation" data-cites="sarzynski2020">(<a href="references.html#ref-sarzynski2020" role="doc-biblioref">Sarzynski et al. 2020</a>)</span>. The whole methodology was performed in Google Earth Engine which has a RandomForest function and several other functions that help to calculate accuracy assessment metrics. Similar to several other studies I looked at, the combination of optical and radar datasets can often improve the identification and classification of features, which I did not know one could do.</p>
+<p>A specific application I found was a study using GEE to detect palm oil plantations in Sumatra, Indonesia. It did this by combining optical and radar datasets (Landsat and SAR) and performing image classification using a Random Forest algorithm, finally assessing its accuracy by comparing it to other palm oil map sources <span class="citation" data-cites="sarzynskiCombiningRadarOptical2020a">(<a href="references.html#ref-sarzynskiCombiningRadarOptical2020a" role="doc-biblioref">Sarzynski et al. 2020</a>)</span>. The whole methodology was performed in Google Earth Engine which has a RandomForest function and several other functions that help to calculate accuracy assessment metrics. Similar to several other studies I looked at, the combination of optical and radar datasets can often improve the identification and classification of features, which I did not know one could do.</p>
 <p>GEE also allows for the creation of applications which I think can appeal to wider audience as it is a more user-friendly method of displaying information to those with non-academic backgrounds or those with less time to read scientific papers. Dynamic world is an example of this. <a href="https://dynamicworld.app/explore" class="uri">https://dynamicworld.app/explore</a></p>
-<p>Of course, GEE has it’s advantages and disadvantages which are summarised in the table below from [@]]</p>
+<p>Of course, GEE has it’s advantages and disadvantages which are summarised in the table below from <span class="citation" data-cites="zhaoProgressTrendsApplication2021">(<a href="references.html#ref-zhaoProgressTrendsApplication2021" role="doc-biblioref">Zhao et al. 2021</a>)</span></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="table_GEE_adv_disadv.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="588"></p>
@@ -262,22 +262,26 @@ div.csl-indent {
 </section>
 <section id="reflection" class="level2" data-number="6.3">
 <h2 data-number="6.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">6.3</span> Reflection</h2>
-<p>After working with SNAP and R and seeing how long it takes to process remotely sensed data, I was excited to learn about how to use GEE. I think the difference in processing time for the enhancement measures such as PCA analysis really highlighted just how fast GEE is in comparison. Also, being able to load satellite images directly into GEE without having to go through a separate website is also very handy. It makes finding a suitable image a lot easier. The only issue for me at the moment is getting used to a new coding language, JavaScript, as I have not used it before.</p>
-<p>I’m really interested in doing a dissertation that looks at the impact of natural hazards on the urban environment and I can see how I could potentially use GEE to do so.</p>
+<p>After working with SNAP and R and seeing how long it takes to process remotely sensed data through these applications, I was excited to learn about how to use GEE. I think the difference in processing time for the enhancement measures such as PCA analysis really highlighted just how fast GEE is in comparison. Also, being able to load satellite images directly into GEE without having to go through a separate website is also really useful and time saving. It makes finding a suitable image a lot easier. The only issue for me at the moment is getting used to a new coding language, JavaScript, as I have not used it before.</p>
+<p>Over the past weeks, I’ve become more interested in doing a dissertation that looks at the impact of natural hazards on the urban environment and I can see how I could use GEE to do so.</p>
+<p>I think the processing time of GEE makes that idea also look less daunting.</p>
 </section>
 <section id="references" class="level2" data-number="6.4">
 <h2 data-number="6.4" class="anchored" data-anchor-id="references"><span class="header-section-number">6.4</span> References</h2>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-lucas2019" class="csl-entry" role="listitem">
-Lucas, Richard, Norman Mueller, Anders Siggins, Christopher Owers, Daniel Clewley, Peter Bunting, Cate Kooymans, et al. 2019. <span>“Land Cover Mapping Using Digital Earth Australia.”</span> <em>Data</em> 4 (4): 143. <a href="https://doi.org/10.3390/data4040143">https://doi.org/10.3390/data4040143</a>.
+<div id="ref-lucasLandCoverMapping2019" class="csl-entry" role="listitem">
+Lucas, Richard, Norman Mueller, Anders Siggins, Christopher Owers, Daniel Clewley, Peter Bunting, Cate Kooymans, et al. 2019. <span>“Land <span>Cover Mapping</span> Using <span>Digital Earth Australia</span>.”</span> <em>Data</em> 4 (4): 143. <a href="https://doi.org/10.3390/data4040143">https://doi.org/10.3390/data4040143</a>.
 </div>
-<div id="ref-pérez-cutillas2023" class="csl-entry" role="listitem">
-Pérez-Cutillas, Pedro, Alberto Pérez-Navarro, Carmelo Conesa-García, Demetrio Antonio Zema, and Jesús Pilar Amado-Álvarez. 2023. <span>“What Is Going on Within Google Earth Engine? A Systematic Review and Meta-Analysis.”</span> <em>Remote Sensing Applications: Society and Environment</em> 29 (January): 100907. <a href="https://doi.org/10.1016/j.rsase.2022.100907">https://doi.org/10.1016/j.rsase.2022.100907</a>.
+<div id="ref-perez-cutillasWhatGoingGoogle2023" class="csl-entry" role="listitem">
+Pérez-Cutillas, Pedro, Alberto Pérez-Navarro, Carmelo Conesa-García, Demetrio Antonio Zema, and Jesús Pilar Amado-Álvarez. 2023. <span>“What Is Going on Within Google Earth Engine? <span>A</span> Systematic Review and Meta-Analysis.”</span> <em>Remote Sensing Applications: Society and Environment</em> 29 (January): 100907. <a href="https://doi.org/10.1016/j.rsase.2022.100907">https://doi.org/10.1016/j.rsase.2022.100907</a>.
 </div>
-<div id="ref-sarzynski2020" class="csl-entry" role="listitem">
-Sarzynski, Thuan, Xingli Giam, Luis Carrasco, and Janice Ser Huay Lee. 2020. <span>“Combining Radar and Optical Imagery to Map Oil Palm Plantations in Sumatra, Indonesia, Using the Google Earth Engine.”</span> <em>Remote Sensing</em> 12 (7): 1220. <a href="https://doi.org/10.3390/rs12071220">https://doi.org/10.3390/rs12071220</a>.
+<div id="ref-sarzynskiCombiningRadarOptical2020a" class="csl-entry" role="listitem">
+Sarzynski, Thuan, Xingli Giam, Luis Carrasco, and Janice Ser Huay Lee. 2020. <span>“Combining <span>Radar</span> and <span>Optical Imagery</span> to <span>Map Oil Palm Plantations</span> in <span>Sumatra</span>, <span>Indonesia</span>, <span>Using</span> the <span>Google Earth Engine</span>.”</span> <em>Remote Sensing</em> 12 (April). <a href="https://doi.org/10.3390/rs12071220">https://doi.org/10.3390/rs12071220</a>.
+</div>
+<div id="ref-zhaoProgressTrendsApplication2021" class="csl-entry" role="listitem">
+Zhao, Qiang, Le Yu, Li Xuecao, Dailiang Peng, Yongguang Zhang, and Peng Gong. 2021. <span>“Progress and <span>Trends</span> in the <span>Application</span> of <span>Google Earth</span> and <span>Google Earth Engine</span>.”</span> <em>Remote Sensing</em> 13 (September): 3778. <a href="https://doi.org/10.3390/rs13183778">https://doi.org/10.3390/rs13183778</a>.
 </div>
 </div>
 </section>

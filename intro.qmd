@@ -36,7 +36,7 @@ Active sensors provide their own energy and instead emit radiation which is then
 
 As mentioned, sensors detect electromagnetic radiation. Electromagnetic radiation describes specific types of energy that travels in waves at the speed of light. It exists on a spectrum with the shortest wavelengths on one end of the spectrum and the longest wavelengths on the other. Most of the sun's energy comes from from the visible light and infrared light section of the spectrum, while all of the outgoing energy emitted by the Earth is infrared. An atmospheric window a region on the electromagnetic spectrum where radiation can easily pass through the Earth's atmosphere with little absorption.
 
-![Image showing the electromagnetic spectrum and atmospheric windows. From [@AtmosphericWindowNational]](atmospheric_window_EM_spectrum.png){#fig-ems}
+![Image showing the electromagnetic spectrum and atmospheric windows. From [@noaa]](atmospheric_window_EM_spectrum.png){#fig-ems}
 
 In remote sensing, different surfaces of the earth reflect and absorb different wavelengths across the electromagnetic spectrum and in varying amounts, allowing us to identify different objects, phenomena and land cover through remote sensing imagery. Taking the values for each wavelength across the electromagnetic spectrum creates **spectral signature** which are unique for each thing observed.
 

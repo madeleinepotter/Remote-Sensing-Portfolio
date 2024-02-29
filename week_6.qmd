@@ -27,7 +27,7 @@ bibliography: references.bib
 
 After much anticipation, this week we were finally introduced to Google Earth Engine (GEE). GEE is a freely available "cloud-based geo-spatial analysis platform" which has become a very powerful and time efficient tool for analysing and understanding the earth's surface. I think its effectiveness is reflected in the growing number of academic articles being published that use GEE, as shown below.
 
-![From [@pérez-cutillas2023].](GEE_trends.png){fig-align="center" width="511"}
+![From [@perez-cutillasWhatGoingGoogle2023].](GEE_trends.png){fig-align="center" width="511"}
 
 The lecture gave a quick overview into what may be different in GEE compared to other platforms, for example scale (pixel resolution) is determined by the output and not the input and rather nicely, you don't have to worry about projections!
 
@@ -41,20 +41,22 @@ In the practical we also ran some enhancements and conducted some band math whic
 
 As I mentioned before, the use of GEE is now extensive among academics, NGOs, governments, and educational institutions as it's easily accessible and more time efficient than other GIS applications used for remote sensing. Because of this and its functionality, GEE applications are far and wide. Below are a few popular applications of GEE:
 
-![From [@lucas2019]](GEE_applications.png){fig-align="center" width="565"}
+![From [@lucasLandCoverMapping2019]](GEE_applications.png){fig-align="center" width="565"}
 
-A specific application I found was a study using GEE to detect palm oil plantations in Sumatra, Indonesia. It did this by combining optical and radar datasets (Landsat and SAR) and performing image classification using a Random Forest algorithm, finally assessing its accuracy by comparing it to other palm oil map sources [@sarzynski2020]. The whole methodology was performed in Google Earth Engine which has a RandomForest function and several other functions that help to calculate accuracy assessment metrics. Similar to several other studies I looked at, the combination of optical and radar datasets can often improve the identification and classification of features, which I did not know one could do.
+A specific application I found was a study using GEE to detect palm oil plantations in Sumatra, Indonesia. It did this by combining optical and radar datasets (Landsat and SAR) and performing image classification using a Random Forest algorithm, finally assessing its accuracy by comparing it to other palm oil map sources [@sarzynskiCombiningRadarOptical2020a]. The whole methodology was performed in Google Earth Engine which has a RandomForest function and several other functions that help to calculate accuracy assessment metrics. Similar to several other studies I looked at, the combination of optical and radar datasets can often improve the identification and classification of features, which I did not know one could do.
 
 GEE also allows for the creation of applications which I think can appeal to wider audience as it is a more user-friendly method of displaying information to those with non-academic backgrounds or those with less time to read scientific papers. Dynamic world is an example of this. <https://dynamicworld.app/explore>
 
-Of course, GEE has it's advantages and disadvantages which are summarised in the table below from \[\@\]\]
+Of course, GEE has it's advantages and disadvantages which are summarised in the table below from [@zhaoProgressTrendsApplication2021]
 
 ![](table_GEE_adv_disadv.png){fig-align="center" width="588"}
 
 ## Reflection
 
-After working with SNAP and R and seeing how long it takes to process remotely sensed data, I was excited to learn about how to use GEE. I think the difference in processing time for the enhancement measures such as PCA analysis really highlighted just how fast GEE is in comparison. Also, being able to load satellite images directly into GEE without having to go through a separate website is also very handy. It makes finding a suitable image a lot easier. The only issue for me at the moment is getting used to a new coding language, JavaScript, as I have not used it before.
+After working with SNAP and R and seeing how long it takes to process remotely sensed data through these applications, I was excited to learn about how to use GEE. I think the difference in processing time for the enhancement measures such as PCA analysis really highlighted just how fast GEE is in comparison. Also, being able to load satellite images directly into GEE without having to go through a separate website is also really useful and time saving. It makes finding a suitable image a lot easier. The only issue for me at the moment is getting used to a new coding language, JavaScript, as I have not used it before.
 
-I'm really interested in doing a dissertation that looks at the impact of natural hazards on the urban environment and I can see how I could potentially use GEE to do so.
+Over the past weeks, I've become more interested in doing a dissertation that looks at the impact of natural hazards on the urban environment and I can see how I could use GEE to do so.
+
+I think the processing time of GEE makes that idea also look less daunting.
 
 ## References

@@ -4,22 +4,72 @@ title: "Classification I"
 
 ## Summary
 
-Classification
+#### Classification
 
-CART
+In remote sensing, classification is a commonly used technique which is the process of categorising pixels or objects of an image to .
 
-Random Forest
+#### CART: Classification and Regression Trees
 
-Overfitting
+This consists of a flow diagram or a 'tree' of decisions based on the explanatory variables of a dataset. The structure of the decision tree consists of a root node, decision nodes and leaf nodes as can be seen below:
 
-Image Classification
+![From: [@randomf]](decision_tree.png){fig-align="center" width="550"}
 
-Supervised / Unsupervised
+**CART Types:**
+
+-   Classification trees - when data output is categorical.
+
+-   Regression trees - when data output is continuous.
+
+**What do we start the tree with?**
+
+**Gini Impurity:** measures the impurity of a group containing different classes. The smaller the Gini Impurity value, the purer the group. The lowest impurity value is what we start the tree with.
+
+**Overfitting**
+
+Overfitting happens when you produce a good model on the training data that does not perform (therefore generalise) well on unseen data.
+
+![From: [@jim2022]](overfitting.jpg){fig-align="center" width="507"}
+
+**For remotely sensed data, this can be addressed by:**
+
+-   Limiting the minimum number of pixels in a leaf.
+
+-   Weakest link pruning.
+
+### Random Forest
+
+A Random Forest is a collection of several CARTs. It can be applied to both classification and regression problems. Each CART in the Random Forest would see different training data from the same dataset.
+
+### Image Classification
+
+The process of categorising every pixel in an image into a pre-defined classification.
+
+This is either a supervised or unsupervised procedure:
+
+**Supervised:**
+
+Relies on information to provide a training samples for different the different classes we are interested in. From these training samples, the classifier learns patterns in the data that it uses to then place labels on new and unseen data.
+
+**Unsupervised:**
+
+Does not require any previous information or training samples. Identifies classes by clustering pixels based on spectral values or other similarities.
+
+**Maximum Likelihood**
+
+**Support Vector Machine (SVM)**
 
 ## Applications
 
-Classification uses
+There are plenty of ways to use classification:
+
+-   Mapping different types of green spaces.
+
+-   Urban land cover mapping.
+
+-   Detection of burned areas in forest fires.
+
+-   Detecting flood prone areas.
 
 ## Reflections
 
-## References 
+## References
