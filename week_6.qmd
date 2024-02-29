@@ -3,7 +3,7 @@ title: "Google Earth Engine"
 bibliography: references.bib
 ---
 
-## Summary 
+## Summary
 
 ### Key Words When Using GEE:
 
@@ -25,11 +25,11 @@ bibliography: references.bib
 
 **Chart:** An object for charting properties and spatiotemporal reductions.
 
-After much anticipation, this week we were finally introduced to Google Earth Engine (GEE). GEE is a freely available \"cloud-based geo-spatial analysis platform\" which has become a very powerful and time efficient tool for analysing and understanding the earth\'s surface. I think its effectiveness is reflected in the growing number of academic articles being published that use GEE, as shown below.
+After much anticipation, this week we were finally introduced to Google Earth Engine (GEE). GEE is a freely available "cloud-based geo-spatial analysis platform" which has become a very powerful and time efficient tool for analysing and understanding the earth's surface. I think its effectiveness is reflected in the growing number of academic articles being published that use GEE, as shown below.
 
 ![From [@pérez-cutillas2023].](GEE_trends.png){fig-align="center" width="511"}
 
-The lecture gave a quick overview into what may be different in GEE compared to other platforms, for example scale (pixel resolution) is determined by the output and not the input and rather nicely, you don\'t have to worry about projections!
+The lecture gave a quick overview into what may be different in GEE compared to other platforms, for example scale (pixel resolution) is determined by the output and not the input and rather nicely, you don't have to worry about projections!
 
 We then covered image reduction where we can reduce an image collection chosen by a place and dates, to the extreme values for each pixel (eg. min, max, mean, median, standard deviation). This results in an image collection being reduced to a single image. 
 
@@ -39,7 +39,7 @@ In the practical we also ran some enhancements and conducted some band math whic
 
 ## Applications
 
-As I mentioned before, the use of GEE is now extensive among academics, NGOs, governments, and educational institutions as it\'s easily accessible and more time efficient than other GIS applications used for remote sensing. Because of this and its functionality, GEE applications are far and wide. Below are a few popular applications of GEE:
+As I mentioned before, the use of GEE is now extensive among academics, NGOs, governments, and educational institutions as it's easily accessible and more time efficient than other GIS applications used for remote sensing. Because of this and its functionality, GEE applications are far and wide. Below are a few popular applications of GEE:
 
 ![From [@lucas2019]](GEE_applications.png){fig-align="center" width="565"}
 
@@ -47,7 +47,7 @@ A specific application I found was a study using GEE to detect palm oil plantati
 
 GEE also allows for the creation of applications which I think can appeal to wider audience as it is a more user-friendly method of displaying information to those with non-academic backgrounds or those with less time to read scientific papers. Dynamic world is an example of this. <https://dynamicworld.app/explore>
 
-Of course, GEE has it's advantages and disadvantages which are summarised in the table below from [@]\]
+Of course, GEE has it's advantages and disadvantages which are summarised in the table below from \[\@\]\]
 
 ![](table_GEE_adv_disadv.png){fig-align="center" width="588"}
 

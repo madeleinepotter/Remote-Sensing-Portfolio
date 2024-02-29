@@ -46,8 +46,6 @@ To assess exposure and vulnerability to sea level rise, elevation data is a crit
 
 This week allowed for a more in-depth exploration of how remote sensing can be used in a wider policy context to solve city-wide issues or move towards a common goal. With my interests I enjoyed the opportunity to investigate a pressing environmental issue in an urban context. I grew up in Indonesia and this made me reflect on Jakarta's reputation with flooding and it's impact on everyday life. Sometimes, just the signs of a potential downpour would be enough to stop you from going out because there was a high chance it would flood.
 
-I can see how remote sensing could really help inform better decision and policy-making in the long-term and why it should be used when dealing with a complex environmental issue such as this one, and in a place that generally lacks sufficient local data. In the future, it would be interesting to see if you could use remotely sensed data to assess the impact of Jakarta's NCICD policy by comparing images from before and after the plans completion. To assess this
-
-If assessing this I would focus on land subsidence and sea level rise.
+I can see how remote sensing could really help inform better decision and policy-making in the long-term and why it should be used when dealing with a complex environmental issue such as this one, and in a place that generally lacks sufficient local data. In the future, it would be interesting to see if you could use remotely sensed data to assess the impact of Jakarta's NCICD policy by comparing remotely sensed data from before and after the plans completion. To assess this one could focus on change detection of sea level rise or land subsidence. If floods are persisting there could also be a possibility analyse flood impact assessments from before and after the implementation of the plan to see if the amount of land inundated has changed and how.
 
 ## References
