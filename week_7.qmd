@@ -4,11 +4,11 @@ title: "Classification I"
 
 ## Summary
 
-#### Classification
+### Classification
 
 In remote sensing, classification is a commonly used technique which is the process of categorising pixels or objects of an image to .
 
-#### CART: Classification and Regression Trees
+### CART: Classification and Regression Trees
 
 This consists of a flow diagram or a 'tree' of decisions based on the explanatory variables of a dataset. The structure of the decision tree consists of a root node, decision nodes and leaf nodes as can be seen below:
 
@@ -56,7 +56,11 @@ Does not require any previous information or training samples. Identifies classe
 
 **Maximum Likelihood**
 
+This is a method that determines values for the parameters of the model. In remote sensing, this method assumes the statistics for each class in each band are normally distributed and then determines the probability that a pixel belongs to a specific class. A probability threshold can also be set which means if a pixel is below it, it will have no classification. Otherwise, if not set, every pixel will be assigned a class.
+
 **Support Vector Machine (SVM)**
+
+This is a machine learning model that uses classifier algorithms for binary classification problems. It conducts optimal data transformations to establish boundaries between data points based on predefined classes, outputs or labels.
 
 ## Applications
 
