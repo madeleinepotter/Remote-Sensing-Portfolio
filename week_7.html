@@ -122,9 +122,19 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p>Mapping different types of green spaces.</p></li>
 <li><p>Urban land cover mapping.</p></li>
-<li><p>Detection of burned areas in forest fires.</p></li>
+<li><p>Detecting burned areas in forest fires.</p></li>
 <li><p>Detecting flood prone areas.</p></li>
 </ul>
+<p>I found a specific example that used the Random Forest classifier to detect building damage in Labuan, Indonesia which was caused caused by the Anak Krakatau volcano tsunami in 2018 <span class="citation" data-cites="virtriana2023">[@virtriana2023]</span>. Data used to assess images before and after the tsunami came from Sentinel-2A and Worldview-2. Worldview-2 provided high spatial resolution data (50cm) which allowed for smaller changes to be detected more effectively than Sentinel-2A. xBDand Copernicus data were also used to interpret and compare the accuracy of building damage.</p>
+<p>The random forest classifier was specifically used to detect and classify post-tsunami damage to buildings and was chosen due to it’s accuracy with object detection.</p>
+<p>This study also completed a field survey two years and nine months after the tsunami to observe building changes and recovery efforts. This field survey is what made this study stand out to me. I think completing field surveys after damage assessments is effective as it can track progress and accountability if progress is slow and significantly impacting residents.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="krakatau.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<figcaption>Anak Krakatau collapse that caused the tsunami. Before and After. From: <span class="citation" data-cites="anakkra2019">[@anakkra2019]</span>]</figcaption>
+</figure>
+</div>
+<p>I also found two studies<span class="citation" data-cites="qian2015 shao2012">[@qian2015; @shao2012]</span> that compared classification techniques, specifically SVM and CART algorithms for land-cover classification. In both, SVM performed better than the CART, having a higher overall accuracy in land cover classification. However, there are still disadvantages to SVM such as it is not suitable for large datasets and that it does not perform well if the data has a lot of noise. So we should still carefully consider which classifier would be a better fit depending on the project.</p>
 </section>
 <section id="reflections" class="level2">
 <h2 class="anchored" data-anchor-id="reflections">Reflections</h2>
