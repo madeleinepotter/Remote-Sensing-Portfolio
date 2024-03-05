@@ -10,6 +10,8 @@ title: "Classification II"
 
 ### Accuracy Assessment 
 
+### Spatial Cross Validation
+
 ## Applications
 
 ## Reflection
