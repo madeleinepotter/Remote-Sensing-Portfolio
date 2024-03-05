@@ -86,4 +86,8 @@ I also found two studies[@qian2015; @shao2012] that compared classification tech
 
 ## Reflections
 
+I have come across CART and Random Forest classifiers in another module, so it was nice to reinforce that learning and to see how these techniques can be applied to remotely sensed data. It's easy to see the number of city-wide projects and policy issues these image classification techniques can help to tackle, but it's also easy to forget that the products created will never be 100% accurate. I can see how the uncertainties that arise from these algorithms might be easily misunderstood by stakeholders and so it's important for us as researchers to understand the processes behind the algorithms and be able to explain this if needed.
+
+On a similar note, over the past few weeks I've constantly been thinking about the research possibilities that remote sensing brings to the table however, when reviewing image classification I started to think about potential ethical and legal issues, particularly surrounding privacy. I can imagine this being a particular issue with high-resolution remotely sensed data, especially when used by governments or industries. The absence of international rules and recommendations adds a layer of complexity to this as of course remotely sensed data often covers all of the earth's surface, while regarding data privacy is often on the national level. It's definitely something to keep in mind in this field of study.
+
 ## References
