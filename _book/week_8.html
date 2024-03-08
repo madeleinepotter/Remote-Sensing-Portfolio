@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -225,9 +245,30 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="accuracy-assessment" class="level3" data-number="8.1.3">
 <h3 data-number="8.1.3" class="anchored" data-anchor-id="accuracy-assessment"><span class="header-section-number">8.1.3</span> Accuracy Assessment</h3>
+<p>We produce an accuracy assessment to determine how well the model performed in identifying different classes in unseen data.</p>
+<p>In remote sensing, the most common form of accuracy assessment is to consider the producer's accuracy, user's accuracy, and overall accuracy, which are all derived from a confusion matrix. All measurements and equations to derive them are shown in the matrix below.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="accuracy_assessment_matrix.jpg" class="img-fluid figure-img"></p>
+<figcaption>From: <span class="citation" data-cites="ebrahimy2021">(<a href="references.html#ref-ebrahimy2021" role="doc-biblioref">Ebrahimy et al. 2021</a>)</span>]</figcaption>
+</figure>
+</div>
+<p><strong>Kappa Coefficient:</strong> evaluates how well the classification model performed compared to just assigning random values. Ranges from -1 to 1. It’s use in remote sensing is discouraged, if using probably best to use last and with the support of other accuracy measures.</p>
+<p><strong>F1:</strong> Combines both user accuracy and producer accuracy. Ranges from 0 to 1 with 1 indicating better performance.</p>
+<p><strong>Area Under the Receiver Operating Characteristic Curve (the ROC Curve):</strong></p>
+<p>The curve plots the true positive and false positive rate. The AUC (area under the ROC curve) has a value between 0 and 1, with values closer to 1 having more accurate predictions.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="roc_area.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<figcaption>From: <span class="citation" data-cites="classifi">(<a href="references.html#ref-classifi" role="doc-biblioref"><span>“Classification: ROC Curve and AUC | Machine Learning,”</span> n.d.</a>)</span></figcaption>
+</figure>
+</div>
+<p><strong>Cross Validation:</strong> this trains the model on different subsets of the data. There are many different methods of cross validation.</p>
 </section>
 <section id="spatial-cross-validation" class="level3" data-number="8.1.4">
 <h3 data-number="8.1.4" class="anchored" data-anchor-id="spatial-cross-validation"><span class="header-section-number">8.1.4</span> Spatial Cross Validation</h3>
+<p>When data is spatial, spatial autocorrelation can become a potential issue and impact the model. If we randomly split spatial data it can lead to training points being neighbours with testing points, leading to the test and training datasets not being independent which can lead to overfitting.</p>
+<p>To avoid this, we can perform spatial cross validation which involves spatially partitioning the folded data.</p>
 </section>
 </section>
 <section id="applications" class="level2" data-number="8.2">
@@ -240,6 +281,14 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="8.4" class="anchored" data-anchor-id="references"><span class="header-section-number">8.4</span> References</h2>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-classifi" class="csl-entry" role="listitem">
+<span>“Classification: ROC Curve and AUC | Machine Learning.”</span> n.d. <a href="https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc">https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc</a>.
+</div>
+<div id="ref-ebrahimy2021" class="csl-entry" role="listitem">
+Ebrahimy, Hamid, Babak Mirbagheri, Ali Akbar Matkan, and Mohsen Azadbakht. 2021. <span>“Per-Pixel Land Cover Accuracy Prediction: A Random Forest-Based Method with Limited Reference Sample Data.”</span> <em>ISPRS Journal of Photogrammetry and Remote Sensing</em> 172 (February): 17–27. <a href="https://doi.org/10.1016/j.isprsjprs.2020.11.024">https://doi.org/10.1016/j.isprsjprs.2020.11.024</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

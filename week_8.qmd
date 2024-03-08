@@ -18,7 +18,29 @@ Sub-pixel analysis can help with this by separating pixels into sub-pixels to pr
 
 ### Accuracy Assessment
 
+We produce an accuracy assessment to determine how well the model performed in identifying different classes in unseen data.
+
+In remote sensing, the most common form of accuracy assessment is to consider the producer\'s accuracy, user\'s accuracy, and overall accuracy, which are all derived from a confusion matrix. All measurements and equations to derive them are shown in the matrix below.
+
+![From: [@ebrahimy2021]\]](accuracy_assessment_matrix.jpg)
+
+**Kappa Coefficient:** evaluates how well the classification model performed compared to just assigning random values. Ranges from -1 to 1. It's use in remote sensing is discouraged, if using probably best to use last and with the support of other accuracy measures.
+
+**F1:** Combines both user accuracy and producer accuracy. Ranges from 0 to 1 with 1 indicating better performance.
+
+**Area Under the Receiver Operating Characteristic Curve (the ROC Curve):**
+
+The curve plots the true positive and false positive rate. The AUC (area under the ROC curve) has a value between 0 and 1, with values closer to 1 having more accurate predictions.
+
+![From: [@classifi]](roc_area.png){fig-align="center"}
+
+**Cross Validation:** this trains the model on different subsets of the data. There are many different methods of cross validation.
+
 ### Spatial Cross Validation
+
+When data is spatial, spatial autocorrelation can become a potential issue and impact the model. If we randomly split spatial data it can lead to training points being neighbours with testing points, leading to the test and training datasets not being independent which can lead to overfitting.
+
+To avoid this, we can perform spatial cross validation which involves spatially partitioning the folded data.
 
 ## Applications
 
