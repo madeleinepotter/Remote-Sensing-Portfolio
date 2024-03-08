@@ -4,11 +4,19 @@ title: "Classification II"
 
 ## Summary
 
-### Object-Based Image Analysis 
+### Object-Based Image Analysis
+
+This involves pixels being grouped into objects based on similarity or difference of the cells. This group of pixels is also known as a **superpixel**, which can provide a condensed representation of images that can be useful for computationally demanding analysis.  
+
+Simple Linear Iterative Clustering (SLIC) Algorithm is the most common method to generate superpixels. The algorithm produces superpixels by clustering pixels based on spatial proximity and colour similarity.
 
 ### Sub-Pixel Analysis
 
-### Accuracy Assessment 
+When we have a pixel that has a range of land cover classes within it, the challenge becomes whether we should calculate the proportions of each land cover class within the pixel or just classify it as one specific land cover class.
+
+Sub-pixel analysis can help with this by separating pixels into sub-pixels to predict their landcover class labels by comparing the reflectance values of the sub-pixels to the values of a spectrally pure end member. By doing this, classification is conducted at a finer spatial resolution.
+
+### Accuracy Assessment
 
 ### Spatial Cross Validation
 
@@ -16,4 +24,4 @@ title: "Classification II"
 
 ## Reflection
 
-## References 
+## References

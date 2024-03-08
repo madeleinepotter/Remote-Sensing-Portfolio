@@ -258,5 +258,55 @@
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Google Earth Engine</span>"
     ]
+  },
+  {
+    "objectID": "week_8.html",
+    "href": "week_8.html",
+    "title": "8  Classification II",
+    "section": "",
+    "text": "8.1 Summary",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Classification II</span>"
+    ]
+  },
+  {
+    "objectID": "week_8.html#summary",
+    "href": "week_8.html#summary",
+    "title": "8  Classification II",
+    "section": "",
+    "text": "8.1.1 Object-Based Image Analysis\nThis involves pixels being grouped into objects based on similarity or difference of the cells. This group of pixels is also known as a superpixel, which can provide a condensed representation of images that can be useful for computationally demanding analysis.  \nSimple Linear Iterative Clustering (SLIC) Algorithm is the most common method to generate superpixels. The algorithm produces superpixels by clustering pixels based on spatial proximity and colour similarity.\n\n\n8.1.2 Sub-Pixel Analysis\nWhen we have a pixel that has a range of land cover classes within it, the challenge becomes whether we should calculate the proportions of each land cover class within the pixel or just classify it as one specific land cover class.\nSub-pixel analysis can help with this by separating pixels into sub-pixels to predict their landcover class labels by comparing the reflectance values of the sub-pixels to the values of a spectrally pure end member. By doing this, classification is conducted at a finer spatial resolution.\n\n\n8.1.3 Accuracy Assessment\n\n\n8.1.4 Spatial Cross Validation",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Classification II</span>"
+    ]
+  },
+  {
+    "objectID": "week_8.html#applications",
+    "href": "week_8.html#applications",
+    "title": "8  Classification II",
+    "section": "8.2 Applications",
+    "text": "8.2 Applications",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Classification II</span>"
+    ]
+  },
+  {
+    "objectID": "week_8.html#reflection",
+    "href": "week_8.html#reflection",
+    "title": "8  Classification II",
+    "section": "8.3 Reflection",
+    "text": "8.3 Reflection",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Classification II</span>"
+    ]
+  },
+  {
+    "objectID": "week_8.html#references",
+    "href": "week_8.html#references",
+    "title": "8  Classification II",
+    "section": "8.4 References",
+    "text": "8.4 References",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Classification II</span>"
+    ]
   }
 ]
