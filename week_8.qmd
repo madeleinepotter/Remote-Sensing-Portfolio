@@ -4,7 +4,7 @@ title: "Classification II"
 
 ## Summary
 
-### Object-Based Image Analysis
+### Object-Based Image Analysis (OBIA)
 
 This involves pixels being grouped into objects based on similarity or difference of the cells. This group of pixels is also known as a **superpixel**, which can provide a condensed representation of images that can be useful for computationally demanding analysis.  
 
@@ -43,6 +43,12 @@ When data is spatial, spatial autocorrelation can become a potential issue and i
 To avoid this, we can perform spatial cross validation which involves spatially partitioning the folded data.
 
 ## Applications
+
+In this section I will focus on the applications of OBIA and sub-pixel analysis.
+
+OBIA has been used extensively in land cover analysis, and is one of the most common methods for detecting informal settlements. This is because splitting up pixels into groups provides additional spectral, geometric and textural information [@kuffer2016] that are useful to detect specific structures that have unique characteristics in informal settlements, such as roofs of dwellings [@mudau2023] .
+
+@fallatah2019 used OBIA to detect informal settlements in Jeddah, Saudi Arabia using Geoimage which offers high-resolution images. The study only looked at 3 smaller study areas within the city and started first by classifying objects into vegetation extent, housing structures, road networks, roofing materials, texture of built up areas and dwelling size before being able to identify and differentiate between formal and informal settlements.
 
 ## Reflection
 
