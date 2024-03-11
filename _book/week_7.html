@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Classification I</title>
+<title>Remote Sensing Portfolio - 7&nbsp; Classification I</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,32 +20,201 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="week_7_files/libs/clipboard/clipboard.min.js"></script>
-<script src="week_7_files/libs/quarto-html/quarto.js"></script>
-<script src="week_7_files/libs/quarto-html/popper.min.js"></script>
-<script src="week_7_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="week_7_files/libs/quarto-html/anchor.min.js"></script>
-<link href="week_7_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="week_7_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="week_7_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="week_7_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="week_7_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./week_8.html" rel="next">
+<link href="./week_6.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
 
 
 </head>
 
-<body class="fullcontent">
+<body class="nav-sidebar floating">
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week_7.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification I</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Remote Sensing Portfolio</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week 1: Introduction to Remote Sensing</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2: Xaringan Presentation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week_1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 3: Corrections</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week_2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week 4: Policy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./corrections_w3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week 5: Working on Group Presentations</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week_6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Google Earth Engine</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week_7.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification I</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week_8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Classification II</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">7.1</span> Summary</a>
+  <ul class="collapse">
+  <li><a href="#classification" id="toc-classification" class="nav-link" data-scroll-target="#classification"><span class="header-section-number">7.1.1</span> Classification</a></li>
+  <li><a href="#cart-classification-and-regression-trees" id="toc-cart-classification-and-regression-trees" class="nav-link" data-scroll-target="#cart-classification-and-regression-trees"><span class="header-section-number">7.1.2</span> CART: Classification and Regression Trees</a></li>
+  <li><a href="#random-forest" id="toc-random-forest" class="nav-link" data-scroll-target="#random-forest"><span class="header-section-number">7.1.3</span> Random Forest</a></li>
+  <li><a href="#image-classification" id="toc-image-classification" class="nav-link" data-scroll-target="#image-classification"><span class="header-section-number">7.1.4</span> Image Classification</a></li>
+  </ul></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">7.2</span> Applications</a></li>
+  <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections"><span class="header-section-number">7.3</span> Reflections</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">7.4</span> References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Classification I</h1>
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification I</span></h1>
 </div>
 
 
@@ -62,19 +231,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<section id="classification" class="level3">
-<h3 class="anchored" data-anchor-id="classification">Classification</h3>
+<section id="summary" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">7.1</span> Summary</h2>
+<section id="classification" class="level3" data-number="7.1.1">
+<h3 data-number="7.1.1" class="anchored" data-anchor-id="classification"><span class="header-section-number">7.1.1</span> Classification</h3>
 <p>In remote sensing, classification is a commonly used technique which is the process of categorising pixels or objects of an image to .</p>
 </section>
-<section id="cart-classification-and-regression-trees" class="level3">
-<h3 class="anchored" data-anchor-id="cart-classification-and-regression-trees">CART: Classification and Regression Trees</h3>
+<section id="cart-classification-and-regression-trees" class="level3" data-number="7.1.2">
+<h3 data-number="7.1.2" class="anchored" data-anchor-id="cart-classification-and-regression-trees"><span class="header-section-number">7.1.2</span> CART: Classification and Regression Trees</h3>
 <p>This consists of a flow diagram or a ‘tree’ of decisions based on the explanatory variables of a dataset. The structure of the decision tree consists of a root node, decision nodes and leaf nodes as can be seen below:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="decision_tree.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="550"></p>
-<figcaption>From: <span class="citation" data-cites="randomf">[@randomf]</span></figcaption>
+<figcaption>From: <span class="citation" data-cites="randomf">(<a href="references.html#ref-randomf" role="doc-biblioref"><span>“Random Forest,”</span> n.d.</a>)</span></figcaption>
 </figure>
 </div>
 <p><strong>CART Types:</strong></p>
@@ -89,7 +258,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="overfitting.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="507"></p>
-<figcaption>From: <span class="citation" data-cites="jim2022">[@jim2022]</span></figcaption>
+<figcaption>From: <span class="citation" data-cites="jim2022">(<a href="references.html#ref-jim2022" role="doc-biblioref">Jim 2022</a>)</span></figcaption>
 </figure>
 </div>
 <p><strong>For remotely sensed data, this can be addressed by:</strong></p>
@@ -98,12 +267,12 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Weakest link pruning.</p></li>
 </ul>
 </section>
-<section id="random-forest" class="level3">
-<h3 class="anchored" data-anchor-id="random-forest">Random Forest</h3>
+<section id="random-forest" class="level3" data-number="7.1.3">
+<h3 data-number="7.1.3" class="anchored" data-anchor-id="random-forest"><span class="header-section-number">7.1.3</span> Random Forest</h3>
 <p>A Random Forest is a collection of several CARTs. It can be applied to both classification and regression problems. Each CART in the Random Forest would see different training data from the same dataset.</p>
 </section>
-<section id="image-classification" class="level3">
-<h3 class="anchored" data-anchor-id="image-classification">Image Classification</h3>
+<section id="image-classification" class="level3" data-number="7.1.4">
+<h3 data-number="7.1.4" class="anchored" data-anchor-id="image-classification"><span class="header-section-number">7.1.4</span> Image Classification</h3>
 <p>The process of categorising every pixel in an image into a pre-defined classification.</p>
 <p>This is either a supervised or unsupervised procedure:</p>
 <p><strong>Supervised:</strong></p>
@@ -116,8 +285,8 @@ ul.task-list li input[type="checkbox"] {
 <p>This is a machine learning model that uses classifier algorithms for binary classification problems. It conducts optimal data transformations to establish boundaries between data points based on predefined classes, outputs or labels.</p>
 </section>
 </section>
-<section id="applications" class="level2">
-<h2 class="anchored" data-anchor-id="applications">Applications</h2>
+<section id="applications" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">7.2</span> Applications</h2>
 <p>There are plenty of ways to use classification:</p>
 <ul>
 <li><p>Mapping different types of green spaces.</p></li>
@@ -125,28 +294,49 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Detecting burned areas in forest fires.</p></li>
 <li><p>Detecting flood prone areas.</p></li>
 </ul>
-<p>I found a specific example that used the Random Forest classifier to detect building damage in Labuan, Indonesia which was caused by the Anak Krakatau volcano tsunami in 2018 <span class="citation" data-cites="virtriana2023">[@virtriana2023]</span>. Data used to assess images before and after the tsunami came from Sentinel-2A and Worldview-2. Worldview-2 provided high spatial resolution data (50cm) which allowed for smaller changes to be detected more effectively than Sentinel-2A. xBDand Copernicus data were also used to interpret and compare the accuracy of building damage.</p>
+<p>I found a specific example that used the Random Forest classifier to detect building damage in Labuan, Indonesia which was caused by the Anak Krakatau volcano tsunami in 2018 <span class="citation" data-cites="virtriana2023">(<a href="references.html#ref-virtriana2023" role="doc-biblioref">Virtriana et al. 2023</a>)</span>. Data used to assess images before and after the tsunami came from Sentinel-2A and Worldview-2. Worldview-2 provided high spatial resolution data (50cm) which allowed for smaller changes to be detected more effectively than Sentinel-2A. xBDand Copernicus data were also used to interpret and compare the accuracy of building damage.</p>
 <p>The random forest classifier was specifically used to detect and classify post-tsunami damage to buildings and was chosen due to it’s accuracy with object detection.</p>
 <p>This study also completed a field survey two years and nine months after the tsunami to observe building changes and recovery efforts. This field survey is what made this study stand out to me. I think completing field surveys after damage assessments is effective as it can track progress and accountability if progress is slow and significantly impacting residents.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="krakatau.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-<figcaption>Anak Krakatau collapse that caused the tsunami. Before and After. From: <span class="citation" data-cites="anakkra2019">[@anakkra2019]</span>].</figcaption>
+<figcaption>Anak Krakatau collapse that caused the tsunami. Before and After. From: <span class="citation" data-cites="anakkra2019">(<a href="references.html#ref-anakkra2019" role="doc-biblioref"><span>“Anak Krakatau Volcano: Satellites Get Clear View of Collapse”</span> 2019</a>)</span>].</figcaption>
 </figure>
 </div>
-<p>I also found two studies<span class="citation" data-cites="qian2015 shao2012">[@qian2015; @shao2012]</span> that compared classification techniques, specifically SVM and CART algorithms for land-cover classification. In both, SVM performed better than the CART, having a higher overall accuracy in land cover classification. However, there are still disadvantages to SVM such as it is not suitable for large datasets and that it does not perform well if the data has a lot of noise. So we should still carefully consider which classifier would be a better fit depending on the project.</p>
+<p>I also found two studies<span class="citation" data-cites="qian2015 shao2012">(<a href="references.html#ref-qian2015" role="doc-biblioref">Qian et al. 2015</a>; <a href="references.html#ref-shao2012" role="doc-biblioref">Shao and Lunetta 2012</a>)</span> that compared classification techniques, specifically SVM and CART algorithms for land-cover classification. In both, SVM performed better than the CART, having a higher overall accuracy in land cover classification. However, there are still disadvantages to SVM such as it is not suitable for large datasets and that it does not perform well if the data has a lot of noise. So we should still carefully consider which classifier would be a better fit depending on the project.</p>
 </section>
-<section id="reflections" class="level2">
-<h2 class="anchored" data-anchor-id="reflections">Reflections</h2>
+<section id="reflections" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">7.3</span> Reflections</h2>
 <p>I have come across CART and Random Forest classifiers in another module, so it was nice to reinforce that learning and to see how these techniques can be applied to remotely sensed data. It’s easy to see the number of city-wide projects and policy issues these image classification techniques can help to tackle, but it’s also easy to forget that the products created will never be 100% accurate. I can see how the uncertainties that arise from these algorithms might be easily misunderstood by stakeholders and so it’s important for us as researchers to understand the processes behind the algorithms and be able to explain this if needed.</p>
 <p>On a similar note, over the past few weeks I’ve constantly been thinking about the research possibilities that remote sensing brings to the table however, when reviewing image classification I started to think about potential ethical and legal issues, particularly surrounding privacy. I can imagine this being a particular issue with high-resolution remotely sensed data, especially when used by governments or industries. The absence of international rules and recommendations adds a layer of complexity to this as of course remotely sensed data often covers all of the earth’s surface, while regarding data privacy is often on the national level. It’s definitely something to keep in mind in this field of study.</p>
 </section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
+<section id="references" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="references"><span class="header-section-number">7.4</span> References</h2>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-anakkra2019" class="csl-entry" role="listitem">
+<span>“Anak Krakatau Volcano: Satellites Get Clear View of Collapse.”</span> 2019. <em>BBC News</em>, January. <a href="https://www.bbc.com/news/science-environment-46743362">https://www.bbc.com/news/science-environment-46743362</a>.
+</div>
+<div id="ref-jim2022" class="csl-entry" role="listitem">
+Jim. 2022. <span>“How to Avoid Overfitting? | r-Bloggers.”</span> <a href="https://www.r-bloggers.com/2022/09/how-to-avoid-overfitting/">https://www.r-bloggers.com/2022/09/how-to-avoid-overfitting/</a>.
+</div>
+<div id="ref-qian2015" class="csl-entry" role="listitem">
+Qian, Yuguo, Weiqi Zhou, Jingli Yan, Weifeng Li, and Lijian Han. 2015. <span>“Comparing Machine Learning Classifiers for Object-Based Land Cover Classification Using Very High Resolution Imagery.”</span> <em>Remote Sensing</em> 7 (1): 153–68. <a href="https://doi.org/10.3390/rs70100153">https://doi.org/10.3390/rs70100153</a>.
+</div>
+<div id="ref-randomf" class="csl-entry" role="listitem">
+<span>“Random Forest.”</span> n.d. <a href="https://blogs.fu-berlin.de/reseda/random-forest/">https://blogs.fu-berlin.de/reseda/random-forest/</a>.
+</div>
+<div id="ref-shao2012" class="csl-entry" role="listitem">
+Shao, Yang, and Ross S. Lunetta. 2012. <span>“Comparison of Support Vector Machine, Neural Network, and CART Algorithms for the Land-Cover Classification Using Limited Training Data Points.”</span> <em>ISPRS Journal of Photogrammetry and Remote Sensing</em> 70 (June): 78–87. <a href="https://doi.org/10.1016/j.isprsjprs.2012.04.001">https://doi.org/10.1016/j.isprsjprs.2012.04.001</a>.
+</div>
+<div id="ref-virtriana2023" class="csl-entry" role="listitem">
+Virtriana, Riantini, Agung Budi Harto, Fiza Wira Atmaja, Irwan Meilano, Kamal Nur Fauzan, Tania Septi Anggraini, Kalingga Titon Nur Ihsan, Fatwa Cahya Mustika, and Wulan Suminar. 2023. <span>“Machine Learning Remote Sensing Using the Random Forest Classifier to Detect the Building Damage Caused by the Anak Krakatau Volcano Tsunami.”</span> <em>Geomatics, Natural Hazards and Risk</em> 14 (1): 28–51. <a href="https://doi.org/10.1080/19475705.2022.2147455">https://doi.org/10.1080/19475705.2022.2147455</a>.
+</div>
+</div>
 </section>
 
-</main>
-<!-- /main column -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -534,6 +724,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./week_6.html" class="pagination-link  aria-label=" &lt;span="" earth="" engine&lt;="" span&gt;"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Google Earth Engine</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./week_8.html" class="pagination-link" aria-label="<span class='chapter-number'>8</span>&nbsp; <span class='chapter-title'>Classification II</span>">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Classification II</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

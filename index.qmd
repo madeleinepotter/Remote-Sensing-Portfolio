@@ -1,4 +1,4 @@
-# About  {.unnumbered}
+# About {.unnumbered}
 
 Hi I'm Madeleine. I am currently a postgraduate in Urban Spatial Science at the Centre for Advanced Spatial Analysis at UCL. I've come here straight from my undergraduate degree, which I did at King's College London in Geography and Spatial Data Science (BSc).
 

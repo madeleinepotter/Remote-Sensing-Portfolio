@@ -294,7 +294,7 @@
     "href": "week_8.html#reflection",
     "title": "8  Classification II",
     "section": "8.3 Reflection",
-    "text": "8.3 Reflection",
+    "text": "8.3 Reflection\nI found sub-pixel analysis really interesting as I already thought doing analysis on a pixel level was already pretty small! I think being able to distinguish between things that are smaller than a pixel will help to identify materials and surfaces that are often mixed in with others at that resolution, which will overall improve the accuracy of analysis. This being said, I can see how the accuracy of sub-pixel analysis would rely heavily on the quality of the input data, which is something that should be taken into consideration.\nAs I want to detect informal settlements as part of my dissertation, going over object based analysis was really useful and has helped me further understand the workflow behind such a methodology. Going over accuracy assessments for classification algorithms has also helped my thinking towards my dissertation as I will make sure to carefully consider the different assessments and their components. I also think it’s useful in general to understand, because as I mentioned in last weeks reflection, the classification product will never be 100% accurate and so we should not take it at face value.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Classification II</span>"
     ]
@@ -307,6 +307,56 @@
     "text": "8.4 References\n\n\n\n\n“Classification: ROC Curve and AUC | Machine Learning.” n.d. https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc.\n\n\nDU, Peijun, Sicong LIU, Pei LIU, Kun TAN, and Liang CHENG. 2014. “Sub-Pixel Change Detection for Urban Land-Cover Analysis via Multi-Temporal Remote Sensing Images.” Geo-Spatial Information Science 17 (1): 26–38. https://doi.org/10.1080/10095020.2014.889268.\n\n\nEbrahimy, Hamid, Babak Mirbagheri, Ali Akbar Matkan, and Mohsen Azadbakht. 2021. “Per-Pixel Land Cover Accuracy Prediction: A Random Forest-Based Method with Limited Reference Sample Data.” ISPRS Journal of Photogrammetry and Remote Sensing 172 (February): 17–27. https://doi.org/10.1016/j.isprsjprs.2020.11.024.\n\n\nFallatah, Ahmad, Simon Jones, David Mitchell, and Divyani Kohli. 2019. “Mapping Informal Settlement Indicators Using Object-Oriented Analysis in the Middle East.” International Journal of Digital Earth 12 (7): 802–24. https://doi.org/10.1080/17538947.2018.1485753.\n\n\nHossain, Mohammad D., and Dongmei Chen. 2019. “Segmentation for Object-Based Image Analysis (OBIA): A Review of Algorithms and Challenges from Remote Sensing Perspective.” ISPRS Journal of Photogrammetry and Remote Sensing 150 (April): 115–34. https://doi.org/10.1016/j.isprsjprs.2019.02.009.\n\n\nKuffer, Monika, Karin Pfeffer, Richard Sliuzas, and Isa Baud. 2016. “Extraction of Slum Areas from VHR Imagery Using GLCM Variance.” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing 9 (5): 1830–40. https://doi.org/10.1109/JSTARS.2016.2538563.\n\n\nMudau, Naledzani, and Paidamwoyo Mhangara. 2023. “Mapping and Assessment of Housing Informality Using Object-Based Image Analysis: A Review.” Urban Science 7 (3): 98. https://doi.org/10.3390/urbansci7030098.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Classification II</span>"
+    ]
+  },
+  {
+    "objectID": "week_7.html",
+    "href": "week_7.html",
+    "title": "7  Classification I",
+    "section": "",
+    "text": "7.1 Summary",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Classification I</span>"
+    ]
+  },
+  {
+    "objectID": "week_7.html#summary",
+    "href": "week_7.html#summary",
+    "title": "7  Classification I",
+    "section": "",
+    "text": "7.1.1 Classification\nIn remote sensing, classification is a commonly used technique which is the process of categorising pixels or objects of an image to .\n\n\n7.1.2 CART: Classification and Regression Trees\nThis consists of a flow diagram or a ‘tree’ of decisions based on the explanatory variables of a dataset. The structure of the decision tree consists of a root node, decision nodes and leaf nodes as can be seen below:\n\n\n\nFrom: (“Random Forest,” n.d.)\n\n\nCART Types:\n\nClassification trees - when data output is categorical.\nRegression trees - when data output is continuous.\n\nWhat do we start the tree with?\nGini Impurity: measures the impurity of a group containing different classes. The smaller the Gini Impurity value, the purer the group. The lowest impurity value is what we start the tree with.\nOverfitting\nOverfitting happens when you produce a good model on the training data that does not perform (therefore generalise) well on unseen data.\n\n\n\nFrom: (Jim 2022)\n\n\nFor remotely sensed data, this can be addressed by:\n\nLimiting the minimum number of pixels in a leaf.\nWeakest link pruning.\n\n\n\n7.1.3 Random Forest\nA Random Forest is a collection of several CARTs. It can be applied to both classification and regression problems. Each CART in the Random Forest would see different training data from the same dataset.\n\n\n7.1.4 Image Classification\nThe process of categorising every pixel in an image into a pre-defined classification.\nThis is either a supervised or unsupervised procedure:\nSupervised:\nRelies on information to provide a training samples for different the different classes we are interested in. From these training samples, the classifier learns patterns in the data that it uses to then place labels on new and unseen data.\nUnsupervised:\nDoes not require any previous information or training samples. Identifies classes by clustering pixels based on spectral values or other similarities.\nMaximum Likelihood\nThis is a method that determines values for the parameters of the model. In remote sensing, this method assumes the statistics for each class in each band are normally distributed and then determines the probability that a pixel belongs to a specific class. A probability threshold can also be set which means if a pixel is below it, it will have no classification. Otherwise, if not set, every pixel will be assigned a class.\nSupport Vector Machine (SVM)\nThis is a machine learning model that uses classifier algorithms for binary classification problems. It conducts optimal data transformations to establish boundaries between data points based on predefined classes, outputs or labels.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Classification I</span>"
+    ]
+  },
+  {
+    "objectID": "week_7.html#applications",
+    "href": "week_7.html#applications",
+    "title": "7  Classification I",
+    "section": "7.2 Applications",
+    "text": "7.2 Applications\nThere are plenty of ways to use classification:\n\nMapping different types of green spaces.\nUrban land cover mapping.\nDetecting burned areas in forest fires.\nDetecting flood prone areas.\n\nI found a specific example that used the Random Forest classifier to detect building damage in Labuan, Indonesia which was caused by the Anak Krakatau volcano tsunami in 2018 (Virtriana et al. 2023). Data used to assess images before and after the tsunami came from Sentinel-2A and Worldview-2. Worldview-2 provided high spatial resolution data (50cm) which allowed for smaller changes to be detected more effectively than Sentinel-2A. xBDand Copernicus data were also used to interpret and compare the accuracy of building damage.\nThe random forest classifier was specifically used to detect and classify post-tsunami damage to buildings and was chosen due to it’s accuracy with object detection.\nThis study also completed a field survey two years and nine months after the tsunami to observe building changes and recovery efforts. This field survey is what made this study stand out to me. I think completing field surveys after damage assessments is effective as it can track progress and accountability if progress is slow and significantly impacting residents.\n\n\n\nAnak Krakatau collapse that caused the tsunami. Before and After. From: (“Anak Krakatau Volcano: Satellites Get Clear View of Collapse” 2019)].\n\n\nI also found two studies(Qian et al. 2015; Shao and Lunetta 2012) that compared classification techniques, specifically SVM and CART algorithms for land-cover classification. In both, SVM performed better than the CART, having a higher overall accuracy in land cover classification. However, there are still disadvantages to SVM such as it is not suitable for large datasets and that it does not perform well if the data has a lot of noise. So we should still carefully consider which classifier would be a better fit depending on the project.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Classification I</span>"
+    ]
+  },
+  {
+    "objectID": "week_7.html#reflections",
+    "href": "week_7.html#reflections",
+    "title": "7  Classification I",
+    "section": "7.3 Reflections",
+    "text": "7.3 Reflections\nI have come across CART and Random Forest classifiers in another module, so it was nice to reinforce that learning and to see how these techniques can be applied to remotely sensed data. It’s easy to see the number of city-wide projects and policy issues these image classification techniques can help to tackle, but it’s also easy to forget that the products created will never be 100% accurate. I can see how the uncertainties that arise from these algorithms might be easily misunderstood by stakeholders and so it’s important for us as researchers to understand the processes behind the algorithms and be able to explain this if needed.\nOn a similar note, over the past few weeks I’ve constantly been thinking about the research possibilities that remote sensing brings to the table however, when reviewing image classification I started to think about potential ethical and legal issues, particularly surrounding privacy. I can imagine this being a particular issue with high-resolution remotely sensed data, especially when used by governments or industries. The absence of international rules and recommendations adds a layer of complexity to this as of course remotely sensed data often covers all of the earth’s surface, while regarding data privacy is often on the national level. It’s definitely something to keep in mind in this field of study.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Classification I</span>"
+    ]
+  },
+  {
+    "objectID": "week_7.html#references",
+    "href": "week_7.html#references",
+    "title": "7  Classification I",
+    "section": "7.4 References",
+    "text": "7.4 References\n\n\n\n\n“Anak Krakatau Volcano: Satellites Get Clear View of Collapse.” 2019. BBC News, January. https://www.bbc.com/news/science-environment-46743362.\n\n\nJim. 2022. “How to Avoid Overfitting? | r-Bloggers.” https://www.r-bloggers.com/2022/09/how-to-avoid-overfitting/.\n\n\nQian, Yuguo, Weiqi Zhou, Jingli Yan, Weifeng Li, and Lijian Han. 2015. “Comparing Machine Learning Classifiers for Object-Based Land Cover Classification Using Very High Resolution Imagery.” Remote Sensing 7 (1): 153–68. https://doi.org/10.3390/rs70100153.\n\n\n“Random Forest.” n.d. https://blogs.fu-berlin.de/reseda/random-forest/.\n\n\nShao, Yang, and Ross S. Lunetta. 2012. “Comparison of Support Vector Machine, Neural Network, and CART Algorithms for the Land-Cover Classification Using Limited Training Data Points.” ISPRS Journal of Photogrammetry and Remote Sensing 70 (June): 78–87. https://doi.org/10.1016/j.isprsjprs.2012.04.001.\n\n\nVirtriana, Riantini, Agung Budi Harto, Fiza Wira Atmaja, Irwan Meilano, Kamal Nur Fauzan, Tania Septi Anggraini, Kalingga Titon Nur Ihsan, Fatwa Cahya Mustika, and Wulan Suminar. 2023. “Machine Learning Remote Sensing Using the Random Forest Classifier to Detect the Building Damage Caused by the Anak Krakatau Volcano Tsunami.” Geomatics, Natural Hazards and Risk 14 (1): 28–51. https://doi.org/10.1080/19475705.2022.2147455.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Classification I</span>"
     ]
   }
 ]

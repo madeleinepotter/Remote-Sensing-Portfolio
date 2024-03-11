@@ -46,7 +46,7 @@ To avoid this, we can perform spatial cross validation which involves spatially 
 
 In this section I will focus on the applications of OBIA and sub-pixel analysis.
 
-### **OBIA** 
+### **OBIA**
 
 OBIA has been used extensively in land cover analysis, and is one of the most common methods for detecting informal settlements. This is because splitting up pixels into groups provides additional spectral, geometric and textural information [@kuffer2016] that are useful to detect specific structures that have unique characteristics in informal settlements, such as roofs of dwellings [@mudau2023] .
 
@@ -57,5 +57,9 @@ OBIA has been used extensively in land cover analysis, and is one of the most co
 For sub-pixel analysis, I found that it has been used to detect changes in urban land-cover. Generally, change detection analysis is done on a per-pixel basis, however doing a sub-pixel analysis allows for the capture of changes that may be happening at a finer spatial resolution. One study used Landsat Thematic Mapper data and looked at the effectiveness of this method to detect land cover changes in the cities of Shangai and Xuzhou in China and found that the results were consistent with ground truth data [@du2014].
 
 ## Reflection
+
+I found sub-pixel analysis really interesting as I already thought doing analysis on a pixel level was already pretty small! I think being able to distinguish between things that are smaller than a pixel will help to identify materials and surfaces that are often mixed in with others at that resolution, which will overall improve the accuracy of analysis. This being said, I can see how the accuracy of sub-pixel analysis would rely heavily on the quality of the input data, which is something that should be taken into consideration.
+
+As I want to detect informal settlements as part of my dissertation, going over object based analysis was really useful and has helped me further understand the workflow behind such a methodology. Going over accuracy assessments for classification algorithms has also helped my thinking towards my dissertation as I will make sure to carefully consider the different assessments and their components. I also think it's useful in general to understand, because as I mentioned in last weeks reflection, the classification product will never be 100% accurate and so we should not take it at face value.
 
 ## References
