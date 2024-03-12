@@ -1,0 +1,39 @@
+---
+title: "Synthetic Aperture Radar (SAR)"
+---
+
+## Summary
+
+This week we had a more in-depth look into Synthetic Aperture Radar (SAR).
+
+### Key Words:
+
+Backscatter:
+
+Amplitude:
+
+Phase:
+
+Polarization:
+
+### SAR
+
+The way SAR works is the sensor emits an electromagnetic (microwaves) signal towards the earth's surface and it collects data by recording the amount of signal that is bounced back and the time delay. SAR is an active sensor and it's main advantage is that it can 'see through' clouds, which optical sensors cannot do. It can do this because the wavelength is longer than cloud particles so the signal travelling through is largely unaffected by refraction.
+
+SAR can collect data at different polarizations and as different surfaces respond differently to each polarization it is a useful way to draw out different land cover features.
+
+-   Rough Scattering is most sensitive to vertical vertical (VV)
+
+-   Volume Scattering is most sensitive to to cross polarized data such as vertical horizontal (VH) or horizontal vertical (HV)
+
+-   Double Bounce is most sensitive to horizontal horizontal (HH)
+
+    ![From: \[\@delgadoblascoEffectsDoubleBounce2020\]](polarisation.png){width="608"}
+
+### Identifying Change
+
+## Applications
+
+## Reflections
+
+## References
