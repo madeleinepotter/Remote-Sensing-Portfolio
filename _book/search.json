@@ -358,5 +358,55 @@
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Classification I</span>"
     ]
+  },
+  {
+    "objectID": "week_9.html",
+    "href": "week_9.html",
+    "title": "9  Synthetic Aperture Radar (SAR)",
+    "section": "",
+    "text": "9.1 Summary\nThis week we had a more in-depth look into Synthetic Aperture Radar (SAR).",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>"
+    ]
+  },
+  {
+    "objectID": "week_9.html#summary",
+    "href": "week_9.html#summary",
+    "title": "9  Synthetic Aperture Radar (SAR)",
+    "section": "",
+    "text": "9.1.1 Key Words:\nBackscatter: the proportion of outgoing radar signal that the target surface redirects back to the sensor.\nAmplitude: the amount of radar signal that returns to the sensor (backscatter).\nPhase: the alignment of the wavelength when it returns to the sensor.\nPolarization: the orientation of the plane in which electromagnetic waves are transmitted.\n\n\n9.1.2 SAR\nThe way SAR works is the sensor emits an electromagnetic (microwaves) signal towards the earth’s surface and it collects data by recording the amount of signal that is bounced back and the time delay. SAR is an active sensor and it’s main advantage is that it can ‘see through’ clouds, which optical sensors cannot do. It can do this because the wavelength is longer than cloud particles so the signal travelling through is largely unaffected by refraction.\nSAR can collect data at different polarizations and as different surfaces respond differently to each polarization it is a useful way to draw out different land cover features.\n\nRough Scattering is most sensitive to vertical vertical (VV)\nVolume Scattering is most sensitive to to cross polarized data such as vertical horizontal (VH) or horizontal vertical (HV)\nDouble Bounce is most sensitive to horizontal horizontal (HH)\n\n\n\nFrom: [@delgadoblascoEffectsDoubleBounce2020]\n\n\n\n\n\n9.1.3 Identifying Change\nRemotely sensed data can be used to detect changes in the earth’s surface over time. We can do this with SAR data.\nIt is possible to subtract images to identify differences in pixel values, however this is not best practice for SAR data and is usually done with optical data.\nInstead, to detect changes with SAR data, the following can be calculated:\n\nRatio Images (the original, just involves dividing images)\nImproved Ratio\nMean ratio images\nLog Ratio Images\nImproved Log Ratio Images\n\nTo determine which is best we can look at an ROC curve.\nIf we want to look at identifying changes through image collections we can look at specific published methodologies, fuse imagery to optical data and classify it or use statistical tests such as a t-test.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>"
+    ]
+  },
+  {
+    "objectID": "week_9.html#applications",
+    "href": "week_9.html#applications",
+    "title": "9  Synthetic Aperture Radar (SAR)",
+    "section": "9.2 Applications",
+    "text": "9.2 Applications\nSAR data has many uses, the table below shows the most popular uses of SAR imagery.\n\nFrom: (Tsokas et al. 2022)\n\n\n\n\n\n\nCategory\nApplication\n\n\n\n\nMapping and Land Classification\nLand cover classification, shellfish and oil spills, sea ice, glaciers and forest monitoring\n\n\nParameter Retrieval\nWind and wave retrieval, soil moisture, ocean topography\n\n\nObject Detection\nObject detection and recognition, navigation",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>"
+    ]
+  },
+  {
+    "objectID": "week_9.html#reflections",
+    "href": "week_9.html#reflections",
+    "title": "9  Synthetic Aperture Radar (SAR)",
+    "section": "9.3 Reflections",
+    "text": "9.3 Reflections",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>"
+    ]
+  },
+  {
+    "objectID": "week_9.html#references",
+    "href": "week_9.html#references",
+    "title": "9  Synthetic Aperture Radar (SAR)",
+    "section": "9.4 References",
+    "text": "9.4 References\n\n\n\n\nTsokas, Arsenios, Maciej Rysz, Panos M. Pardalos, and Kathleen Dipple. 2022. “SAR Data Applications in Earth Observation: An Overview.” Expert Systems with Applications 205 (November): 117342. https://doi.org/10.1016/j.eswa.2022.117342.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>"
+    ]
   }
 ]

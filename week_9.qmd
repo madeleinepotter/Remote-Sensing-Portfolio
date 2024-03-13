@@ -8,13 +8,13 @@ This week we had a more in-depth look into Synthetic Aperture Radar (SAR).
 
 ### Key Words:
 
-Backscatter:
+**Backscatter:** the proportion of outgoing radar signal that the target surface redirects back to the sensor.
 
-Amplitude:
+**Amplitude:** the amount of radar signal that returns to the sensor (backscatter).
 
-Phase:
+**Phase:** the alignment of the wavelength when it returns to the sensor.
 
-Polarization:
+**Polarization:** the orientation of the plane in which electromagnetic waves are transmitted.
 
 ### SAR
 
@@ -32,7 +32,37 @@ SAR can collect data at different polarizations and as different surfaces respon
 
 ### Identifying Change
 
+Remotely sensed data can be used to detect changes in the earth's surface over time. We can do this with SAR data.
+
+It is possible to subtract images to identify differences in pixel values, however this is not best practice for SAR data and is usually done with optical data.
+
+Instead, to detect changes with SAR data, the following can be calculated:
+
+-   Ratio Images (the original, just involves dividing images)
+
+-   Improved Ratio
+
+-   Mean ratio images
+
+-   Log Ratio Images
+
+-   Improved Log Ratio Images
+
+To determine which is best we can look at an ROC curve.
+
+If we want to look at identifying changes through image collections we can look at specific published methodologies, fuse imagery to optical data and classify it or use statistical tests such as a t-test.
+
 ## Applications
+
+SAR data has many uses, the table below shows the most popular uses of SAR imagery.
+
+| Category                        | Application                                                                                  |
+|------------------------------|------------------------------------------|
+| Mapping and Land Classification | Land cover classification, shellfish and oil spills, sea ice, glaciers and forest monitoring |
+| Parameter Retrieval             | Wind and wave retrieval, soil moisture, ocean topography                                     |
+| Object Detection                | Object detection and recognition, navigation                                                 |
+
+: From: [@tsokas2022]
 
 ## Reflections
 
