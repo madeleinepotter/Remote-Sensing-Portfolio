@@ -56,13 +56,19 @@ If we want to look at identifying changes through image collections we can look 
 
 SAR data has many uses, the table below shows the most popular uses of SAR imagery.
 
-| Category                        | Application                                                                                  |
+| Category                        | Application                                                                    |
 |------------------------------|------------------------------------------|
-| Mapping and Land Classification | Land cover classification, shellfish and oil spills, sea ice, glaciers and forest monitoring |
-| Parameter Retrieval             | Wind and wave retrieval, soil moisture, ocean topography                                     |
-| Object Detection                | Object detection and recognition, navigation                                                 |
+| Mapping and Land Classification | Land cover classification, oil spills, sea ice, glaciers and forest monitoring |
+| Parameter Retrieval             | Wind and wave retrieval, soil moisture, ocean topography                       |
+| Object Detection                | Object detection and recognition, navigation                                   |
 
-: From: [@tsokas2022]
+: From: @tsokas2022
+
+Looking at one of the applications, mapping oil spills, I found a study that used C-band Sentinel- 1A data to detect oil spills in Chennai, on the East Coast of India [@dasari2022]. The study used SAR data as it is less expensive than vessel-based and airborne-based detection methods and because of it's cloud penetrating ability that means it is weather independent. The oil spills were only visible in the VV channel, which was converted from linear to dB value to enhance the contrast oil spill in the image. As mentioned in the lectures, dB scale works best for identifying changes and differences in dark pixels such as water, which I think is demonstrated nicely in this study. A support vector machine and neural networks were used to classify the oil spill, which both had an overall accuracy of around 98% which is very high.
+
+Upon further research, SAR data seems to suit oil spill analysis because the patches of oil show as dark spots in the water and the boundary between these patches and the surrounding water is quite visible in SAR images. This is because the oil film can reduce Bragg waves on the ocean surface [@chen2022]. Bragg waves occur when waves (such as radar from the sensor) encounter a periodic structure which means that wavelengths are amplified or weakened depending on their alignment with the periodic structure.
+
+comparison of machine learning methods applied to SAR imags for forest classification in Mediterranean Areas
 
 ## Reflections
 
