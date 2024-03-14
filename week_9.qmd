@@ -67,7 +67,7 @@ If we want to look at identifying changes through image collections we can look 
 SAR data has many uses, the table below shows the most popular uses of SAR imagery.
 
 | Category                        | Application                                                                    |
-|-----------------------|-------------------------------------------------|
+|------------------------|------------------------------------------------|
 | Mapping and Land Classification | Land cover classification, oil spills, sea ice, glaciers and forest monitoring |
 | Parameter Retrieval             | Wind and wave retrieval, soil moisture, ocean topography                       |
 | Object Detection                | Object detection and recognition, navigation                                   |

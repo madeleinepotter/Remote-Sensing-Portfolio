@@ -362,51 +362,51 @@
   {
     "objectID": "week_9.html",
     "href": "week_9.html",
-    "title": "9  Synthetic Aperture Radar (SAR)",
+    "title": "8  Synthetic Aperture Radar (SAR)",
     "section": "",
-    "text": "9.1 Summary\nThis week we had a more in-depth look into Synthetic Aperture Radar (SAR).",
+    "text": "8.1 Summary\nThis week we had a more in-depth look into Synthetic Aperture Radar (SAR).",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>"
     ]
   },
   {
     "objectID": "week_9.html#summary",
     "href": "week_9.html#summary",
-    "title": "9  Synthetic Aperture Radar (SAR)",
+    "title": "8  Synthetic Aperture Radar (SAR)",
     "section": "",
-    "text": "9.1.1 Key Words:\nBackscatter: the proportion of outgoing radar signal that the target surface redirects back to the sensor.\nAmplitude: the amount of radar signal that returns to the sensor (backscatter).\nPhase: the alignment of the wavelength when it returns to the sensor.\nPolarization: the orientation of the plane in which electromagnetic waves are transmitted.\n\n\n9.1.2 SAR\nThe way SAR works is the sensor emits an electromagnetic (microwaves) signal towards the earth’s surface and it collects data by recording the amount of signal that is bounced back and the time delay. SAR is an active sensor and it’s main advantage is that it can ‘see through’ clouds, which optical sensors cannot do. It can do this because the wavelength is longer than cloud particles so the signal travelling through is largely unaffected by refraction.\nSAR can collect data at different polarizations and as different surfaces respond differently to each polarization it is a useful way to draw out different land cover features.\n\nRough Scattering is most sensitive to vertical vertical (VV)\nVolume Scattering is most sensitive to to cross polarized data such as vertical horizontal (VH) or horizontal vertical (HV)\nDouble Bounce is most sensitive to horizontal horizontal (HH)\n\n\n\nFrom: [@delgadoblascoEffectsDoubleBounce2020]\n\n\n\n\n\n9.1.3 Identifying Change\nRemotely sensed data can be used to detect changes in the earth’s surface over time. We can do this with SAR data.\nIt is possible to subtract images to identify differences in pixel values, however this is not best practice for SAR data and is usually done with optical data.\nInstead, to detect changes with SAR data, the following can be calculated:\n\nRatio Images (the original, just involves dividing images)\nImproved Ratio\nMean ratio images\nLog Ratio Images\nImproved Log Ratio Images\n\nTo determine which is best we can look at an ROC curve.\nIf we want to look at identifying changes through image collections we can look at specific published methodologies, fuse imagery to optical data and classify it or use statistical tests such as a t-test.",
+    "text": "8.1.1 Key Words:\nBackscatter: the proportion of outgoing radar signal that the target surface redirects back to the sensor.\nAmplitude: the amount of radar signal that returns to the sensor (backscatter).\nPhase: the alignment of the wavelength when it returns to the sensor.\nPolarization: the orientation of the plane in which electromagnetic waves are transmitted.\n\n\n8.1.2 SAR\nThe way SAR works is the sensor emits an electromagnetic (microwaves) signal towards the earth’s surface and it collects data by recording the amount of signal that is bounced back and the time delay. SAR is an active sensor and it’s main advantage is that it can ‘see through’ clouds, which optical sensors cannot do. It can do this because the wavelength is longer than cloud particles so the signal travelling through is largely unaffected by refraction.\nSAR can collect data at different polarizations and as different surfaces respond differently to each polarization it is a useful way to draw out different land cover features.\n\nRough Scattering is most sensitive to vertical vertical (VV)\nVolume Scattering is most sensitive to to cross polarized data such as vertical horizontal (VH) or horizontal vertical (HV)\nDouble Bounce is most sensitive to horizontal horizontal (HH)\n\n\n\nFrom: [@delgadoblascoEffectsDoubleBounce2020]\n\n\n\n\n\n8.1.3 Identifying Change\nRemotely sensed data can be used to detect changes in the earth’s surface over time. We can do this with SAR data.\nIt is possible to subtract images to identify differences in pixel values, however this is not best practice for SAR data and is usually done with optical data.\nInstead, to detect changes with SAR data, the following can be calculated:\n\nRatio Images (the original, just involves dividing images)\nImproved Ratio\nMean ratio images\nLog Ratio Images\nImproved Log Ratio Images\n\nTo determine which is best we can look at an ROC curve.\nIf we want to look at identifying changes through image collections we can look at specific published methodologies, fuse imagery to optical data and classify it or use statistical tests such as a t-test.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>"
     ]
   },
   {
     "objectID": "week_9.html#applications",
     "href": "week_9.html#applications",
-    "title": "9  Synthetic Aperture Radar (SAR)",
-    "section": "9.2 Applications",
-    "text": "9.2 Applications\nSAR data has many uses, the table below shows the most popular uses of SAR imagery.\n\nFrom: (tsokas2022?)\n\n\n\n\n\n\nCategory\nApplication\n\n\n\n\nMapping and Land Classification\nLand cover classification, oil spills, sea ice, glaciers and forest monitoring\n\n\nParameter Retrieval\nWind and wave retrieval, soil moisture, ocean topography\n\n\nObject Detection\nObject detection and recognition, navigation\n\n\n\nLooking at one of the applications, mapping oil spills, I found a study that used C-band Sentinel- 1A data to detect oil spills in Chennai, on the East Coast of India (dasari2022?). The study used SAR data as it is less expensive than vessel-based and airborne-based detection methods and because of it’s cloud penetrating ability that means it is weather independent. The oil spills were only visible in the VV channel, which was converted from linear to dB value to enhance the contrast oil spill in the image. As mentioned in the lectures, dB scale works best for identifying changes and differences in dark pixels such as water, which I think is demonstrated nicely in this study. A support vector machine and neural networks were used to classify the oil spill, which both had an overall accuracy of around 98% which is very high.\nUpon further research, SAR data seems to suit oil spill analysis because the patches of oil show as dark spots in the water and the boundary between these patches and the surrounding water is quite visible in SAR images. This is because the oil film can reduce Bragg waves on the ocean surface (chen2022?). Bragg waves occur when waves (such as radar from the sensor) encounter a periodic structure which means that wavelengths are amplified or weakened depending on their alignment with the periodic structure.\nSAR data has also been used to classify forested areas by type and species, as was done in a study in Sweden that used Sentinel- 1 C-Band SAR data (udali2021?). This was done based on previous research that looked into how backscatter interacts with trees leaves, crown structure, branch geometry, and canopy structure. As radar backscatter is also affected by several other factors (eg. temperature or precipitation) a lot of preprocessing of the satellite imagery was done. To control for seasonality, images were split into winter and summer images. This demonstrates just how much has to be taken into consideration with such studies before analysis can even take place. Finally, a Random Forest classifers were used to classify trees by forest type and by species. The model that classified by forest type ended up being the most accurate, this is probably because classification at the leaf level compared to the canopy level is still challenging (juheonlee2016?).\n\n\n\nMap showing classified trees by tree type. From: (juheonlee2016?)",
+    "title": "8  Synthetic Aperture Radar (SAR)",
+    "section": "8.2 Applications",
+    "text": "8.2 Applications\nSAR data has many uses, the table below shows the most popular uses of SAR imagery.\n\nFrom: (tsokas2022?)\n\n\n\n\n\n\nCategory\nApplication\n\n\n\n\nMapping and Land Classification\nLand cover classification, oil spills, sea ice, glaciers and forest monitoring\n\n\nParameter Retrieval\nWind and wave retrieval, soil moisture, ocean topography\n\n\nObject Detection\nObject detection and recognition, navigation\n\n\n\nLooking at one of the applications, mapping oil spills, I found a study that used C-band Sentinel- 1A data to detect oil spills in Chennai, on the East Coast of India (dasari2022?). The study used SAR data as it is less expensive than vessel-based and airborne-based detection methods and because of it’s cloud penetrating ability that means it is weather independent. The oil spills were only visible in the VV channel, which was converted from linear to dB value to enhance the contrast oil spill in the image. As mentioned in the lectures, dB scale works best for identifying changes and differences in dark pixels such as water, which I think is demonstrated nicely in this study. A support vector machine and neural networks were used to classify the oil spill, which both had an overall accuracy of around 98% which is very high.\nUpon further research, SAR data seems to suit oil spill analysis because the patches of oil show as dark spots in the water and the boundary between these patches and the surrounding water is quite visible in SAR images. This is because the oil film can reduce Bragg waves on the ocean surface (chen2022?). Bragg waves occur when waves (such as radar from the sensor) encounter a periodic structure which means that wavelengths are amplified or weakened depending on their alignment with the periodic structure.\nSAR data has also been used to classify forested areas by type and species, as was done in a study in Sweden that used Sentinel- 1 C-Band SAR data (udali2021?). This was done based on previous research that looked into how backscatter interacts with trees leaves, crown structure, branch geometry, and canopy structure. As radar backscatter is also affected by several other factors (eg. temperature or precipitation) a lot of preprocessing of the satellite imagery was done. To control for seasonality, images were split into winter and summer images. This demonstrates just how much has to be taken into consideration with such studies before analysis can even take place. Finally, a Random Forest classifers were used to classify trees by forest type and by species. The model that classified by forest type ended up being the most accurate, this is probably because classification at the leaf level compared to the canopy level is still challenging (Juheon Lee et al. 2016).\n\n\n\nMap showing classified trees by tree type. From: Juheon Lee et al. (2016)",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>"
     ]
   },
   {
     "objectID": "week_9.html#reflections",
     "href": "week_9.html#reflections",
-    "title": "9  Synthetic Aperture Radar (SAR)",
-    "section": "9.3 Reflections",
-    "text": "9.3 Reflections",
+    "title": "8  Synthetic Aperture Radar (SAR)",
+    "section": "8.3 Reflections",
+    "text": "8.3 Reflections",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>"
     ]
   },
   {
     "objectID": "week_9.html#references",
     "href": "week_9.html#references",
-    "title": "9  Synthetic Aperture Radar (SAR)",
-    "section": "9.4 References",
-    "text": "9.4 References",
+    "title": "8  Synthetic Aperture Radar (SAR)",
+    "section": "8.4 References",
+    "text": "8.4 References\n\n\n\n\nJuheon Lee, Xiaohao Cai, Jan Lellmann, Michele Dalponte, Yadvinder Malhi, Nathalie Butt, Mike Morecroft, Carola-Bibiane Schonlieb, and David A. Coomes. 2016. “Individual Tree Species Classification from Airborne Multisensor Imagery Using Robust PCA.” IEEE Journals & Magazine. https://ieeexplore.ieee.org/document/7500049.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>"
     ]
   }
 ]
