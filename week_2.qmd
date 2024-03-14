@@ -1,16 +1,8 @@
 ---
 title: "Week 4: Policy"
 ---
-output:
-  format:
-  html:
-toc: true
-toc-location: right
-toc-title: Contents
-html-math-method: katex
-css: styles.css
-bibliography: references.bib
----
+
+output: format: html: toc: true toc-location: right toc-title: Contents html-math-method: katex css: styles.css bibliography: references.bib ---
 
 ## Summary: Jakarta and the National Capital Integrated Coastal Development Plan
 

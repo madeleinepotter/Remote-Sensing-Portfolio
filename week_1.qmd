@@ -1,17 +1,8 @@
 ---
 title: "Week 3: Corrections"
+---
 
----
-output:
-  format:
-  html:
-toc: true
-toc-location: right
-toc-title: Contents
-html-math-method: katex
-css: styles.css
-bibliography: references.bib
----
+output: format: html: toc: true toc-location: right toc-title: Contents html-math-method: katex css: styles.css bibliography: references.bib ---
 
 ## **Summary:**
 
