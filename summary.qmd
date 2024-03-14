@@ -1,5 +1,17 @@
 # Week 2: Xaringan Presentation
 
+---
+output:
+  format:
+  html:
+toc: true
+toc-location: right
+toc-title: Contents
+html-math-method: katex
+css: styles.css
+bibliography: references.bib
+---
+
 ```{r echo = FALSE, out.width='40%'}
 
 xaringanExtra::embed_xaringan(

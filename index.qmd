@@ -1,5 +1,17 @@
 # About {.unnumbered}
 
+---
+output:
+  format:
+  html:
+toc: true
+toc-location: right
+toc-title: Contents
+html-math-method: katex
+css: styles.css
+bibliography: references.bib
+---
+
 Hi I'm Madeleine. I am currently a postgraduate in Urban Spatial Science at the Centre for Advanced Spatial Analysis at UCL. I've come here straight from my undergraduate degree, which I did at King's College London in Geography and Spatial Data Science (BSc).
 
 I'm half British and half Indonesian. My time growing up in Indonesia and my love for it is often at the centre of my motivations for doing the things I do and studying the things I study. You'll probably see bits of this throughout the learning diary.
