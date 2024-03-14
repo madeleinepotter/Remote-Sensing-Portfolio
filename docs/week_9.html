@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Remote Sensing Portfolio - 1&nbsp; Week 1: Introduction to Remote Sensing</title>
+<title>Remote Sensing Portfolio - 9&nbsp; Synthetic Aperture Radar (SAR)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,8 +50,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./summary.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./references.html" rel="next">
+<link href="./week_8.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -90,7 +90,6 @@ div.csl-indent {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -102,7 +101,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week 1: Introduction to Remote Sensing</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week_9.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Synthetic Aperture Radar (SAR)</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -130,12 +129,12 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Remote Sensing Portfolio</span></a>
+ <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link active">
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week 1: Introduction to Remote Sensing</span></span></a>
   </div>
 </li>
@@ -183,6 +182,12 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./week_9.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Synthetic Aperture Radar (SAR)</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
@@ -194,21 +199,18 @@ div.csl-indent {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Contents</h2>
+    <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">1.1</span> <strong>Summary:</strong></a></li>
-  <li><a href="#what-is-remote-sensing" id="toc-what-is-remote-sensing" class="nav-link" data-scroll-target="#what-is-remote-sensing"><span class="header-section-number">1.2</span> <strong>What is remote sensing?</strong></a></li>
-  <li><a href="#types-of-sensors" id="toc-types-of-sensors" class="nav-link" data-scroll-target="#types-of-sensors"><span class="header-section-number">1.3</span> <strong>Types of Sensors</strong></a>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">9.1</span> Summary</a>
   <ul class="collapse">
-  <li><a href="#passive" id="toc-passive" class="nav-link" data-scroll-target="#passive"><span class="header-section-number">1.3.1</span> <strong>Passive</strong></a></li>
-  <li><a href="#active" id="toc-active" class="nav-link" data-scroll-target="#active"><span class="header-section-number">1.3.2</span> <strong>Active</strong></a></li>
+  <li><a href="#key-words" id="toc-key-words" class="nav-link" data-scroll-target="#key-words"><span class="header-section-number">9.1.1</span> Key Words:</a></li>
+  <li><a href="#sar" id="toc-sar" class="nav-link" data-scroll-target="#sar"><span class="header-section-number">9.1.2</span> SAR</a></li>
+  <li><a href="#identifying-change" id="toc-identifying-change" class="nav-link" data-scroll-target="#identifying-change"><span class="header-section-number">9.1.3</span> Identifying Change</a></li>
   </ul></li>
-  <li><a href="#electromagnetic-radiation-and-spectral-signatures" id="toc-electromagnetic-radiation-and-spectral-signatures" class="nav-link" data-scroll-target="#electromagnetic-radiation-and-spectral-signatures"><span class="header-section-number">1.4</span> <strong>Electromagnetic Radiation and Spectral Signatures</strong></a></li>
-  <li><a href="#the-four-resolutions" id="toc-the-four-resolutions" class="nav-link" data-scroll-target="#the-four-resolutions"><span class="header-section-number">1.5</span> <strong>The Four Resolutions</strong></a></li>
-  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">1.6</span> <strong>Applications:</strong></a></li>
-  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">1.7</span> <strong>Reflection:</strong></a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">1.8</span> References</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">9.2</span> Applications</a></li>
+  <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections"><span class="header-section-number">9.3</span> Reflections</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">9.4</span> References</a></li>
   </ul>
 </nav>
     </div>
@@ -217,7 +219,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week 1: Introduction to Remote Sensing</span></h1>
+<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Synthetic Aperture Radar (SAR)</span></h1>
 </div>
 
 
@@ -234,84 +236,110 @@ div.csl-indent {
 </header>
 
 
-<section id="summary" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">1.1</span> <strong>Summary:</strong></h2>
+<section id="summary" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">9.1</span> Summary</h2>
+<p>This week we had a more in-depth look into Synthetic Aperture Radar (SAR).</p>
+<section id="key-words" class="level3" data-number="9.1.1">
+<h3 data-number="9.1.1" class="anchored" data-anchor-id="key-words"><span class="header-section-number">9.1.1</span> Key Words:</h3>
+<p><strong>Backscatter:</strong> the proportion of outgoing radar signal that the target surface redirects back to the sensor.</p>
+<p><strong>Amplitude:</strong> the amount of radar signal that returns to the sensor (backscatter).</p>
+<p><strong>Phase:</strong> the alignment of the wavelength when it returns to the sensor.</p>
+<p><strong>Polarization:</strong> the orientation of the plane in which electromagnetic waves are transmitted.</p>
 </section>
-<section id="what-is-remote-sensing" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="what-is-remote-sensing"><span class="header-section-number">1.2</span> <strong>What is remote sensing?</strong></h2>
-<p>Remote sensing is the science of collecting information about an object, phenomenon, or area from a distance (NOAA, 2020). This is typically done using sensors that are mounted on satellites or aircrafts.</p>
-</section>
-<section id="types-of-sensors" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="types-of-sensors"><span class="header-section-number">1.3</span> <strong>Types of Sensors</strong></h2>
-<p>There are two main types of sensors that are used to collect remotely sensed data. However, both types of sensors monitor electromagnetic radiation.</p>
-<section id="passive" class="level3" data-number="1.3.1">
-<h3 data-number="1.3.1" class="anchored" data-anchor-id="passive"><span class="header-section-number">1.3.1</span> <strong>Passive</strong></h3>
-<p>Passive sensors detect energy that is emitted or reflected naturally. In the case of remotely sensing data from a satellite, this natural energy would be reflected energy from the sun as demonstrated in the diagram below. This does mean that passive sensors are often restricted by the availability of the naturally occurring energy, so reflected energy from the sun can only be measured anytime.</p>
-</section>
-<section id="active" class="level3" data-number="1.3.2">
-<h3 data-number="1.3.2" class="anchored" data-anchor-id="active"><span class="header-section-number">1.3.2</span> <strong>Active</strong></h3>
-<p>Active sensors provide their own energy and instead emit radiation which is then reflected to the sensor. As active radars are not reliant on naturally occurring energy, they can be used during both day and night.</p>
+<section id="sar" class="level3" data-number="9.1.2">
+<h3 data-number="9.1.2" class="anchored" data-anchor-id="sar"><span class="header-section-number">9.1.2</span> SAR</h3>
+<p>The way SAR works is the sensor emits an electromagnetic (microwaves) signal towards the earth’s surface and it collects data by recording the amount of signal that is bounced back and the time delay. SAR is an active sensor and it’s main advantage is that it can ‘see through’ clouds, which optical sensors cannot do. It can do this because the wavelength is longer than cloud particles so the signal travelling through is largely unaffected by refraction.</p>
+<p>SAR can collect data at different polarizations and as different surfaces respond differently to each polarization it is a useful way to draw out different land cover features.</p>
+<ul>
+<li><p>Rough Scattering is most sensitive to vertical vertical (VV)</p></li>
+<li><p>Volume Scattering is most sensitive to to cross polarized data such as vertical horizontal (VH) or horizontal vertical (HV)</p></li>
+<li><p>Double Bounce is most sensitive to horizontal horizontal (HH)</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/Screenshot 2024-01-22 130949.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="553"></p>
+<p><img src="polarisation.png" class="img-fluid figure-img" width="608"></p>
+<figcaption>From: [@delgadoblascoEffectsDoubleBounce2020]</figcaption>
+</figure>
+</div></li>
+</ul>
+</section>
+<section id="identifying-change" class="level3" data-number="9.1.3">
+<h3 data-number="9.1.3" class="anchored" data-anchor-id="identifying-change"><span class="header-section-number">9.1.3</span> Identifying Change</h3>
+<p>Remotely sensed data can be used to detect changes in the earth’s surface over time. We can do this with SAR data.</p>
+<p>It is possible to subtract images to identify differences in pixel values, however this is not best practice for SAR data and is usually done with optical data.</p>
+<p>Instead, to detect changes with SAR data, the following can be calculated:</p>
+<ul>
+<li><p>Ratio Images (the original, just involves dividing images)</p></li>
+<li><p>Improved Ratio</p></li>
+<li><p>Mean ratio images</p></li>
+<li><p>Log Ratio Images</p></li>
+<li><p>Improved Log Ratio Images</p></li>
+</ul>
+<p>To determine which is best we can look at an ROC curve.</p>
+<p>If we want to look at identifying changes through image collections we can look at specific published methodologies, fuse imagery to optical data and classify it or use statistical tests such as a t-test.</p>
+</section>
+</section>
+<section id="applications" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">9.2</span> Applications</h2>
+<p>SAR data has many uses, the table below shows the most popular uses of SAR imagery.</p>
+<table class="table">
+<caption>From: <span class="citation" data-cites="tsokas2022">Tsokas et al. (<a href="references.html#ref-tsokas2022" role="doc-biblioref">2022</a>)</span></caption>
+<colgroup>
+<col style="width: 30%">
+<col style="width: 69%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Application</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mapping and Land Classification</td>
+<td>Land cover classification, oil spills, sea ice, glaciers and forest monitoring</td>
+</tr>
+<tr class="even">
+<td>Parameter Retrieval</td>
+<td>Wind and wave retrieval, soil moisture, ocean topography</td>
+</tr>
+<tr class="odd">
+<td>Object Detection</td>
+<td>Object detection and recognition, navigation</td>
+</tr>
+</tbody>
+</table>
+<p>Looking at one of the applications, mapping oil spills, I found a study that used C-band Sentinel- 1A data to detect oil spills in Chennai, on the East Coast of India <span class="citation" data-cites="dasari2022">(<a href="references.html#ref-dasari2022" role="doc-biblioref">Dasari, Anjaneyulu, and Nadimikeri 2022</a>)</span>. The study used SAR data as it is less expensive than vessel-based and airborne-based detection methods and because of it’s cloud penetrating ability that means it is weather independent. The oil spills were only visible in the VV channel, which was converted from linear to dB value to enhance the contrast oil spill in the image. As mentioned in the lectures, dB scale works best for identifying changes and differences in dark pixels such as water, which I think is demonstrated nicely in this study. A support vector machine and neural networks were used to classify the oil spill, which both had an overall accuracy of around 98% which is very high.</p>
+<p>Upon further research, SAR data seems to suit oil spill analysis because the patches of oil show as dark spots in the water and the boundary between these patches and the surrounding water is quite visible in SAR images. This is because the oil film can reduce Bragg waves on the ocean surface <span class="citation" data-cites="chen2022">(<a href="references.html#ref-chen2022" role="doc-biblioref">Chen and Wang 2022</a>)</span>. Bragg waves occur when waves (such as radar from the sensor) encounter a periodic structure which means that wavelengths are amplified or weakened depending on their alignment with the periodic structure.</p>
+<p>SAR data has also been used to classify forested areas by type and species, as was done in a study in Sweden that used Sentinel- 1 C-Band SAR data <span class="citation" data-cites="udali2021">(<a href="references.html#ref-udali2021" role="doc-biblioref">Udali, Lingua, and Persson 2021</a>)</span>. This was done based on previous research that looked into how backscatter interacts with trees leaves, crown structure, branch geometry, and canopy structure. As radar backscatter is also affected by several other factors (eg. temperature or precipitation) a lot of preprocessing of the satellite imagery was done. To control for seasonality, images were split into winter and summer images. This demonstrates just how much has to be taken into consideration with such studies before analysis can even take place. Finally, a Random Forest classifers were used to classify trees by forest type and by species. The model that classified by forest type ended up being the most accurate, this is probably because classification at the leaf level compared to the canopy level is still challenging <span class="citation" data-cites="juheonlee2016">(<a href="references.html#ref-juheonlee2016" role="doc-biblioref">Juheon Lee et al. 2016</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="tree_map.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<figcaption>Map showing classified trees by tree type. From: <span class="citation" data-cites="juheonlee2016">Juheon Lee et al. (<a href="references.html#ref-juheonlee2016" role="doc-biblioref">2016</a>)</span></figcaption>
 </figure>
 </div>
 </section>
+<section id="reflections" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">9.3</span> Reflections</h2>
 </section>
-<section id="electromagnetic-radiation-and-spectral-signatures" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="electromagnetic-radiation-and-spectral-signatures"><span class="header-section-number">1.4</span> <strong>Electromagnetic Radiation and Spectral Signatures</strong></h2>
-<p>As mentioned, sensors detect electromagnetic radiation. Electromagnetic radiation describes specific types of energy that travels in waves at the speed of light. It exists on a spectrum with the shortest wavelengths on one end of the spectrum and the longest wavelengths on the other. Most of the sun’s energy comes from from the visible light and infrared light section of the spectrum, while all of the outgoing energy emitted by the Earth is infrared. An atmospheric window a region on the electromagnetic spectrum where radiation can easily pass through the Earth’s atmosphere with little absorption.</p>
-<div id="fig-ems" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-ems-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="atmospheric_window_EM_spectrum.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ems-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.1: Image showing the electromagnetic spectrum and atmospheric windows. From <span class="citation" data-cites="noaa">(<a href="references.html#ref-noaa" role="doc-biblioref">NOAA, n.d.</a>)</span>
-</figcaption>
-</figure>
-</div>
-<p>In remote sensing, different surfaces of the earth reflect and absorb different wavelengths across the electromagnetic spectrum and in varying amounts, allowing us to identify different objects, phenomena and land cover through remote sensing imagery. Taking the values for each wavelength across the electromagnetic spectrum creates <strong>spectral signature</strong> which are unique for each thing observed.</p>
-</section>
-<section id="the-four-resolutions" class="level2" data-number="1.5">
-<h2 data-number="1.5" class="anchored" data-anchor-id="the-four-resolutions"><span class="header-section-number">1.5</span> <strong>The Four Resolutions</strong></h2>
-<p><strong>Spatial Resolution:</strong></p>
-<ul>
-<li>The size of each raster cell (pixel).&nbsp;</li>
-</ul>
-<p><strong>Spectral Resolution:</strong></p>
-<ul>
-<li>The ability of the sensor to distinguish different wavelengths and therefore the number of bands it records. Most sensors are multispectral (typically 3-15 bands), while some are hyperspectral (thousands of bands).</li>
-</ul>
-<p><strong>Temporal Resolution:</strong></p>
-<ul>
-<li>The amount of time it takes to revisit the same area.</li>
-</ul>
-<p><strong>Radiometric:</strong></p>
-<ul>
-<li>The amount of information in a raster cell. The higher radiometric resolution, the more sensitive.</li>
-</ul>
-</section>
-<section id="applications" class="level2" data-number="1.6">
-<h2 data-number="1.6" class="anchored" data-anchor-id="applications"><span class="header-section-number">1.6</span> <strong>Applications:</strong></h2>
-<ul>
-<li>Remote sensing is often used for assessing both environmental and anthropogenic features on the earth’s surface.</li>
-</ul>
-<p>A specific application of remote sensing which I found particularly interesting was the exploration of the influence of environmental risk factors on malaria cases in Ethiopia (McMahon et al., 2021). This was done by assessing the relationship between remotely sensed environmental data (vegetation, climate, land cover and land use, topography, and surface water) and the number of malaria cases. Identifying high risk and vulnerable areas can help scarce resources and funding to be efficiently used in a targeted manner.</p>
-<p>I found this example interesting as it demonstrated how remote sensing can be used even in areas that are generally data poor or where good quality data is hard to find. As the study used the freely available MODIS data I can also see how the study could be easily reproduced in other areas that might be data poor and are at high risk to malaria and other mosquito borne diseases. However, by focusing on environmental risk factors the study omits other factors that may also impact the number of malaria cases. I believe this is a good example of where remote sensing data can be partnered up with other spatial data to include factors such as socio-economic or demographic factors. This would allow for a fuller picture of all the risk factors associated with malaria cases.</p>
-</section>
-<section id="reflection" class="level2" data-number="1.7">
-<h2 data-number="1.7" class="anchored" data-anchor-id="reflection"><span class="header-section-number">1.7</span> <strong>Reflection:</strong></h2>
-<p>This week was actually my second introduction to remote sensing! Having done my undergraduate degree in physical geography, remote sensing was touched upon a couple times in relation to monitoring and measuring different environmental phenomena. However, having focused on environmental phenomena I was surprised to learn that its relevance extends beyond environmental monitoring and that it is even used for law enforcement and security.</p>
-<p>With my interests in environmental hazards, climate change and Indonesia it made me think about how remote sensing could be used to monitor the development and impact of the new capital city, Nusantara being built in Kalimantan (Indonesian Borneo). Although this will be quite far into the future, I’m sure the city will change the whole of the island, potentially at the expense of the environment.</p>
-</section>
-<section id="references" class="level2" data-number="1.8">
-<h2 data-number="1.8" class="anchored" data-anchor-id="references"><span class="header-section-number">1.8</span> References</h2>
+<section id="references" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="references"><span class="header-section-number">9.4</span> References</h2>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-noaa" class="csl-entry" role="listitem">
-NOAA. n.d. <span>“The Atmospheric Window.”</span> <a href="https://www.noaa.gov/jetstream/satellites/absorb">https://www.noaa.gov/jetstream/satellites/absorb</a>.
+<div id="ref-chen2022" class="csl-entry" role="listitem">
+Chen, Yan, and Zhilong Wang. 2022. <span>“Marine Oil Spill Detection from SAR Images Based on Attention U-Net Model Using Polarimetric and Wind Speed Information.”</span> <em>International Journal of Environmental Research and Public Health</em> 19 (19): 12315. <a href="https://doi.org/10.3390/ijerph191912315">https://doi.org/10.3390/ijerph191912315</a>.
+</div>
+<div id="ref-dasari2022" class="csl-entry" role="listitem">
+Dasari, Kiran, Lokam Anjaneyulu, and Jayaraju Nadimikeri. 2022. <span>“Application of c-Band Sentinel-1A SAR Data as Proxies for Detecting Oil Spills of Chennai, East Coast of India.”</span> <em>Marine Pollution Bulletin</em> 174 (January): 113182. <a href="https://doi.org/10.1016/j.marpolbul.2021.113182">https://doi.org/10.1016/j.marpolbul.2021.113182</a>.
+</div>
+<div id="ref-juheonlee2016" class="csl-entry" role="listitem">
+Juheon Lee, Xiaohao Cai, Jan Lellmann, Michele Dalponte, Yadvinder Malhi, Nathalie Butt, Mike Morecroft, Carola-Bibiane Schonlieb, and David A. Coomes. 2016. <span>“Individual Tree Species Classification from Airborne Multisensor Imagery Using Robust PCA.”</span> <em>IEEE Journals &amp; Magazine</em>. <a href="https://ieeexplore.ieee.org/document/7500049">https://ieeexplore.ieee.org/document/7500049</a>.
+</div>
+<div id="ref-tsokas2022" class="csl-entry" role="listitem">
+Tsokas, Arsenios, Maciej Rysz, Panos M. Pardalos, and Kathleen Dipple. 2022. <span>“SAR Data Applications in Earth Observation: An Overview.”</span> <em>Expert Systems with Applications</em> 205 (November): 117342. <a href="https://doi.org/10.1016/j.eswa.2022.117342">https://doi.org/10.1016/j.eswa.2022.117342</a>.
+</div>
+<div id="ref-udali2021" class="csl-entry" role="listitem">
+Udali, Alberto, Emanuele Lingua, and Henrik J. Persson. 2021. <span>“Assessing Forest Type and Tree Species Classification Using Sentinel-1 C-Band SAR Data in Southern Sweden.”</span> <em>Remote Sensing</em> 13 (16): 3237. <a href="https://doi.org/10.3390/rs13163237">https://doi.org/10.3390/rs13163237</a>.
 </div>
 </div>
 </section>
@@ -706,13 +734,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link  aria-label=" remote="" sensing="" portfolio"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Remote Sensing Portfolio</span>
+      <a href="./week_8.html" class="pagination-link  aria-label=" &lt;span="" ii&lt;="" span&gt;"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Classification II</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./summary.html" class="pagination-link" aria-label="<span class='chapter-number'>2</span>&nbsp; <span class='chapter-title'>Week 2: Xaringan Presentation</span>">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2: Xaringan Presentation</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./references.html" class="pagination-link" aria-label="References">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
