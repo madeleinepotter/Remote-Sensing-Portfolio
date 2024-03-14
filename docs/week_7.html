@@ -20,27 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -182,6 +162,12 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./week_9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Synthetic Aperture Radar (SAR)</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
@@ -231,6 +217,8 @@ div.csl-indent {
 </header>
 
 
+<p>output: format: html: toc: true toc-location: right toc-title: Contents html-math-method: katex css: styles.css bibliography: references.bib</p>
+<hr>
 <section id="summary" class="level2" data-number="7.1">
 <h2 data-number="7.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">7.1</span> Summary</h2>
 <section id="classification" class="level3" data-number="7.1.1">
@@ -243,7 +231,7 @@ div.csl-indent {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="decision_tree.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="550"></p>
-<figcaption>From: <span class="citation" data-cites="randomf">(<a href="references.html#ref-randomf" role="doc-biblioref"><span>“Random Forest,”</span> n.d.</a>)</span></figcaption>
+<figcaption>From: <span class="citation" data-cites="randomf">(<a href="references.html#ref-randomf" role="doc-biblioref"><strong>randomf?</strong></a>)</span></figcaption>
 </figure>
 </div>
 <p><strong>CART Types:</strong></p>
@@ -258,7 +246,7 @@ div.csl-indent {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="overfitting.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="507"></p>
-<figcaption>From: <span class="citation" data-cites="jim2022">(<a href="references.html#ref-jim2022" role="doc-biblioref">Jim 2022</a>)</span></figcaption>
+<figcaption>From: <span class="citation" data-cites="jim2022">(<a href="references.html#ref-jim2022" role="doc-biblioref"><strong>jim2022?</strong></a>)</span></figcaption>
 </figure>
 </div>
 <p><strong>For remotely sensed data, this can be addressed by:</strong></p>
@@ -294,16 +282,16 @@ div.csl-indent {
 <li><p>Detecting burned areas in forest fires.</p></li>
 <li><p>Detecting flood prone areas.</p></li>
 </ul>
-<p>I found a specific example that used the Random Forest classifier to detect building damage in Labuan, Indonesia which was caused by the Anak Krakatau volcano tsunami in 2018 <span class="citation" data-cites="virtriana2023">(<a href="references.html#ref-virtriana2023" role="doc-biblioref">Virtriana et al. 2023</a>)</span>. Data used to assess images before and after the tsunami came from Sentinel-2A and Worldview-2. Worldview-2 provided high spatial resolution data (50cm) which allowed for smaller changes to be detected more effectively than Sentinel-2A. xBDand Copernicus data were also used to interpret and compare the accuracy of building damage.</p>
+<p>I found a specific example that used the Random Forest classifier to detect building damage in Labuan, Indonesia which was caused by the Anak Krakatau volcano tsunami in 2018 <span class="citation" data-cites="virtriana2023">(<a href="references.html#ref-virtriana2023" role="doc-biblioref"><strong>virtriana2023?</strong></a>)</span>. Data used to assess images before and after the tsunami came from Sentinel-2A and Worldview-2. Worldview-2 provided high spatial resolution data (50cm) which allowed for smaller changes to be detected more effectively than Sentinel-2A. xBDand Copernicus data were also used to interpret and compare the accuracy of building damage.</p>
 <p>The random forest classifier was specifically used to detect and classify post-tsunami damage to buildings and was chosen due to it’s accuracy with object detection.</p>
 <p>This study also completed a field survey two years and nine months after the tsunami to observe building changes and recovery efforts. This field survey is what made this study stand out to me. I think completing field surveys after damage assessments is effective as it can track progress and accountability if progress is slow and significantly impacting residents.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="krakatau.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-<figcaption>Anak Krakatau collapse that caused the tsunami. Before and After. From: <span class="citation" data-cites="anakkra2019">(<a href="references.html#ref-anakkra2019" role="doc-biblioref"><span>“Anak Krakatau Volcano: Satellites Get Clear View of Collapse”</span> 2019</a>)</span>].</figcaption>
+<figcaption>Anak Krakatau collapse that caused the tsunami. Before and After. From: <span class="citation" data-cites="anakkra2019">(<a href="references.html#ref-anakkra2019" role="doc-biblioref"><strong>anakkra2019?</strong></a>)</span>].</figcaption>
 </figure>
 </div>
-<p>I also found two studies<span class="citation" data-cites="qian2015 shao2012">(<a href="references.html#ref-qian2015" role="doc-biblioref">Qian et al. 2015</a>; <a href="references.html#ref-shao2012" role="doc-biblioref">Shao and Lunetta 2012</a>)</span> that compared classification techniques, specifically SVM and CART algorithms for land-cover classification. In both, SVM performed better than the CART, having a higher overall accuracy in land cover classification. However, there are still disadvantages to SVM such as it is not suitable for large datasets and that it does not perform well if the data has a lot of noise. So we should still carefully consider which classifier would be a better fit depending on the project.</p>
+<p>I also found two studies<span class="citation" data-cites="qian2015 shao2012">(<a href="references.html#ref-qian2015" role="doc-biblioref"><strong>qian2015?</strong></a>; <a href="references.html#ref-shao2012" role="doc-biblioref"><strong>shao2012?</strong></a>)</span> that compared classification techniques, specifically SVM and CART algorithms for land-cover classification. In both, SVM performed better than the CART, having a higher overall accuracy in land cover classification. However, there are still disadvantages to SVM such as it is not suitable for large datasets and that it does not perform well if the data has a lot of noise. So we should still carefully consider which classifier would be a better fit depending on the project.</p>
 </section>
 <section id="reflections" class="level2" data-number="7.3">
 <h2 data-number="7.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">7.3</span> Reflections</h2>
@@ -314,26 +302,6 @@ div.csl-indent {
 <h2 data-number="7.4" class="anchored" data-anchor-id="references"><span class="header-section-number">7.4</span> References</h2>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-anakkra2019" class="csl-entry" role="listitem">
-<span>“Anak Krakatau Volcano: Satellites Get Clear View of Collapse.”</span> 2019. <em>BBC News</em>, January. <a href="https://www.bbc.com/news/science-environment-46743362">https://www.bbc.com/news/science-environment-46743362</a>.
-</div>
-<div id="ref-jim2022" class="csl-entry" role="listitem">
-Jim. 2022. <span>“How to Avoid Overfitting? | r-Bloggers.”</span> <a href="https://www.r-bloggers.com/2022/09/how-to-avoid-overfitting/">https://www.r-bloggers.com/2022/09/how-to-avoid-overfitting/</a>.
-</div>
-<div id="ref-qian2015" class="csl-entry" role="listitem">
-Qian, Yuguo, Weiqi Zhou, Jingli Yan, Weifeng Li, and Lijian Han. 2015. <span>“Comparing Machine Learning Classifiers for Object-Based Land Cover Classification Using Very High Resolution Imagery.”</span> <em>Remote Sensing</em> 7 (1): 153–68. <a href="https://doi.org/10.3390/rs70100153">https://doi.org/10.3390/rs70100153</a>.
-</div>
-<div id="ref-randomf" class="csl-entry" role="listitem">
-<span>“Random Forest.”</span> n.d. <a href="https://blogs.fu-berlin.de/reseda/random-forest/">https://blogs.fu-berlin.de/reseda/random-forest/</a>.
-</div>
-<div id="ref-shao2012" class="csl-entry" role="listitem">
-Shao, Yang, and Ross S. Lunetta. 2012. <span>“Comparison of Support Vector Machine, Neural Network, and CART Algorithms for the Land-Cover Classification Using Limited Training Data Points.”</span> <em>ISPRS Journal of Photogrammetry and Remote Sensing</em> 70 (June): 78–87. <a href="https://doi.org/10.1016/j.isprsjprs.2012.04.001">https://doi.org/10.1016/j.isprsjprs.2012.04.001</a>.
-</div>
-<div id="ref-virtriana2023" class="csl-entry" role="listitem">
-Virtriana, Riantini, Agung Budi Harto, Fiza Wira Atmaja, Irwan Meilano, Kamal Nur Fauzan, Tania Septi Anggraini, Kalingga Titon Nur Ihsan, Fatwa Cahya Mustika, and Wulan Suminar. 2023. <span>“Machine Learning Remote Sensing Using the Random Forest Classifier to Detect the Building Damage Caused by the Anak Krakatau Volcano Tsunami.”</span> <em>Geomatics, Natural Hazards and Risk</em> 14 (1): 28–51. <a href="https://doi.org/10.1080/19475705.2022.2147455">https://doi.org/10.1080/19475705.2022.2147455</a>.
-</div>
-</div>
 </section>
 
 </main> <!-- /main -->
