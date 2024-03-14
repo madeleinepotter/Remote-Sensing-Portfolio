@@ -57,7 +57,7 @@ If we want to look at identifying changes through image collections we can look 
 SAR data has many uses, the table below shows the most popular uses of SAR imagery.
 
 | Category                        | Application                                                                    |
-|------------------------------|------------------------------------------|
+|----------------------|--------------------------------------------------|
 | Mapping and Land Classification | Land cover classification, oil spills, sea ice, glaciers and forest monitoring |
 | Parameter Retrieval             | Wind and wave retrieval, soil moisture, ocean topography                       |
 | Object Detection                | Object detection and recognition, navigation                                   |
@@ -68,7 +68,9 @@ Looking at one of the applications, mapping oil spills, I found a study that use
 
 Upon further research, SAR data seems to suit oil spill analysis because the patches of oil show as dark spots in the water and the boundary between these patches and the surrounding water is quite visible in SAR images. This is because the oil film can reduce Bragg waves on the ocean surface [@chen2022]. Bragg waves occur when waves (such as radar from the sensor) encounter a periodic structure which means that wavelengths are amplified or weakened depending on their alignment with the periodic structure.
 
-comparison of machine learning methods applied to SAR imags for forest classification in Mediterranean Areas
+SAR data has also been used to classify forested areas by type and species, as was done in a study in Sweden that used Sentinel- 1 C-Band SAR data [@udali2021]. This was done based on previous research that looked into how backscatter interacts with trees leaves, crown structure, branch geometry, and canopy structure. As radar backscatter is also affected by several other factors (eg. temperature or precipitation) a lot of preprocessing of the satellite imagery was done. To control for seasonality, images were split into winter and summer images. This demonstrates just how much has to be taken into consideration with such studies before analysis can even take place. Finally, a Random Forest classifers were used to classify trees by forest type and by species. The model that classified by forest type ended up being the most accurate, this is probably because classification at the leaf level compared to the canopy level is still challenging [@juheonlee2016].
+
+![Map showing classified trees by tree type. From: @juheonlee2016](tree_map.png){fig-align="center"}
 
 ## Reflections
 

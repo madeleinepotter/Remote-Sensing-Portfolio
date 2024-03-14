@@ -284,8 +284,8 @@ div.csl-indent {
 <table class="table">
 <caption>From: <span class="citation" data-cites="tsokas2022">Tsokas et al. (<a href="references.html#ref-tsokas2022" role="doc-biblioref">2022</a>)</span></caption>
 <colgroup>
-<col style="width: 41%">
-<col style="width: 58%">
+<col style="width: 30%">
+<col style="width: 69%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -310,7 +310,13 @@ div.csl-indent {
 </table>
 <p>Looking at one of the applications, mapping oil spills, I found a study that used C-band Sentinel- 1A data to detect oil spills in Chennai, on the East Coast of India <span class="citation" data-cites="dasari2022">(<a href="references.html#ref-dasari2022" role="doc-biblioref">Dasari, Anjaneyulu, and Nadimikeri 2022</a>)</span>. The study used SAR data as it is less expensive than vessel-based and airborne-based detection methods and because of it’s cloud penetrating ability that means it is weather independent. The oil spills were only visible in the VV channel, which was converted from linear to dB value to enhance the contrast oil spill in the image. As mentioned in the lectures, dB scale works best for identifying changes and differences in dark pixels such as water, which I think is demonstrated nicely in this study. A support vector machine and neural networks were used to classify the oil spill, which both had an overall accuracy of around 98% which is very high.</p>
 <p>Upon further research, SAR data seems to suit oil spill analysis because the patches of oil show as dark spots in the water and the boundary between these patches and the surrounding water is quite visible in SAR images. This is because the oil film can reduce Bragg waves on the ocean surface <span class="citation" data-cites="chen2022">(<a href="references.html#ref-chen2022" role="doc-biblioref">Chen and Wang 2022</a>)</span>. Bragg waves occur when waves (such as radar from the sensor) encounter a periodic structure which means that wavelengths are amplified or weakened depending on their alignment with the periodic structure.</p>
-<p>comparison of machine learning methods applied to SAR imags for forest classification in Mediterranean Areas</p>
+<p>SAR data has also been used to classify forested areas by type and species, as was done in a study in Sweden that used Sentinel- 1 C-Band SAR data <span class="citation" data-cites="udali2021">(<a href="references.html#ref-udali2021" role="doc-biblioref">Udali, Lingua, and Persson 2021</a>)</span>. This was done based on previous research that looked into how backscatter interacts with trees leaves, crown structure, branch geometry, and canopy structure. As radar backscatter is also affected by several other factors (eg. temperature or precipitation) a lot of preprocessing of the satellite imagery was done. To control for seasonality, images were split into winter and summer images. This demonstrates just how much has to be taken into consideration with such studies before analysis can even take place. Finally, a Random Forest classifers were used to classify trees by forest type and by species. The model that classified by forest type ended up being the most accurate, this is probably because classification at the leaf level compared to the canopy level is still challenging <span class="citation" data-cites="juheonlee2016">(<a href="references.html#ref-juheonlee2016" role="doc-biblioref">Juheon Lee et al. 2016</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="tree_map.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<figcaption>Map showing classified trees by tree type. From: <span class="citation" data-cites="juheonlee2016">Juheon Lee et al. (<a href="references.html#ref-juheonlee2016" role="doc-biblioref">2016</a>)</span></figcaption>
+</figure>
+</div>
 </section>
 <section id="reflections" class="level2" data-number="9.3">
 <h2 data-number="9.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">9.3</span> Reflections</h2>
@@ -326,8 +332,14 @@ Chen, Yan, and Zhilong Wang. 2022. <span>“Marine Oil Spill Detection from SAR 
 <div id="ref-dasari2022" class="csl-entry" role="listitem">
 Dasari, Kiran, Lokam Anjaneyulu, and Jayaraju Nadimikeri. 2022. <span>“Application of c-Band Sentinel-1A SAR Data as Proxies for Detecting Oil Spills of Chennai, East Coast of India.”</span> <em>Marine Pollution Bulletin</em> 174 (January): 113182. <a href="https://doi.org/10.1016/j.marpolbul.2021.113182">https://doi.org/10.1016/j.marpolbul.2021.113182</a>.
 </div>
+<div id="ref-juheonlee2016" class="csl-entry" role="listitem">
+Juheon Lee, Xiaohao Cai, Jan Lellmann, Michele Dalponte, Yadvinder Malhi, Nathalie Butt, Mike Morecroft, Carola-Bibiane Schonlieb, and David A. Coomes. 2016. <span>“Individual Tree Species Classification from Airborne Multisensor Imagery Using Robust PCA.”</span> <em>IEEE Journals &amp; Magazine</em>. <a href="https://ieeexplore.ieee.org/document/7500049">https://ieeexplore.ieee.org/document/7500049</a>.
+</div>
 <div id="ref-tsokas2022" class="csl-entry" role="listitem">
 Tsokas, Arsenios, Maciej Rysz, Panos M. Pardalos, and Kathleen Dipple. 2022. <span>“SAR Data Applications in Earth Observation: An Overview.”</span> <em>Expert Systems with Applications</em> 205 (November): 117342. <a href="https://doi.org/10.1016/j.eswa.2022.117342">https://doi.org/10.1016/j.eswa.2022.117342</a>.
+</div>
+<div id="ref-udali2021" class="csl-entry" role="listitem">
+Udali, Alberto, Emanuele Lingua, and Henrik J. Persson. 2021. <span>“Assessing Forest Type and Tree Species Classification Using Sentinel-1 C-Band SAR Data in Southern Sweden.”</span> <em>Remote Sensing</em> 13 (16): 3237. <a href="https://doi.org/10.3390/rs13163237">https://doi.org/10.3390/rs13163237</a>.
 </div>
 </div>
 </section>
