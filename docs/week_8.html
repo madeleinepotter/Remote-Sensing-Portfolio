@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Remote Sensing Portfolio - 8&nbsp; Classification II</title>
+<title>Remote Sensing Portfolio - 7&nbsp; Classification II</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week_8.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Classification II</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week_8.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification II</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -139,32 +139,26 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./corrections_w3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week 5: Working on Group Presentations</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./week_6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Google Earth Engine</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Google Earth Engine</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week_7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification I</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification I</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week_8.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Classification II</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification II</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week_9.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Synthetic Aperture Radar (SAR)</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Synthetic Aperture Radar (SAR)</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -183,20 +177,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">8.1</span> Summary</a>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">7.1</span> Summary</a>
   <ul class="collapse">
-  <li><a href="#object-based-image-analysis-obia" id="toc-object-based-image-analysis-obia" class="nav-link" data-scroll-target="#object-based-image-analysis-obia"><span class="header-section-number">8.1.1</span> Object-Based Image Analysis (OBIA)</a></li>
-  <li><a href="#sub-pixel-analysis" id="toc-sub-pixel-analysis" class="nav-link" data-scroll-target="#sub-pixel-analysis"><span class="header-section-number">8.1.2</span> Sub-Pixel Analysis</a></li>
-  <li><a href="#accuracy-assessment" id="toc-accuracy-assessment" class="nav-link" data-scroll-target="#accuracy-assessment"><span class="header-section-number">8.1.3</span> Accuracy Assessment</a></li>
-  <li><a href="#spatial-cross-validation" id="toc-spatial-cross-validation" class="nav-link" data-scroll-target="#spatial-cross-validation"><span class="header-section-number">8.1.4</span> Spatial Cross Validation</a></li>
+  <li><a href="#object-based-image-analysis-obia" id="toc-object-based-image-analysis-obia" class="nav-link" data-scroll-target="#object-based-image-analysis-obia"><span class="header-section-number">7.1.1</span> Object-Based Image Analysis (OBIA)</a></li>
+  <li><a href="#sub-pixel-analysis" id="toc-sub-pixel-analysis" class="nav-link" data-scroll-target="#sub-pixel-analysis"><span class="header-section-number">7.1.2</span> Sub-Pixel Analysis</a></li>
+  <li><a href="#accuracy-assessment" id="toc-accuracy-assessment" class="nav-link" data-scroll-target="#accuracy-assessment"><span class="header-section-number">7.1.3</span> Accuracy Assessment</a></li>
+  <li><a href="#spatial-cross-validation" id="toc-spatial-cross-validation" class="nav-link" data-scroll-target="#spatial-cross-validation"><span class="header-section-number">7.1.4</span> Spatial Cross Validation</a></li>
   </ul></li>
-  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">8.2</span> Applications</a>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">7.2</span> Applications</a>
   <ul class="collapse">
-  <li><a href="#obia" id="toc-obia" class="nav-link" data-scroll-target="#obia"><span class="header-section-number">8.2.1</span> <strong>OBIA</strong></a></li>
-  <li><a href="#sub-pixel-analysis-1" id="toc-sub-pixel-analysis-1" class="nav-link" data-scroll-target="#sub-pixel-analysis-1"><span class="header-section-number">8.2.2</span> Sub-Pixel Analysis</a></li>
+  <li><a href="#obia" id="toc-obia" class="nav-link" data-scroll-target="#obia"><span class="header-section-number">7.2.1</span> <strong>OBIA</strong></a></li>
+  <li><a href="#sub-pixel-analysis-1" id="toc-sub-pixel-analysis-1" class="nav-link" data-scroll-target="#sub-pixel-analysis-1"><span class="header-section-number">7.2.2</span> Sub-Pixel Analysis</a></li>
   </ul></li>
-  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">8.3</span> Reflection</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">8.4</span> References</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">7.3</span> Reflection</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">7.4</span> References</a></li>
   </ul>
 </nav>
     </div>
@@ -205,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Classification II</span></h1>
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification II</span></h1>
 </div>
 
 
@@ -222,20 +216,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="summary" class="level2" data-number="8.1">
-<h2 data-number="8.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">8.1</span> Summary</h2>
-<section id="object-based-image-analysis-obia" class="level3" data-number="8.1.1">
-<h3 data-number="8.1.1" class="anchored" data-anchor-id="object-based-image-analysis-obia"><span class="header-section-number">8.1.1</span> Object-Based Image Analysis (OBIA)</h3>
+<section id="summary" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">7.1</span> Summary</h2>
+<section id="object-based-image-analysis-obia" class="level3" data-number="7.1.1">
+<h3 data-number="7.1.1" class="anchored" data-anchor-id="object-based-image-analysis-obia"><span class="header-section-number">7.1.1</span> Object-Based Image Analysis (OBIA)</h3>
 <p>This involves pixels being grouped into objects based on similarity or difference of the cells. This group of pixels is also known as a <strong>superpixel</strong>, which can provide a condensed representation of images that can be useful for computationally demanding analysis. &nbsp;</p>
 <p>Simple Linear Iterative Clustering (SLIC) Algorithm is the most common method to generate superpixels. The algorithm produces superpixels by clustering pixels based on spatial proximity and colour similarity.</p>
 </section>
-<section id="sub-pixel-analysis" class="level3" data-number="8.1.2">
-<h3 data-number="8.1.2" class="anchored" data-anchor-id="sub-pixel-analysis"><span class="header-section-number">8.1.2</span> Sub-Pixel Analysis</h3>
+<section id="sub-pixel-analysis" class="level3" data-number="7.1.2">
+<h3 data-number="7.1.2" class="anchored" data-anchor-id="sub-pixel-analysis"><span class="header-section-number">7.1.2</span> Sub-Pixel Analysis</h3>
 <p>When we have a pixel that has a range of land cover classes within it, the challenge becomes whether we should calculate the proportions of each land cover class within the pixel or just classify it as one specific land cover class.</p>
 <p>Sub-pixel analysis can help with this by separating pixels into sub-pixels to predict their landcover class labels by comparing the reflectance values of the sub-pixels to the values of a spectrally pure end member. By doing this, classification is conducted at a finer spatial resolution.</p>
 </section>
-<section id="accuracy-assessment" class="level3" data-number="8.1.3">
-<h3 data-number="8.1.3" class="anchored" data-anchor-id="accuracy-assessment"><span class="header-section-number">8.1.3</span> Accuracy Assessment</h3>
+<section id="accuracy-assessment" class="level3" data-number="7.1.3">
+<h3 data-number="7.1.3" class="anchored" data-anchor-id="accuracy-assessment"><span class="header-section-number">7.1.3</span> Accuracy Assessment</h3>
 <p>We produce an accuracy assessment to determine how well the model performed in identifying different classes in unseen data.</p>
 <p>In remote sensing, the most common form of accuracy assessment is to consider the producer’s accuracy, user’s accuracy, and overall accuracy, which are all derived from a confusion matrix. All measurements and equations to derive them are shown in the matrix below.</p>
 <div class="quarto-figure quarto-figure-center">
@@ -256,32 +250,32 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p><strong>Cross Validation:</strong> this trains the model on different subsets of the data. There are many different methods of cross validation.</p>
 </section>
-<section id="spatial-cross-validation" class="level3" data-number="8.1.4">
-<h3 data-number="8.1.4" class="anchored" data-anchor-id="spatial-cross-validation"><span class="header-section-number">8.1.4</span> Spatial Cross Validation</h3>
+<section id="spatial-cross-validation" class="level3" data-number="7.1.4">
+<h3 data-number="7.1.4" class="anchored" data-anchor-id="spatial-cross-validation"><span class="header-section-number">7.1.4</span> Spatial Cross Validation</h3>
 <p>When data is spatial, spatial autocorrelation can become a potential issue and impact the model. If we randomly split spatial data it can lead to training points being neighbours with testing points, leading to the test and training datasets not being independent which can lead to overfitting.</p>
 <p>To avoid this, we can perform spatial cross validation which involves spatially partitioning the folded data.</p>
 </section>
 </section>
-<section id="applications" class="level2" data-number="8.2">
-<h2 data-number="8.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">8.2</span> Applications</h2>
+<section id="applications" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">7.2</span> Applications</h2>
 <p>In this section I will focus on the applications of OBIA and sub-pixel analysis.</p>
-<section id="obia" class="level3" data-number="8.2.1">
-<h3 data-number="8.2.1" class="anchored" data-anchor-id="obia"><span class="header-section-number">8.2.1</span> <strong>OBIA</strong></h3>
+<section id="obia" class="level3" data-number="7.2.1">
+<h3 data-number="7.2.1" class="anchored" data-anchor-id="obia"><span class="header-section-number">7.2.1</span> <strong>OBIA</strong></h3>
 <p>OBIA has been used extensively in land cover analysis, and is one of the most common methods for detecting informal settlements. This is because splitting up pixels into groups provides additional spectral, geometric and textural information <span class="citation" data-cites="kuffer2016">(<a href="references.html#ref-kuffer2016" role="doc-biblioref"><strong>kuffer2016?</strong></a>)</span> that are useful to detect specific structures that have unique characteristics in informal settlements, such as roofs of dwellings <span class="citation" data-cites="mudau2023">(<a href="references.html#ref-mudau2023" role="doc-biblioref"><strong>mudau2023?</strong></a>)</span> .</p>
 <p><span class="citation" data-cites="fallatah2019">(<a href="references.html#ref-fallatah2019" role="doc-biblioref"><strong>fallatah2019?</strong></a>)</span> used OBIA to detect informal settlements in Jeddah, Saudi Arabia using Geoimage which offers high-resolution images. The study only looked at 3 smaller study areas within the city and started first by classifying objects into vegetation extent, housing structures, road networks, roofing materials, texture of built up areas and dwelling size before being able to identify and differentiate between formal and informal settlements. Upon further research, I found that OBIA works better on higher resolution images in comparison to lower resolution images <span class="citation" data-cites="hossain2019">(<a href="references.html#ref-hossain2019" role="doc-biblioref"><strong>hossain2019?</strong></a>)</span>, which probably reflects the choice of remotely sensed data in the Jeddah study.</p>
 </section>
-<section id="sub-pixel-analysis-1" class="level3" data-number="8.2.2">
-<h3 data-number="8.2.2" class="anchored" data-anchor-id="sub-pixel-analysis-1"><span class="header-section-number">8.2.2</span> Sub-Pixel Analysis</h3>
+<section id="sub-pixel-analysis-1" class="level3" data-number="7.2.2">
+<h3 data-number="7.2.2" class="anchored" data-anchor-id="sub-pixel-analysis-1"><span class="header-section-number">7.2.2</span> Sub-Pixel Analysis</h3>
 <p>For sub-pixel analysis, I found that it has been used to detect changes in urban land-cover. Generally, change detection analysis is done on a per-pixel basis, however doing a sub-pixel analysis allows for the capture of changes that may be happening at a finer spatial resolution. One study used Landsat Thematic Mapper data and looked at the effectiveness of this method to detect land cover changes in the cities of Shangai and Xuzhou in China and found that the results were consistent with ground truth data <span class="citation" data-cites="du2014">(<a href="references.html#ref-du2014" role="doc-biblioref"><strong>du2014?</strong></a>)</span>.</p>
 </section>
 </section>
-<section id="reflection" class="level2" data-number="8.3">
-<h2 data-number="8.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">8.3</span> Reflection</h2>
+<section id="reflection" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">7.3</span> Reflection</h2>
 <p>I found sub-pixel analysis really interesting as I already thought doing analysis on a pixel level was already pretty small! I think being able to distinguish between things that are smaller than a pixel will help to identify materials and surfaces that are often mixed in with others at that resolution, which will overall improve the accuracy of analysis. This being said, I can see how the accuracy of sub-pixel analysis would rely heavily on the quality of the input data, which is something that should be taken into consideration.</p>
 <p>As I want to detect informal settlements as part of my dissertation, going over object based analysis was really useful and has helped me further understand the workflow behind such a methodology. Going over accuracy assessments for classification algorithms has also helped my thinking towards my dissertation as I will make sure to carefully consider the different assessments and their components. I also think it’s useful in general to understand, because as I mentioned in last weeks reflection, the classification product will never be 100% accurate and so we should not take it at face value.</p>
 </section>
-<section id="references" class="level2" data-number="8.4">
-<h2 data-number="8.4" class="anchored" data-anchor-id="references"><span class="header-section-number">8.4</span> References</h2>
+<section id="references" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="references"><span class="header-section-number">7.4</span> References</h2>
 
 
 </section>
@@ -677,12 +671,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./week_7.html" class="pagination-link  aria-label=" &lt;span="" i&lt;="" span&gt;"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification I</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification I</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./week_9.html" class="pagination-link" aria-label="<span class='chapter-number'>9</span>&nbsp; <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>">
-        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Synthetic Aperture Radar (SAR)</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./week_9.html" class="pagination-link" aria-label="<span class='chapter-number'>8</span>&nbsp; <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Synthetic Aperture Radar (SAR)</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
