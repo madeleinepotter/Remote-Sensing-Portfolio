@@ -36,7 +36,9 @@ We then covered image reduction where we can reduce an image collection chosen b
 
 Linear regression was also covered which in GEE, can be used for assessing change of pixel values over time to analyse features such as precipitation, land surface temperature and land use change. Finally, joins in GEE are similar to other GIS platforms and we can join feature collections and join image collections. We can also do spatial joins.
 
-In the practical we also ran some enhancements and conducted some band math which I have shown some examples of below.
+In the practical we also ran some enhancements and conducted some band math. I have included a PCA analysis of Jakarta below which actually loaded pretty quickly, I suppose demonstrating the power of GEE.
+
+![Jakarta PCA Analysis on GEE](jakarta_PCA.jpg){width="452"}
 
 ## Applications
 
