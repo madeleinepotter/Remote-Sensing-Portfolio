@@ -1,6 +1,6 @@
----
-title: "Week 5: Working on Group Presentations "
+# Week 5: Working on Group Presentations
 
+---
 output:
   format:
   html:

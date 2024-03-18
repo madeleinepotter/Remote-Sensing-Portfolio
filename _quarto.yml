@@ -6,13 +6,14 @@ project:
 book:
   title: "Remote Sensing Portfolio"
   author: "Madeleine Potter"
-  date: "19/01/2024"
+  date: "03/22/2024"
   chapters:
     - index.qmd
     - intro.qmd
     - summary.qmd
     - week_1.qmd
     - week_2.qmd
+    - corrections_w3.qmd
     - week_6.qmd
     - week_7.qmd
     - week_8.qmd

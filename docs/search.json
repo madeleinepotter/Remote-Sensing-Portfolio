@@ -2,41 +2,41 @@
   {
     "objectID": "week_2.html",
     "href": "week_2.html",
-    "title": "4  Week 4: Policy",
+    "title": "Week 4: Policy",
     "section": "",
-    "text": "4.1 Summary: Jakarta and the National Capital Integrated Coastal Development Plan\nThis week I have chosen to look at Jakarta, currently the capital city of Indonesia and home to over 10 million people in the immediate area and over 30 million people in the wider metropolitan area ‘Jabodetabek’. Sitting on swampy lands with 13 major rivers running through it, Jakarta has always been naturally vulnerable to floods which have gradually worsened since it’s occupation by the Dutch East India Company in the 17th century. This is mainly due to land subsidence caused by extensive ground water extraction meaning that Jakarta has quite literally dug itself into a hole. Currently, Jakarta is sinking at a rate of around 24cm a year and being located on the coast, it now also faces the issue of sea level rise caused by climate change. The image below shows just how much the coastline has changed in the past 39 years.\nOne of the worst floods occurred in 2007 where around 70% of the city was submerged with water after a period of heavy rain. Over 400,000 people were affected, 57 people died and economic losses totalled around USD 900 million (“A Retrospective View of Floods in Jakarta” n.d.). Since then, significant flooding has also occurred in 2013, 2014, 2020, 2021 and 2022. It has become so bad it was one of the reasons the government decided it would be moving the capital city to a new site in Kalimantan.\nPolicy is being constantly revised to try and solve the issue of flooding with one of the most significant plans in recent years being the National Capital Integrated Coastal Development Plan (NCICD) which sits in the wider Jakarta Coastal Defence Strategy. This includes strengthening its existing coastal defence infrastructure and the construction of a large new sea wall, lagoons and 17 artificial islands to tackle tidal flooding. The plan was initially going to cost around $40 billion.\nSince its creation in 2012, the plan has been criticised heavily and opposed by many including NGO’s and local fishing communities resulting in in several revisions of the plan. As it sits today, the construction of 13 of the islands has been halted and the planned ‘Garuda-shaped’ sea wall has changed into just a normal sea wall.\nAddressing the issue of flooding through this plan would be a step towards the following Sustainable Development Goals (SDGs):\nHowever, there is potential the policy would move Jakarta away from the following SDGs as the development of hard infrastructure will further disrupt the coastal environment:",
+    "text": "Summary: Jakarta and the National Capital Integrated Coastal Development Plan\nThis week I have chosen to look at Jakarta, currently the capital city of Indonesia and home to over 10 million people in the immediate area and over 30 million people in the wider metropolitan area ‘Jabodetabek’. Sitting on swampy lands with 13 major rivers running through it, Jakarta has always been naturally vulnerable to floods which have gradually worsened since it’s occupation by the Dutch East India Company in the 17th century. This is mainly due to land subsidence caused by extensive ground water extraction meaning that Jakarta has quite literally dug itself into a hole. Currently, Jakarta is sinking at a rate of around 24cm a year and being located on the coast, it now also faces the issue of sea level rise caused by climate change. The image below shows just how much the coastline has changed in the past 39 years.\nOne of the worst floods occurred in 2007 where around 70% of the city was submerged with water after a period of heavy rain. Over 400,000 people were affected, 57 people died and economic losses totalled around USD 900 million (“A Retrospective View of Floods in Jakarta” n.d.). Since then, significant flooding has also occurred in 2013, 2014, 2020, 2021 and 2022. It has become so bad it was one of the reasons the government decided it would be moving the capital city to a new site in Kalimantan.\nPolicy is being constantly revised to try and solve the issue of flooding with one of the most significant plans in recent years being the National Capital Integrated Coastal Development Plan (NCICD) which sits in the wider Jakarta Coastal Defence Strategy. This includes strengthening its existing coastal defence infrastructure and the construction of a large new sea wall, lagoons and 17 artificial islands to tackle tidal flooding. The plan was initially going to cost around $40 billion.\nSince its creation in 2012, the plan has been criticised heavily and opposed by many including NGO’s and local fishing communities resulting in in several revisions of the plan. As it sits today, the construction of 13 of the islands has been halted and the planned ‘Garuda-shaped’ sea wall has changed into just a normal sea wall.\nAddressing the issue of flooding through this plan would be a step towards the following Sustainable Development Goals (SDGs):\nHowever, there is potential the policy would move Jakarta away from the following SDGs as the development of hard infrastructure will further disrupt the coastal environment:",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4: Policy</span>"
+      "Week 4: Policy"
     ]
   },
   {
     "objectID": "week_2.html#summary-jakarta-and-the-national-capital-integrated-coastal-development-plan",
     "href": "week_2.html#summary-jakarta-and-the-national-capital-integrated-coastal-development-plan",
-    "title": "4  Week 4: Policy",
+    "title": "Week 4: Policy",
     "section": "",
     "text": "Landsat 5 (1990 image) and Landsat 8 (2019 image) images of Jakarta showing it’s rapid urban development and land cover change. From https://landsat.visibleearth.nasa.gov/view.php?id=148303\n\n\n\n\n\n\n\nA map of the first version of the NCICDP in North Jakarta. From (Permanasari 2019).",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4: Policy</span>"
+      "Week 4: Policy"
     ]
   },
   {
     "objectID": "week_2.html#applications",
     "href": "week_2.html#applications",
-    "title": "4  Week 4: Policy",
-    "section": "4.2 Applications",
-    "text": "4.2 Applications\nAs I am also quite critical to the NCICD policy as I believe it is more of a fast, short-term solution, I will focus on the goal itself and explore how remote sensing can be used to mitigate severe tidal flood events and increase Jakarta’s resilience to such flood events.\nIn remote sensing, Synthetic Aperture Radar (SAR) data has proven to be useful in flood management, which involves the monitoring, prevention, and mitigation of floods. The main reason as to why it is so useful in flood management is its advantage of being able to ‘see’ through clouds. Several satellites have a SAR on board, one example being the European Space Agency’s Sentinel 1A/B.\n\n4.2.1 Monitoring land subsidence\nDifferential Interferometry Synthetic Aperture Radar (DInSAR) observes changes between two SAR images taken at different times and is often used to measure land subsidence. An advantage of DInSAR is that it can detect centimeter-level surface displacements with each pixel representing the average displacement over an area of several square meters (Wempen 2020). In Jakarta this would be useful for monitoring future land subsidence which can help identify flood prone areas. Caló et al. (2017) used (DInSAR) along with data on land cover, climate and water storage to first map out areas of deformation and then correlate land subsidence to groundwater extraction.\n\n\n4.2.2 Optimal site selection for mangroves\nMy favourite use of remotely sensed data to combat flood risks that I came across is for the optimal site selection for mangroves, which I think Jakarta’s coastline would benefit greatly from. Syahid et al. (2020) performed a weighted land suitability analysis using hydrodynamic, socio-economic, geomorphological, and climatic parameters to identify suitable areas for mangroves across southeast Asia. Restoring the mangrove forests that once existed along Jakarta’s coastline instead of a constructing a giant sea wall would help with flood management while also providing potential benefits to the local fishing communities.\n\n\n4.2.3 Monitoring Sea Level Rise\nTo assess exposure and vulnerability to sea level rise, elevation data is a critical component which is often derived from digital elevation models (DEMs) (gesch2018?). Most DEMs have been produced using remote sensing data such as the Shuttle Radar Topography Mission (SRTM) which was launched to produce the first near global set of land elevation data. Duncan et al. (2018) used the SRTM DEM along with data on mangrove distribution from Landsat 5, data on biomass changes from SAR and data on sediment trends from ENVISAT-MERIS to assess mangrove forest resilience to sea level rise across West Africa and South Asia. SRTM was chosen for this study as it covers a global area to a high resolution. Other studies, often with specific research areas have used other DEMs, such as Anzidei et al. (2021) where it was decided a DEM derived from LiDAR data was the best option to assess shoreline changes overtime as SRTM DEMs have been shown to be higher than actual land surfaces (Su et al. 2015).",
+    "title": "Week 4: Policy",
+    "section": "Applications",
+    "text": "Applications\nAs I am also quite critical to the NCICD policy as I believe it is more of a fast, short-term solution, I will focus on the goal itself and explore how remote sensing can be used to mitigate severe tidal flood events and increase Jakarta’s resilience to such flood events.\nIn remote sensing, Synthetic Aperture Radar (SAR) data has proven to be useful in flood management, which involves the monitoring, prevention, and mitigation of floods. The main reason as to why it is so useful in flood management is its advantage of being able to ‘see’ through clouds. Several satellites have a SAR on board, one example being the European Space Agency’s Sentinel 1A/B.\n\nMonitoring land subsidence\nDifferential Interferometry Synthetic Aperture Radar (DInSAR) observes changes between two SAR images taken at different times and is often used to measure land subsidence. An advantage of DInSAR is that it can detect centimeter-level surface displacements with each pixel representing the average displacement over an area of several square meters (Wempen 2020). In Jakarta this would be useful for monitoring future land subsidence which can help identify flood prone areas. Caló et al. (2017) used (DInSAR) along with data on land cover, climate and water storage to first map out areas of deformation and then correlate land subsidence to groundwater extraction.\n\n\nOptimal site selection for mangroves\nMy favourite use of remotely sensed data to combat flood risks that I came across is for the optimal site selection for mangroves, which I think Jakarta’s coastline would benefit greatly from. Syahid et al. (2020) performed a weighted land suitability analysis using hydrodynamic, socio-economic, geomorphological, and climatic parameters to identify suitable areas for mangroves across southeast Asia. Restoring the mangrove forests that once existed along Jakarta’s coastline instead of a constructing a giant sea wall would help with flood management while also providing potential benefits to the local fishing communities.\n\n\nMonitoring Sea Level Rise\nTo assess exposure and vulnerability to sea level rise, elevation data is a critical component which is often derived from digital elevation models (DEMs) (gesch2018?). Most DEMs have been produced using remote sensing data such as the Shuttle Radar Topography Mission (SRTM) which was launched to produce the first near global set of land elevation data. Duncan et al. (2018) used the SRTM DEM along with data on mangrove distribution from Landsat 5, data on biomass changes from SAR and data on sediment trends from ENVISAT-MERIS to assess mangrove forest resilience to sea level rise across West Africa and South Asia. SRTM was chosen for this study as it covers a global area to a high resolution. Other studies, often with specific research areas have used other DEMs, such as Anzidei et al. (2021) where it was decided a DEM derived from LiDAR data was the best option to assess shoreline changes overtime as SRTM DEMs have been shown to be higher than actual land surfaces (Su et al. 2015).",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4: Policy</span>"
+      "Week 4: Policy"
     ]
   },
   {
     "objectID": "week_2.html#reflection",
     "href": "week_2.html#reflection",
-    "title": "4  Week 4: Policy",
-    "section": "4.3 Reflection",
-    "text": "4.3 Reflection\nThis week allowed for a more in-depth exploration of how remote sensing can be used in a wider policy context to solve city-wide issues or move towards a common goal. With my interests I enjoyed the opportunity to investigate a pressing environmental issue in an urban context. I grew up in Indonesia and this made me reflect on Jakarta’s reputation with flooding and it’s impact on everyday life. Sometimes, just the signs of a potential downpour would be enough to stop you from going out because there was a high chance it would flood.\nI can see how remote sensing could really help inform better decision and policy-making in the long-term and why it should be used when dealing with a complex environmental issue such as this one, and in a place that generally lacks sufficient local data. In the future, it would be interesting to see if you could use remotely sensed data to assess the impact of Jakarta’s NCICD policy by comparing remotely sensed data from before and after the plans completion. To assess this one could focus on change detection of sea level rise or land subsidence. If floods are persisting there could also be a possibility analyse flood impact assessments from before and after the implementation of the plan to see if the amount of land inundated has changed and how.",
+    "title": "Week 4: Policy",
+    "section": "Reflection",
+    "text": "Reflection\nThis week allowed for a more in-depth exploration of how remote sensing can be used in a wider policy context to solve city-wide issues or move towards a common goal. With my interests I enjoyed the opportunity to investigate a pressing environmental issue in an urban context. I grew up in Indonesia and this made me reflect on Jakarta’s reputation with flooding and it’s impact on everyday life. Sometimes, just the signs of a potential downpour would be enough to stop you from going out because there was a high chance it would flood.\nI can see how remote sensing could really help inform better decision and policy-making in the long-term and why it should be used when dealing with a complex environmental issue such as this one, and in a place that generally lacks sufficient local data. In the future, it would be interesting to see if you could use remotely sensed data to assess the impact of Jakarta’s NCICD policy by comparing remotely sensed data from before and after the plans completion. To assess this one could focus on change detection of sea level rise or land subsidence. If floods are persisting there could also be a possibility analyse flood impact assessments from before and after the implementation of the plan to see if the amount of land inundated has changed and how.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4: Policy</span>"
+      "Week 4: Policy"
     ]
   },
   {
@@ -112,51 +112,51 @@
   {
     "objectID": "week_1.html",
     "href": "week_1.html",
-    "title": "3  Week 3: Corrections",
+    "title": "Week 3: Corrections",
     "section": "",
-    "text": "3.1 Summary:",
+    "text": "Summary:",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3: Corrections</span>"
+      "Week 3: Corrections"
     ]
   },
   {
     "objectID": "week_1.html#summary",
     "href": "week_1.html#summary",
-    "title": "3  Week 3: Corrections",
+    "title": "Week 3: Corrections",
     "section": "",
-    "text": "3.1.1 Key words and phrases from this week:\nDigital Number (DN): a raw value assigned to a pixel which has not yet been calibrated to describe the intensity of electromagnetic radiation of the pixel. To be meaningful, needs to be adjusted by gain and offset.\nRadiance: The brightness or light that the sensor ‘observes’. Usually measured in watt/(steradian/square metre) and might be called Top of Atmosphere (TOA) reflectance.\nReflectance: The ratio of light reflected by a surface to the total amount of light hitting the surface. It has no units. Can come as surface reflectance, Bottom of Atmosphere (BOA) and Top of Atmosphere.\nSolar Zenith: The zenith angle of the sun which is the angle between the sun and the vertical. ( 90 degrees – angle of elevation of sun)\n\n\n3.1.2 Corrections\nRemotely sensed data can contain errors created by the atmosphere, the sensor itself and the surface it is observing. There are four types of corrections that aim to correct for such errors. These are atmospheric correction, geometric correction, orthorectification and radiometric calibration.\nOrthorectification is a subset of georectification. It removes distortions caused by the topography of the Earth’s surface and the tilt of the sensor by stretching the image. Radiometric calibration is the process of converting the raw satellite data (digital numbers) into physical units.\nHere I will go into more detail on atmospheric and geometric correction as I found them to be the most interesting.\n\n3.1.2.1 Atmospheric Correction:\nAtmospheric correction is the process of removing the effects of atmospheric scattering and absorption on reflectance values. It is required when using biophysical parameters and using spectral signatures through time and space. There are two types of atmospheric correction, relative and absolute correction. Relative correction can compare and normalise the different bands within a single image or across several images of the same scene. Absolute correction converts digital brightness of the pixels to units of radiance or reflectance to compare against the scaled surface values over the earth.\n\n\n\nMexican Gulf Coast The image on the left is impacted by smoke effects from agriculture, the image on the right is the result of atmospheric correction (noaa?).\n\n\n\n\n3.1.2.2 Geometric Correction:\nGeometric correction is the process of correcting for positional errors caused by factors such as satellite or aircraft instability, the earth’s rotation and curvature and instrument error.  Ground control points (GCP) and a reference dataset are needed to model the coordinates to give them transformation coefficients. GCPs are usually points that highly contrast against the surround area often being roads, corners of buildings, distinctive water bodies or the edges of land cover areas.\n\n\n\nThe left image is an uncorrected image and the one on the right is the geo-referenced image after geometric correction (arif2009?).\n\n\nWe also covered enhancement which I will explore in the applications section.",
+    "text": "Key words and phrases from this week:\nDigital Number (DN): a raw value assigned to a pixel which has not yet been calibrated to describe the intensity of electromagnetic radiation of the pixel. To be meaningful, needs to be adjusted by gain and offset.\nRadiance: The brightness or light that the sensor ‘observes’. Usually measured in watt/(steradian/square metre) and might be called Top of Atmosphere (TOA) reflectance.\nReflectance: The ratio of light reflected by a surface to the total amount of light hitting the surface. It has no units. Can come as surface reflectance, Bottom of Atmosphere (BOA) and Top of Atmosphere.\nSolar Zenith: The zenith angle of the sun which is the angle between the sun and the vertical. ( 90 degrees – angle of elevation of sun)\n\n\nCorrections\nRemotely sensed data can contain errors created by the atmosphere, the sensor itself and the surface it is observing. There are four types of corrections that aim to correct for such errors. These are atmospheric correction, geometric correction, orthorectification and radiometric calibration.\nOrthorectification is a subset of georectification. It removes distortions caused by the topography of the Earth’s surface and the tilt of the sensor by stretching the image. Radiometric calibration is the process of converting the raw satellite data (digital numbers) into physical units.\nHere I will go into more detail on atmospheric and geometric correction as I found them to be the most interesting.\n\nAtmospheric Correction:\nAtmospheric correction is the process of removing the effects of atmospheric scattering and absorption on reflectance values. It is required when using biophysical parameters and using spectral signatures through time and space. There are two types of atmospheric correction, relative and absolute correction. Relative correction can compare and normalise the different bands within a single image or across several images of the same scene. Absolute correction converts digital brightness of the pixels to units of radiance or reflectance to compare against the scaled surface values over the earth.\n\n\n\nMexican Gulf Coast The image on the left is impacted by smoke effects from agriculture, the image on the right is the result of atmospheric correction (noaa?).\n\n\n\n\nGeometric Correction:\nGeometric correction is the process of correcting for positional errors caused by factors such as satellite or aircraft instability, the earth’s rotation and curvature and instrument error.  Ground control points (GCP) and a reference dataset are needed to model the coordinates to give them transformation coefficients. GCPs are usually points that highly contrast against the surround area often being roads, corners of buildings, distinctive water bodies or the edges of land cover areas.\n\n\n\nThe left image is an uncorrected image and the one on the right is the geo-referenced image after geometric correction (arif2009?).\n\n\nWe also covered enhancement which I will explore in the applications section.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3: Corrections</span>"
+      "Week 3: Corrections"
     ]
   },
   {
     "objectID": "week_1.html#applications",
     "href": "week_1.html#applications",
-    "title": "3  Week 3: Corrections",
-    "section": "3.2 Applications",
-    "text": "3.2 Applications\nAs corrections made to remotely sensed data can significantly improve the quality by removing errors and distortions, I can imagine it is used in all areas of remote sensing, whether you are manually correcting the data yourself or using data that has already been corrected.\nTherefore, for the application section I would like to focus on the applications of remote sensing enhancements.\n\n3.2.1 Ratio Enhancements: NDVI (Normalised Difference Vegetation Index)\nStudies that use NDVI cover a wide range of topics that appear to span over several disciplines.\n\n\n\n\n\n\nFigure 3.1: An example of an NDVI analysis output for the San Francisco Bay Area, USA from this weeks practical.\n\n\n\n\nI decided look at NDVI in an urban context to see how it has been used to investigate phenomena in cities. Most studies exploring this appear to investigate the impact of vegetation and greenery on the surrounding environment and even on inhabitants of cities.\nSeveral studies have used NDVI to explore the impact of urban greening on land surface temperatures. (Zaitunah et al. 2022) through a visual analysis in the city of Medan, Indonesia and demonstrated that temperatures in urban parks which had lots of trees were significantly lower than the surrounding areas. By taking NDVI values, different parks could be compared to each other and classified into different vegetation density classes which allowed for the finding on the importance of trees. This shows just how effective NDVI is at identifying vegetation and drawing out its different characteristics.\nWhile NDVI has proven to be a useful tool when analysing and quantifying vegetation density, (Reid et al. 2018) points out the difficulty of using NDVI to measure ‘greenness’ consistently across studies exploring health outcomes. Difficulties mainly arise in the different ways ‘greenness’ is measured, through the modifiable unit areal problem and differences in atmospheric correction, view angle and calibration of the different NDVI datasets used across studies. While some of these issues don’t directly relate to the NDVI itself, it is certainly something to consider when using it.",
+    "title": "Week 3: Corrections",
+    "section": "Applications",
+    "text": "Applications\nAs corrections made to remotely sensed data can significantly improve the quality by removing errors and distortions, I can imagine it is used in all areas of remote sensing, whether you are manually correcting the data yourself or using data that has already been corrected.\nTherefore, for the application section I would like to focus on the applications of remote sensing enhancements.\n\nRatio Enhancements: NDVI (Normalised Difference Vegetation Index)\nStudies that use NDVI cover a wide range of topics that appear to span over several disciplines.\n\n\n\n\n\n\nFigure 1: An example of an NDVI analysis output for the San Francisco Bay Area, USA from this weeks practical.\n\n\n\n\nI decided look at NDVI in an urban context to see how it has been used to investigate phenomena in cities. Most studies exploring this appear to investigate the impact of vegetation and greenery on the surrounding environment and even on inhabitants of cities.\nSeveral studies have used NDVI to explore the impact of urban greening on land surface temperatures. (Zaitunah et al. 2022) through a visual analysis in the city of Medan, Indonesia and demonstrated that temperatures in urban parks which had lots of trees were significantly lower than the surrounding areas. By taking NDVI values, different parks could be compared to each other and classified into different vegetation density classes which allowed for the finding on the importance of trees. This shows just how effective NDVI is at identifying vegetation and drawing out its different characteristics.\nWhile NDVI has proven to be a useful tool when analysing and quantifying vegetation density, (Reid et al. 2018) points out the difficulty of using NDVI to measure ‘greenness’ consistently across studies exploring health outcomes. Difficulties mainly arise in the different ways ‘greenness’ is measured, through the modifiable unit areal problem and differences in atmospheric correction, view angle and calibration of the different NDVI datasets used across studies. While some of these issues don’t directly relate to the NDVI itself, it is certainly something to consider when using it.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3: Corrections</span>"
+      "Week 3: Corrections"
     ]
   },
   {
     "objectID": "week_1.html#reflection",
     "href": "week_1.html#reflection",
-    "title": "3  Week 3: Corrections",
-    "section": "3.3 Reflection",
-    "text": "3.3 Reflection\nI can’t lie this was a lot of information to get my head around and I’m relieved that when we come to using Google Earth Engine the data will come already corrected. I can however understand why this was covered and just how necessary corrections are (even if they look intimidating) to ensure data quality and allowing for different images to be compared. I also see the importance of understanding the ways remotely sensed images can be manipulated which means that we can look further than just what is on the surface of that data.\nAs most data comes already corrected, I’m guessing my use of remote sensing corrections will be limited however I can see how I could use enhancements in the future to explore different features of the landscape. For example, PCA would be really useful in remote sensing (which as we know, deals with large amounts of data) for creating smaller datasets by getting rid of redundant spectral information while also maintaining as much original information as possible.",
+    "title": "Week 3: Corrections",
+    "section": "Reflection",
+    "text": "Reflection\nI can’t lie this was a lot of information to get my head around and I’m relieved that when we come to using Google Earth Engine the data will come already corrected. I can however understand why this was covered and just how necessary corrections are (even if they look intimidating) to ensure data quality and allowing for different images to be compared. I also see the importance of understanding the ways remotely sensed images can be manipulated which means that we can look further than just what is on the surface of that data.\nAs most data comes already corrected, I’m guessing my use of remote sensing corrections will be limited however I can see how I could use enhancements in the future to explore different features of the landscape. For example, PCA would be really useful in remote sensing (which as we know, deals with large amounts of data) for creating smaller datasets by getting rid of redundant spectral information while also maintaining as much original information as possible.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3: Corrections</span>"
+      "Week 3: Corrections"
     ]
   },
   {
     "objectID": "corrections_w3.html",
     "href": "corrections_w3.html",
-    "title": "5  Week 5: Working on Group Presentations",
+    "title": "4  Week 5: Working on Group Presentations",
     "section": "",
-    "text": "5.1",
+    "text": "4.1",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 5: Working on Group Presentations</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 5: Working on Group Presentations</span>"
     ]
   },
   {
@@ -182,11 +182,11 @@
   {
     "objectID": "week_1.html#references",
     "href": "week_1.html#references",
-    "title": "3  Week 3: Corrections",
-    "section": "3.4 References",
-    "text": "3.4 References\n\n\n\n\nReid, Colleen E., Laura D. Kubzansky, Jiayue Li, Jessie L. Shmool, and Jane E. Clougherty. 2018. “It’s Not Easy Assessing Greenness: A Comparison of NDVI Datasets and Neighborhood Types and Their Associations with Self-Rated Health in New York City.” Health & Place 54 (November): 92–101. https://doi.org/10.1016/j.healthplace.2018.09.005.\n\n\nZaitunah, Anita, Samsuri, Angelia Frecella Silitonga, and Lailan Syaufina. 2022. “Urban Greening Effect on Land Surface Temperature.” Sensors 22 (11): 4168. https://doi.org/10.3390/s22114168.",
+    "title": "Week 3: Corrections",
+    "section": "References",
+    "text": "References\n\n\n\n\nReid, Colleen E., Laura D. Kubzansky, Jiayue Li, Jessie L. Shmool, and Jane E. Clougherty. 2018. “It’s Not Easy Assessing Greenness: A Comparison of NDVI Datasets and Neighborhood Types and Their Associations with Self-Rated Health in New York City.” Health & Place 54 (November): 92–101. https://doi.org/10.1016/j.healthplace.2018.09.005.\n\n\nZaitunah, Anita, Samsuri, Angelia Frecella Silitonga, and Lailan Syaufina. 2022. “Urban Greening Effect on Land Surface Temperature.” Sensors 22 (11): 4168. https://doi.org/10.3390/s22114168.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3: Corrections</span>"
+      "Week 3: Corrections"
     ]
   },
   {
@@ -202,201 +202,201 @@
   {
     "objectID": "week_2.html#references",
     "href": "week_2.html#references",
-    "title": "4  Week 4: Policy",
-    "section": "4.4 References",
-    "text": "4.4 References\n\n\n\n\n“A Retrospective View of Floods in Jakarta.” n.d. https://www.jbarisk.com/products-services/event-response/a-retrospective-view-of-floods-in-jakarta/. Accessed January 30, 2024.\n\n\nAnzidei, Marco, Giovanni Scicchitano, Giovanni Scardino, Christian Bignami, Cristiano Tolomei, Antonio Vecchio, Enrico Serpelloni, et al. 2021. “Relative Sea-Level Rise Scenario for 2100 Along the Coast of South Eastern Sicily (Italy) by InSAR Data, Satellite Images and High-Resolution Topography.” Remote Sensing 13 (6): 1108. https://doi.org/10.3390/rs13061108.\n\n\nCaló, Fabiana, Davide Notti, Jorge Pedro Galve, Saygin Abdikan, Tolga Görüm, Antonio Pepe, and Füsun Balik Şanli. 2017. “DInSAR-Based Detection of Land Subsidence and Correlation with Groundwater Depletion in Konya Plain, Turkey.” Remote Sensing 9 (1): 83. https://doi.org/10.3390/rs9010083.\n\n\nDuncan, Clare, Harry J. F. Owen, Julian R. Thompson, Heather J. Koldewey, Jurgenne H. Primavera, and Nathalie Pettorelli. 2018. “Satellite Remote Sensing to Monitor Mangrove Forest Resilience and Resistance to Sea Level Rise.” Methods in Ecology and Evolution 9 (8): 1837–52. https://doi.org/10.1111/2041-210X.12923.\n\n\nPermanasari, Eka. 2019. “Reading Political Insinuation in Urban Forms: Saving the Sinking Jakarta Through Giant Sea Wall Project.” Geographia Technica 14 (March): 56–65. https://doi.org/10.21163/GT_2019.141.19.\n\n\nSu, Yanjun, Qinghua Guo, Qin Ma, and Wenkai Li. 2015. “SRTM DEM Correction in Vegetated Mountain Areas Through the Integration of Spaceborne LiDAR, Airborne LiDAR, and Optical Imagery.” Remote Sensing 7 (9): 11202–25. https://doi.org/10.3390/rs70911202.\n\n\nSyahid, Luri Nurlaila, Anjar Dimara Sakti, Riantini Virtriana, Ketut Wikantika, Wiwin Windupranata, Satoshi Tsuyuki, Rezzy Eko Caraka, and Rudhi Pribadi. 2020. “Determining Optimal Location for Mangrove Planting Using Remote Sensing and Climate Model Projection in Southeast Asia.” Remote Sensing 12 (22): 3734. https://doi.org/10.3390/rs12223734.\n\n\nWempen, Jessica M. 2020. “Application of DInSAR for Short Period Monitoring of Initial Subsidence Due to Longwall Mining in the Mountain West United States.” International Journal of Mining Science and Technology, Special issue on ground control in mining in 2019, 30 (1): 33–37. https://doi.org/10.1016/j.ijmst.2019.12.011.",
+    "title": "Week 4: Policy",
+    "section": "References",
+    "text": "References\n\n\n\n\n“A Retrospective View of Floods in Jakarta.” n.d. https://www.jbarisk.com/products-services/event-response/a-retrospective-view-of-floods-in-jakarta/. Accessed January 30, 2024.\n\n\nAnzidei, Marco, Giovanni Scicchitano, Giovanni Scardino, Christian Bignami, Cristiano Tolomei, Antonio Vecchio, Enrico Serpelloni, et al. 2021. “Relative Sea-Level Rise Scenario for 2100 Along the Coast of South Eastern Sicily (Italy) by InSAR Data, Satellite Images and High-Resolution Topography.” Remote Sensing 13 (6): 1108. https://doi.org/10.3390/rs13061108.\n\n\nCaló, Fabiana, Davide Notti, Jorge Pedro Galve, Saygin Abdikan, Tolga Görüm, Antonio Pepe, and Füsun Balik Şanli. 2017. “DInSAR-Based Detection of Land Subsidence and Correlation with Groundwater Depletion in Konya Plain, Turkey.” Remote Sensing 9 (1): 83. https://doi.org/10.3390/rs9010083.\n\n\nDuncan, Clare, Harry J. F. Owen, Julian R. Thompson, Heather J. Koldewey, Jurgenne H. Primavera, and Nathalie Pettorelli. 2018. “Satellite Remote Sensing to Monitor Mangrove Forest Resilience and Resistance to Sea Level Rise.” Methods in Ecology and Evolution 9 (8): 1837–52. https://doi.org/10.1111/2041-210X.12923.\n\n\nPermanasari, Eka. 2019. “Reading Political Insinuation in Urban Forms: Saving the Sinking Jakarta Through Giant Sea Wall Project.” Geographia Technica 14 (March): 56–65. https://doi.org/10.21163/GT_2019.141.19.\n\n\nSu, Yanjun, Qinghua Guo, Qin Ma, and Wenkai Li. 2015. “SRTM DEM Correction in Vegetated Mountain Areas Through the Integration of Spaceborne LiDAR, Airborne LiDAR, and Optical Imagery.” Remote Sensing 7 (9): 11202–25. https://doi.org/10.3390/rs70911202.\n\n\nSyahid, Luri Nurlaila, Anjar Dimara Sakti, Riantini Virtriana, Ketut Wikantika, Wiwin Windupranata, Satoshi Tsuyuki, Rezzy Eko Caraka, and Rudhi Pribadi. 2020. “Determining Optimal Location for Mangrove Planting Using Remote Sensing and Climate Model Projection in Southeast Asia.” Remote Sensing 12 (22): 3734. https://doi.org/10.3390/rs12223734.\n\n\nWempen, Jessica M. 2020. “Application of DInSAR for Short Period Monitoring of Initial Subsidence Due to Longwall Mining in the Mountain West United States.” International Journal of Mining Science and Technology, Special issue on ground control in mining in 2019, 30 (1): 33–37. https://doi.org/10.1016/j.ijmst.2019.12.011.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4: Policy</span>"
+      "Week 4: Policy"
     ]
   },
   {
     "objectID": "week_6.html",
     "href": "week_6.html",
-    "title": "5  Google Earth Engine",
+    "title": "5  Week 6: Google Earth Engine",
     "section": "",
     "text": "5.1 Summary",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Google Earth Engine</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 6: Google Earth Engine</span>"
     ]
   },
   {
     "objectID": "week_6.html#summary",
     "href": "week_6.html#summary",
-    "title": "5  Google Earth Engine",
+    "title": "5  Week 6: Google Earth Engine",
     "section": "",
     "text": "5.1.1 Key Words When Using GEE:\nObject: Vector, raster, feature, string, number.\nImage: Raster data type.\nImage Collection: A set of images.\nGeometry: Vector data type.\nFeature: A geometry with attributes.\nReducer: An object used to compute statistics or perform aggregations.\nJoin: Used to combine datasets. (image or feature collection) based on time, location or an attribute.\nArray: Object for multi-dimensional analysis.\nChart: An object for charting properties and spatiotemporal reductions.\nAfter much anticipation, this week we were finally introduced to Google Earth Engine (GEE). GEE is a freely available “cloud-based geo-spatial analysis platform” which has become a very powerful and time efficient tool for analysing and understanding the earth’s surface. I think its effectiveness is reflected in the growing number of academic articles being published that use GEE, as shown below.\n\n\n\nFrom (Pérez-Cutillas et al. 2023).\n\n\nThe lecture gave a quick overview into what may be different in GEE compared to other platforms, for example scale (pixel resolution) is determined by the output and not the input and rather nicely, you don’t have to worry about projections!\nWe then covered image reduction where we can reduce an image collection chosen by a place and dates, to the extreme values for each pixel (eg. min, max, mean, median, standard deviation). This results in an image collection being reduced to a single image. \nLinear regression was also covered which in GEE, can be used for assessing change of pixel values over time to analyse features such as precipitation, land surface temperature and land use change. Finally, joins in GEE are similar to other GIS platforms and we can join feature collections and join image collections. We can also do spatial joins.\nIn the practical we also ran some enhancements and conducted some band math. I have included a PCA analysis of Jakarta below which actually loaded pretty quickly, I suppose demonstrating the power of GEE.\n\n\n\nJakarta PCA Analysis on GEE",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Google Earth Engine</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 6: Google Earth Engine</span>"
     ]
   },
   {
     "objectID": "week_6.html#applications",
     "href": "week_6.html#applications",
-    "title": "5  Google Earth Engine",
+    "title": "5  Week 6: Google Earth Engine",
     "section": "5.2 Applications",
     "text": "5.2 Applications\nAs I mentioned before, the use of GEE is now extensive among academics, NGOs, governments, and educational institutions as it’s easily accessible and more time efficient than other GIS applications used for remote sensing. Because of this and its functionality, GEE applications are far and wide. Below are a few popular applications of GEE:\n\n\n\nFrom (Lucas et al. 2019)\n\n\nA specific application I found was a study using GEE to detect palm oil plantations in Sumatra, Indonesia. It did this by combining optical and radar datasets (Landsat and SAR) and performing image classification using a Random Forest algorithm, finally assessing its accuracy by comparing it to other palm oil map sources (Sarzynski et al. 2020). The whole methodology was performed in Google Earth Engine which has a RandomForest function and several other functions that help to calculate accuracy assessment metrics. Similar to several other studies I looked at, the combination of optical and radar datasets can often improve the identification and classification of features, which I did not know one could do.\nGEE also allows for the creation of applications, which I think can help share research to a wider audience as it is a user-friendly way to display insightful information. An example of this is Global Forest Watch which uses GEE to measure and display changes to the world’s forests. It’s now used by NGO’s, corporations, governments and even indigenous groups to protect and monitor the world’s forests.\nOf course, GEE has it’s advantages and disadvantages which are summarised in the table below from (Zhao et al. 2021)",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Google Earth Engine</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 6: Google Earth Engine</span>"
     ]
   },
   {
     "objectID": "week_6.html#reflection",
     "href": "week_6.html#reflection",
-    "title": "5  Google Earth Engine",
+    "title": "5  Week 6: Google Earth Engine",
     "section": "5.3 Reflection",
     "text": "5.3 Reflection\nAfter working with SNAP and R and seeing how long it takes to process remotely sensed data through these applications, I was excited to learn about how to use GEE. I think the difference in processing time for the enhancement measures such as PCA analysis really highlighted just how fast GEE is in comparison. Also, being able to load satellite images directly into GEE without having to go through a separate website is also really useful and time saving. It makes finding a suitable image a lot easier. The only issue for me at the moment is getting used to a new coding language, JavaScript, as I have not used it before.\nOver the past weeks, I’ve become more interested in doing a dissertation that looks at the impact of natural hazards on the urban environment and I can see how I could use GEE to do so. I think the much shorter processing time of GEE makes that idea also look less daunting. I think the wide collection of datasets existing in one place would also be a big benefit when working on a big project such as the dissertation.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Google Earth Engine</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 6: Google Earth Engine</span>"
     ]
   },
   {
     "objectID": "week_6.html#references",
     "href": "week_6.html#references",
-    "title": "5  Google Earth Engine",
+    "title": "5  Week 6: Google Earth Engine",
     "section": "5.4 References",
     "text": "5.4 References\n\n\n\n\nLucas, Richard, Norman Mueller, Anders Siggins, Christopher Owers, Daniel Clewley, Peter Bunting, Cate Kooymans, et al. 2019. “Land Cover Mapping Using Digital Earth Australia.” Data 4 (4): 143. https://doi.org/10.3390/data4040143.\n\n\nPérez-Cutillas, Pedro, Alberto Pérez-Navarro, Carmelo Conesa-García, Demetrio Antonio Zema, and Jesús Pilar Amado-Álvarez. 2023. “What Is Going on Within Google Earth Engine? A Systematic Review and Meta-Analysis.” Remote Sensing Applications: Society and Environment 29 (January): 100907. https://doi.org/10.1016/j.rsase.2022.100907.\n\n\nSarzynski, Thuan, Xingli Giam, Luis Carrasco, and Janice Ser Huay Lee. 2020. “Combining Radar and Optical Imagery to Map Oil Palm Plantations in Sumatra, Indonesia, Using the Google Earth Engine.” Remote Sensing 12 (April). https://doi.org/10.3390/rs12071220.\n\n\nZhao, Qiang, Le Yu, Li Xuecao, Dailiang Peng, Yongguang Zhang, and Peng Gong. 2021. “Progress and Trends in the Application of Google Earth and Google Earth Engine.” Remote Sensing 13 (September): 3778. https://doi.org/10.3390/rs13183778.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Google Earth Engine</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 6: Google Earth Engine</span>"
     ]
   },
   {
     "objectID": "week_8.html",
     "href": "week_8.html",
-    "title": "7  Classification II",
+    "title": "7  Week 8: Classification II",
     "section": "",
     "text": "7.1 Summary",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Classification II</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 8: Classification II</span>"
     ]
   },
   {
     "objectID": "week_8.html#summary",
     "href": "week_8.html#summary",
-    "title": "7  Classification II",
+    "title": "7  Week 8: Classification II",
     "section": "",
     "text": "7.1.1 Object-Based Image Analysis (OBIA)\nThis involves pixels being grouped into objects based on similarity or difference of the cells. This group of pixels is also known as a superpixel, which can provide a condensed representation of images that can be useful for computationally demanding analysis.  \nSimple Linear Iterative Clustering (SLIC) Algorithm is the most common method to generate superpixels. The algorithm produces superpixels by clustering pixels based on spatial proximity and colour similarity.\n\n\n7.1.2 Sub-Pixel Analysis\nWhen we have a pixel that has a range of land cover classes within it, the challenge becomes whether we should calculate the proportions of each land cover class within the pixel or just classify it as one specific land cover class.\nSub-pixel analysis can help with this by separating pixels into sub-pixels to predict their landcover class labels by comparing the reflectance values of the sub-pixels to the values of a spectrally pure end member. By doing this, classification is conducted at a finer spatial resolution.\n\n\n7.1.3 Accuracy Assessment\nWe produce an accuracy assessment to determine how well the model performed in identifying different classes in unseen data.\nIn remote sensing, the most common form of accuracy assessment is to consider the producer’s accuracy, user’s accuracy, and overall accuracy, which are all derived from a confusion matrix. All measurements and equations to derive them are shown in the matrix below.\n\n\n\nFrom: (ebrahimy2021?)]\n\n\nKappa Coefficient: evaluates how well the classification model performed compared to just assigning random values. Ranges from -1 to 1. It’s use in remote sensing is discouraged, if using probably best to use last and with the support of other accuracy measures.\nF1: Combines both user accuracy and producer accuracy. Ranges from 0 to 1 with 1 indicating better performance.\nArea Under the Receiver Operating Characteristic Curve (the ROC Curve):\nThe curve plots the true positive and false positive rate. The AUC (area under the ROC curve) has a value between 0 and 1, with values closer to 1 having more accurate predictions.\n\n\n\nFrom: (classifi?)\n\n\nCross Validation: this trains the model on different subsets of the data. There are many different methods of cross validation.\n\n\n7.1.4 Spatial Cross Validation\nWhen data is spatial, spatial autocorrelation can become a potential issue and impact the model. If we randomly split spatial data it can lead to training points being neighbours with testing points, leading to the test and training datasets not being independent which can lead to overfitting.\nTo avoid this, we can perform spatial cross validation which involves spatially partitioning the folded data.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Classification II</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 8: Classification II</span>"
     ]
   },
   {
     "objectID": "week_8.html#applications",
     "href": "week_8.html#applications",
-    "title": "7  Classification II",
+    "title": "7  Week 8: Classification II",
     "section": "7.2 Applications",
     "text": "7.2 Applications\nIn this section I will focus on the applications of OBIA and sub-pixel analysis.\n\n7.2.1 OBIA\nOBIA has been used extensively in land cover analysis, and is one of the most common methods for detecting informal settlements. This is because splitting up pixels into groups provides additional spectral, geometric and textural information (kuffer2016?) that are useful to detect specific structures that have unique characteristics in informal settlements, such as roofs of dwellings (mudau2023?) .\n(fallatah2019?) used OBIA to detect informal settlements in Jeddah, Saudi Arabia using Geoimage which offers high-resolution images. The study only looked at 3 smaller study areas within the city and started first by classifying objects into vegetation extent, housing structures, road networks, roofing materials, texture of built up areas and dwelling size before being able to identify and differentiate between formal and informal settlements. Upon further research, I found that OBIA works better on higher resolution images in comparison to lower resolution images (hossain2019?), which probably reflects the choice of remotely sensed data in the Jeddah study.\n\n\n7.2.2 Sub-Pixel Analysis\nFor sub-pixel analysis, I found that it has been used to detect changes in urban land-cover. Generally, change detection analysis is done on a per-pixel basis, however doing a sub-pixel analysis allows for the capture of changes that may be happening at a finer spatial resolution. One study used Landsat Thematic Mapper data and looked at the effectiveness of this method to detect land cover changes in the cities of Shangai and Xuzhou in China and found that the results were consistent with ground truth data (du2014?).",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Classification II</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 8: Classification II</span>"
     ]
   },
   {
     "objectID": "week_8.html#reflection",
     "href": "week_8.html#reflection",
-    "title": "7  Classification II",
+    "title": "7  Week 8: Classification II",
     "section": "7.3 Reflection",
     "text": "7.3 Reflection\nI found sub-pixel analysis really interesting as I already thought doing analysis on a pixel level was already pretty small! I think being able to distinguish between things that are smaller than a pixel will help to identify materials and surfaces that are often mixed in with others at that resolution, which will overall improve the accuracy of analysis. This being said, I can see how the accuracy of sub-pixel analysis would rely heavily on the quality of the input data, which is something that should be taken into consideration.\nAs I want to detect informal settlements as part of my dissertation, going over object based analysis was really useful and has helped me further understand the workflow behind such a methodology. Going over accuracy assessments for classification algorithms has also helped my thinking towards my dissertation as I will make sure to carefully consider the different assessments and their components. I also think it’s useful in general to understand, because as I mentioned in last weeks reflection, the classification product will never be 100% accurate and so we should not take it at face value.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Classification II</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 8: Classification II</span>"
     ]
   },
   {
     "objectID": "week_8.html#references",
     "href": "week_8.html#references",
-    "title": "7  Classification II",
+    "title": "7  Week 8: Classification II",
     "section": "7.4 References",
     "text": "7.4 References",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Classification II</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 8: Classification II</span>"
     ]
   },
   {
     "objectID": "week_7.html",
     "href": "week_7.html",
-    "title": "6  Classification I",
+    "title": "6  Week 7: Classification I",
     "section": "",
     "text": "6.1 Summary",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Classification I</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 7: Classification I</span>"
     ]
   },
   {
     "objectID": "week_7.html#summary",
     "href": "week_7.html#summary",
-    "title": "6  Classification I",
+    "title": "6  Week 7: Classification I",
     "section": "",
     "text": "6.1.1 Classification\nIn remote sensing, classification is a commonly used technique which is the process of categorising pixels or objects of an image to .\n\n\n6.1.2 CART: Classification and Regression Trees\nThis consists of a flow diagram or a ‘tree’ of decisions based on the explanatory variables of a dataset. The structure of the decision tree consists of a root node, decision nodes and leaf nodes as can be seen below:\n\n\n\nFrom: (randomf?)\n\n\nCART Types:\n\nClassification trees - when data output is categorical.\nRegression trees - when data output is continuous.\n\nWhat do we start the tree with?\nGini Impurity: measures the impurity of a group containing different classes. The smaller the Gini Impurity value, the purer the group. The lowest impurity value is what we start the tree with.\nOverfitting\nOverfitting happens when you produce a good model on the training data that does not perform (therefore generalise) well on unseen data.\n\n\n\nFrom: (jim2022?)\n\n\nFor remotely sensed data, this can be addressed by:\n\nLimiting the minimum number of pixels in a leaf.\nWeakest link pruning.\n\n\n\n6.1.3 Random Forest\nA Random Forest is a collection of several CARTs. It can be applied to both classification and regression problems. Each CART in the Random Forest would see different training data from the same dataset.\n\n\n6.1.4 Image Classification\nThe process of categorising every pixel in an image into a pre-defined classification.\nThis is either a supervised or unsupervised procedure:\nSupervised:\nRelies on information to provide a training samples for different the different classes we are interested in. From these training samples, the classifier learns patterns in the data that it uses to then place labels on new and unseen data.\nUnsupervised:\nDoes not require any previous information or training samples. Identifies classes by clustering pixels based on spectral values or other similarities.\nMaximum Likelihood\nThis is a method that determines values for the parameters of the model. In remote sensing, this method assumes the statistics for each class in each band are normally distributed and then determines the probability that a pixel belongs to a specific class. A probability threshold can also be set which means if a pixel is below it, it will have no classification. Otherwise, if not set, every pixel will be assigned a class.\nSupport Vector Machine (SVM)\nThis is a machine learning model that uses classifier algorithms for binary classification problems. It conducts optimal data transformations to establish boundaries between data points based on predefined classes, outputs or labels.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Classification I</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 7: Classification I</span>"
     ]
   },
   {
     "objectID": "week_7.html#applications",
     "href": "week_7.html#applications",
-    "title": "6  Classification I",
+    "title": "6  Week 7: Classification I",
     "section": "6.2 Applications",
     "text": "6.2 Applications\nThere are plenty of ways to use classification:\n\nMapping different types of green spaces.\nUrban land cover mapping.\nDetecting burned areas in forest fires.\nDetecting flood prone areas.\n\nI found a specific example that used the Random Forest classifier to detect building damage in Labuan, Indonesia which was caused by the Anak Krakatau volcano tsunami in 2018 (virtriana2023?). Data used to assess images before and after the tsunami came from Sentinel-2A and Worldview-2. Worldview-2 provided high spatial resolution data (50cm) which allowed for smaller changes to be detected more effectively than Sentinel-2A. xBDand Copernicus data were also used to interpret and compare the accuracy of building damage.\nThe random forest classifier was specifically used to detect and classify post-tsunami damage to buildings and was chosen due to it’s accuracy with object detection.\nThis study also completed a field survey two years and nine months after the tsunami to observe building changes and recovery efforts. This field survey is what made this study stand out to me. I think completing field surveys after damage assessments is effective as it can track progress and accountability if progress is slow and significantly impacting residents.\n\n\n\nAnak Krakatau collapse that caused the tsunami. Before and After. From: (anakkra2019?)].\n\n\nI also found two studies(qian2015?; shao2012?) that compared classification techniques, specifically SVM and CART algorithms for land-cover classification. In both, SVM performed better than the CART, having a higher overall accuracy in land cover classification. However, there are still disadvantages to SVM such as it is not suitable for large datasets and that it does not perform well if the data has a lot of noise. So we should still carefully consider which classifier would be a better fit depending on the project.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Classification I</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 7: Classification I</span>"
     ]
   },
   {
     "objectID": "week_7.html#reflections",
     "href": "week_7.html#reflections",
-    "title": "6  Classification I",
+    "title": "6  Week 7: Classification I",
     "section": "6.3 Reflections",
     "text": "6.3 Reflections\nI have come across CART and Random Forest classifiers in another module, so it was nice to reinforce that learning and to see how these techniques can be applied to remotely sensed data. It’s easy to see the number of city-wide projects and policy issues these image classification techniques can help to tackle, but it’s also easy to forget that the products created will never be 100% accurate. I can see how the uncertainties that arise from these algorithms might be easily misunderstood by stakeholders and so it’s important for us as researchers to understand the processes behind the algorithms and be able to explain this if needed.\nOn a similar note, over the past few weeks I’ve constantly been thinking about the research possibilities that remote sensing brings to the table however, when reviewing image classification I started to think about potential ethical and legal issues, particularly surrounding privacy. I can imagine this being a particular issue with high-resolution remotely sensed data, especially when used by governments or industries. The absence of international rules and recommendations adds a layer of complexity to this as of course remotely sensed data often covers all of the earth’s surface, while regarding data privacy is often on the national level. It’s definitely something to keep in mind in this field of study.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Classification I</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 7: Classification I</span>"
     ]
   },
   {
     "objectID": "week_7.html#references",
     "href": "week_7.html#references",
-    "title": "6  Classification I",
+    "title": "6  Week 7: Classification I",
     "section": "6.4 References",
     "text": "6.4 References",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Classification I</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 7: Classification I</span>"
     ]
   },
   {
     "objectID": "week_9.html",
     "href": "week_9.html",
-    "title": "8  Synthetic Aperture Radar (SAR)",
+    "title": "Week 9: SAR",
     "section": "",
-    "text": "8.1 Summary\nThis week we had a more in-depth look into Synthetic Aperture Radar (SAR).",
+    "text": "Summary\nThis week we had a more in-depth look into Synthetic Aperture Radar (SAR).",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>"
+      "Week 9: SAR"
     ]
   },
   {
     "objectID": "week_9.html#summary",
     "href": "week_9.html#summary",
-    "title": "8  Synthetic Aperture Radar (SAR)",
+    "title": "Week 9: SAR",
     "section": "",
-    "text": "8.1.1 Key Words:\nBackscatter: the proportion of outgoing radar signal that the target surface redirects back to the sensor.\nAmplitude: the amount of radar signal that returns to the sensor (backscatter).\nPhase: the alignment of the wavelength when it returns to the sensor.\nPolarization: the orientation of the plane in which electromagnetic waves are transmitted.\n\n\n8.1.2 SAR\nThe way SAR works is the sensor emits an electromagnetic (microwaves) signal towards the earth’s surface and it collects data by recording the amount of signal that is bounced back and the time delay. SAR is an active sensor and it’s main advantage is that it can ‘see through’ clouds, which optical sensors cannot do. It can do this because the wavelength is longer than cloud particles so the signal travelling through is largely unaffected by refraction.\nSAR can collect data at different polarizations and as different surfaces respond differently to each polarization it is a useful way to draw out different land cover features.\n\nRough Scattering is most sensitive to vertical vertical (VV)\nVolume Scattering is most sensitive to to cross polarized data such as vertical horizontal (VH) or horizontal vertical (HV)\nDouble Bounce is most sensitive to horizontal horizontal (HH)\n\n\n\nFrom: [@delgadoblascoEffectsDoubleBounce2020]\n\n\n\n\n\n8.1.3 Identifying Change\nRemotely sensed data can be used to detect changes in the earth’s surface over time. We can do this with SAR data.\nIt is possible to subtract images to identify differences in pixel values, however this is not best practice for SAR data and is usually done with optical data.\nInstead, to detect changes with SAR data, the following can be calculated:\n\nRatio Images (the original, just involves dividing images)\nImproved Ratio\nMean ratio images\nLog Ratio Images\nImproved Log Ratio Images\n\nTo determine which is best we can look at an ROC curve.\nIf we want to look at identifying changes through image collections we can look at specific published methodologies, fuse imagery to optical data and classify it or use statistical tests such as a t-test.",
+    "text": "Key Words:\nBackscatter: the proportion of outgoing radar signal that the target surface redirects back to the sensor.\nAmplitude: the amount of radar signal that returns to the sensor (backscatter).\nPhase: the alignment of the wavelength when it returns to the sensor.\nPolarization: the orientation of the plane in which electromagnetic waves are transmitted.\n\n\nSAR\nThe way SAR works is the sensor emits an electromagnetic (microwaves) signal towards the earth’s surface and it collects data by recording the amount of signal that is bounced back and the time delay. SAR is an active sensor and it’s main advantage is that it can ‘see through’ clouds, which optical sensors cannot do. It can do this because the wavelength is longer than cloud particles so the signal travelling through is largely unaffected by refraction.\nSAR can collect data at different polarizations and as different surfaces respond differently to each polarization it is a useful way to draw out different land cover features.\n\nRough Scattering is most sensitive to vertical vertical (VV)\nVolume Scattering is most sensitive to to cross polarized data such as vertical horizontal (VH) or horizontal vertical (HV)\nDouble Bounce is most sensitive to horizontal horizontal (HH)\n\n\n\nFrom: [@delgadoblascoEffectsDoubleBounce2020]\n\n\n\n\n\nIdentifying Change\nRemotely sensed data can be used to detect changes in the earth’s surface over time. We can do this with SAR data.\nIt is possible to subtract images to identify differences in pixel values, however this is not best practice for SAR data and is usually done with optical data.\nInstead, to detect changes with SAR data, the following can be calculated:\n\nRatio Images (the original, just involves dividing images)\nImproved Ratio\nMean ratio images\nLog Ratio Images\nImproved Log Ratio Images\n\nTo determine which is best we can look at an ROC curve.\nIf we want to look at identifying changes through image collections we can look at specific published methodologies, fuse imagery to optical data and classify it or use statistical tests such as a t-test.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>"
+      "Week 9: SAR"
     ]
   },
   {
     "objectID": "week_9.html#applications",
     "href": "week_9.html#applications",
-    "title": "8  Synthetic Aperture Radar (SAR)",
-    "section": "8.2 Applications",
-    "text": "8.2 Applications\nSAR data has many uses, the table below shows the most popular uses of SAR imagery.\n\nFrom: (tsokas2022?)\n\n\n\n\n\n\nCategory\nApplication\n\n\n\n\nMapping and Land Classification\nLand cover classification, oil spills, sea ice, glaciers and forest monitoring\n\n\nParameter Retrieval\nWind and wave retrieval, soil moisture, ocean topography\n\n\nObject Detection\nObject detection and recognition, navigation\n\n\n\nLooking at one of the applications, mapping oil spills, I found a study that used C-band Sentinel- 1A data to detect oil spills in Chennai, on the East Coast of India (dasari2022?). The study used SAR data as it is less expensive than vessel-based and airborne-based detection methods and because of it’s cloud penetrating ability that means it is weather independent. The oil spills were only visible in the VV channel, which was converted from linear to dB value to enhance the contrast oil spill in the image. As mentioned in the lectures, dB scale works best for identifying changes and differences in dark pixels such as water, which I think is demonstrated nicely in this study. A support vector machine and neural networks were used to classify the oil spill, which both had an overall accuracy of around 98% which is very high. Neural networks are understood to be ‘black boxes’ due to their hidden layers as they are hard to understand, so I would be interested to see how another classification method such as a random forest classifier would have performed.\nI was interested to see why SAR data suited oil spill analysis and I found out that it is because the patches of oil show as dark spots in the water and the boundary between these patches and the surrounding water is quite visible in SAR images. This is because the oil film can reduce Bragg waves on the ocean surface (chen2022?). Bragg waves occur when waves (such as radar from the sensor) encounter a periodic structure which means that wavelengths are amplified or weakened depending on their alignment with the periodic structure.\nSAR data has also been used to classify forested areas by type and species, as was done in a study in Sweden that used Sentinel- 1 C-Band SAR data (udali2021?). This was done based on previous research that looked into how backscatter interacts with trees leaves, crown structure, branch geometry, and canopy structure. As radar backscatter is also affected by several other factors (eg. temperature or precipitation) a lot of preprocessing of the satellite imagery was done. This demonstrates just how much has to be taken into consideration with such studies before analysis can even take place. Finally, a Random Forest classifers were used to classify trees by forest type and by species. The model that classified by forest type ended up being the most accurate, this is probably because classification at the leaf level compared to the canopy level is still challenging (juheonlee2016?).\n\n\n\nMap showing classified trees by tree type. From: (udali2021?)",
+    "title": "Week 9: SAR",
+    "section": "Applications",
+    "text": "Applications\nSAR data has many uses, the table below shows the most popular uses of SAR imagery.\n\nFrom: (tsokas2022?)\n\n\n\n\n\n\nCategory\nApplication\n\n\n\n\nMapping and Land Classification\nLand cover classification, oil spills, sea ice, glaciers and forest monitoring\n\n\nParameter Retrieval\nWind and wave retrieval, soil moisture, ocean topography\n\n\nObject Detection\nObject detection and recognition, navigation\n\n\n\nLooking at one of the applications, mapping oil spills, I found a study that used C-band Sentinel- 1A data to detect oil spills in Chennai, on the East Coast of India (dasari2022?). The study used SAR data as it is less expensive than vessel-based and airborne-based detection methods and because of it’s cloud penetrating ability that means it is weather independent. The oil spills were only visible in the VV channel, which was converted from linear to dB value to enhance the contrast oil spill in the image. As mentioned in the lectures, dB scale works best for identifying changes and differences in dark pixels such as water, which I think is demonstrated nicely in this study. A support vector machine and neural networks were used to classify the oil spill, which both had an overall accuracy of around 98% which is very high. Neural networks are understood to be ‘black boxes’ due to their hidden layers as they are hard to understand, so I would be interested to see how another classification method such as a random forest classifier would have performed.\nI was interested to see why SAR data suited oil spill analysis and I found out that it is because the patches of oil show as dark spots in the water and the boundary between these patches and the surrounding water is quite visible in SAR images. This is because the oil film can reduce Bragg waves on the ocean surface (chen2022?). Bragg waves occur when waves (such as radar from the sensor) encounter a periodic structure which means that wavelengths are amplified or weakened depending on their alignment with the periodic structure.\nSAR data has also been used to classify forested areas by type and species, as was done in a study in Sweden that used Sentinel- 1 C-Band SAR data (udali2021?). This was done based on previous research that looked into how backscatter interacts with trees leaves, crown structure, branch geometry, and canopy structure. As radar backscatter is also affected by several other factors (eg. temperature or precipitation) a lot of preprocessing of the satellite imagery was done. This demonstrates just how much has to be taken into consideration with such studies before analysis can even take place. Finally, a Random Forest classifers were used to classify trees by forest type and by species. The model that classified by forest type ended up being the most accurate, this is probably because classification at the leaf level compared to the canopy level is still challenging (juheonlee2016?).\n\n\n\nMap showing classified trees by tree type. From: (udali2021?)",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>"
+      "Week 9: SAR"
     ]
   },
   {
     "objectID": "week_9.html#reflections",
     "href": "week_9.html#reflections",
-    "title": "8  Synthetic Aperture Radar (SAR)",
-    "section": "8.3 Reflections",
-    "text": "8.3 Reflections\nI’m planning on using SAR data in my dissertation to map out floods and informal settlements, so I’ve been doing a lot of reading around different methodologies and every study I looked at would have a focus on choosing the right polarisation and scale for SAR data. When reading through these studies, I thought I sort of understood these concepts but after going over it this week I feel like I am finally confident I have a full understanding of it. Which I’m really glad of since I think it’s one of the most important aspects to consider when looking at SAR data as your results will change based on the type of polarisation chosen.\nI knew that in remote sensing you have to consider different factors (eg. seasonality) that might affect your analysis but I think the study on forest types and species really highlighted the extent of that and how for certain studies there might be more factors to consider.\nI aim to take these considerations forward when working on my dissertation and hopefully later on down the line too!",
+    "title": "Week 9: SAR",
+    "section": "Reflections",
+    "text": "Reflections\nI’m planning on using SAR data in my dissertation to map out floods and informal settlements, so I’ve been doing a lot of reading around different methodologies and every study I looked at would have a focus on choosing the right polarisation and scale for SAR data. When reading through these studies, I thought I sort of understood these concepts but after going over it this week I feel like I am finally confident I have a full understanding of it. Which I’m really glad of since I think it’s one of the most important aspects to consider when looking at SAR data as your results will change based on the type of polarisation chosen.\nI knew that in remote sensing you have to consider different factors (eg. seasonality) that might affect your analysis but I think the study on forest types and species really highlighted the extent of that and how for certain studies there might be more factors to consider.\nI aim to take these considerations forward when working on my dissertation and hopefully later on down the line too!",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Synthetic Aperture Radar (SAR)</span>"
+      "Week 9: SAR"
     ]
   },
   {

@@ -1,5 +1,15 @@
+# Week 8: Classification II
+
 ---
-title: "Classification II"
+output:
+  format:
+  html:
+toc: true
+toc-location: right
+toc-title: Contents
+html-math-method: katex
+css: styles.css
+bibliography: references.bib
 ---
 
 ---
