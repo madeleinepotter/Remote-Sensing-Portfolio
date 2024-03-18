@@ -2,13 +2,14 @@
 
 ---
 output:
-  html_document:
-    toc: true
-    toc_location: right
-    toc_title: Contents
-    mathjax: default
-    css: styles.css
-    bibliography: references.bib
+  format:
+  html:
+toc: true
+toc-location: right
+toc-title: Contents
+html-math-method: katex
+css: styles.css
+bibliography: references.bib
 ---
 
 A retrospective view of floods in Jakarta \[WWW Document\], n.d. URL <https://www.jbarisk.com/products-services/event-response/a-retrospective-view-of-floods-in-jakarta/> (accessed 1.30.24).
