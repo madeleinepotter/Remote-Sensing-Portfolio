@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -128,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week_1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 3: Corrections</span></span></a>
+ <span class="menu-text">Week 3: Corrections</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -140,25 +160,25 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./corrections_w3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week 5: Working on Group Presentations</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 5: Working on Group Presentations</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week_6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week 6: Google Earth Engine</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week 6: Google Earth Engine</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week_7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week 7: Classification I</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week 7: Classification I</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week_8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week 8: Classification II</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week 8: Classification II</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -237,7 +257,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="polarisation.png" class="img-fluid figure-img" width="608"></p>
-<figcaption>From: [@delgadoblascoEffectsDoubleBounce2020]</figcaption>
+<figcaption>From: <span class="citation" data-cites="delgadoblascoEffectsDoubleBounce2020">(<a href="references.html#ref-delgadoblascoEffectsDoubleBounce2020" role="doc-biblioref">Delgado Blasco et al. 2020</a>)</span></figcaption>
 </figure>
 </div></li>
 </ul>
@@ -262,7 +282,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="applications">Applications</h2>
 <p>SAR data has many uses, the table below shows the most popular uses of SAR imagery.</p>
 <table class="table">
-<caption>From: <span class="citation" data-cites="tsokas2022">(<a href="references.html#ref-tsokas2022" role="doc-biblioref"><strong>tsokas2022?</strong></a>)</span></caption>
+<caption>From: <span class="citation" data-cites="tsokasSARDataApplications2022">Tsokas et al. (<a href="references.html#ref-tsokasSARDataApplications2022" role="doc-biblioref">2022</a>)</span></caption>
 <colgroup>
 <col style="width: 35%">
 <col style="width: 64%">
@@ -288,9 +308,8 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>Looking at one of the applications, mapping oil spills, I found a study that used C-band Sentinel- 1A data to detect oil spills in Chennai, on the East Coast of India <span class="citation" data-cites="dasari2022">(<a href="references.html#ref-dasari2022" role="doc-biblioref"><strong>dasari2022?</strong></a>)</span>. The study used SAR data as it is less expensive than vessel-based and airborne-based detection methods and because of it’s cloud penetrating ability that means it is weather independent. The oil spills were only visible in the VV channel, which was converted from linear to dB value to enhance the contrast oil spill in the image. As mentioned in the lectures, dB scale works best for identifying changes and differences in dark pixels such as water, which I think is demonstrated nicely in this study. A support vector machine and neural networks were used to classify the oil spill, which both had an overall accuracy of around 98% which is very high. Neural networks are understood to be ‘black boxes’ due to their hidden layers as they are hard to understand, so I would be interested to see how another classification method such as a random forest classifier would have performed.</p>
-<p>I was interested to see why SAR data suited oil spill analysis and I found out that it is because the patches of oil show as dark spots in the water and the boundary between these patches and the surrounding water is quite visible in SAR images. This is because the oil film can reduce Bragg waves on the ocean surface <span class="citation" data-cites="chen2022">(<a href="references.html#ref-chen2022" role="doc-biblioref"><strong>chen2022?</strong></a>)</span>. Bragg waves occur when waves (such as radar from the sensor) encounter a periodic structure which means that wavelengths are amplified or weakened depending on their alignment with the periodic structure.</p>
-<p>SAR data has also been used to classify forested areas by type and species, as was done in a study in Sweden that used Sentinel- 1 C-Band SAR data <span class="citation" data-cites="udali2021">(<a href="references.html#ref-udali2021" role="doc-biblioref"><strong>udali2021?</strong></a>)</span>. This was done based on previous research that looked into how backscatter interacts with trees leaves, crown structure, branch geometry, and canopy structure. As radar backscatter is also affected by several other factors (eg. temperature or precipitation) a lot of preprocessing of the satellite imagery was done. This demonstrates just how much has to be taken into consideration with such studies before analysis can even take place. Finally, a Random Forest classifers were used to classify trees by forest type and by species. The model that classified by forest type ended up being the most accurate, this is probably because classification at the leaf level compared to the canopy level is still challenging <span class="citation" data-cites="juheonlee2016">(<a href="references.html#ref-juheonlee2016" role="doc-biblioref"><strong>juheonlee2016?</strong></a>)</span>.</p>
+<p>Looking at one of the applications, mapping oil spills, I found a study that used C-band Sentinel- 1A data to detect oil spills in Chennai, on the East Coast of India <span class="citation" data-cites="dasariApplicationCbandSentinel1A2022">(<a href="references.html#ref-dasariApplicationCbandSentinel1A2022" role="doc-biblioref">Dasari, Anjaneyulu, and Nadimikeri 2022</a>)</span>. The study used SAR data as it is less expensive than vessel-based and airborne-based detection methods and because of it’s cloud penetrating ability that means it is weather independent. The oil spills were only visible in the VV channel, which was converted from linear to dB value to enhance the contrast oil spill in the image. As mentioned in the lectures, dB scale works best for identifying changes and differences in dark pixels such as water, which I think is demonstrated nicely in this study. A support vector machine and neural networks were used to classify the oil spill, which both had an overall accuracy of around 98% which is very high. Neural networks are understood to be ‘black boxes’ due to their hidden layers as they are hard to understand, so I would be interested to see how another classification method such as a random forest classifier would have performed.</p>
+<p>I was interested to see why SAR data suited oil spill analysis and I found out that it is because the patches of oil show as dark spots in the water and the boundary between these patches and the surrounding water is quite visible in SAR images. This is because the oil film can reduce Bragg waves on the ocean surface <span class="citation" data-cites="chenMarineOilSpill2022">(<a href="references.html#ref-chenMarineOilSpill2022" role="doc-biblioref">Chen and Wang 2022</a>)</span>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="tree_map.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
@@ -305,6 +324,20 @@ ul.task-list li input[type="checkbox"] {
 <p>I aim to take these considerations forward when working on my dissertation and hopefully later on down the line too!</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-chenMarineOilSpill2022" class="csl-entry" role="listitem">
+Chen, Yan, and Zhilong Wang. 2022. <span>“Marine <span>Oil Spill Detection</span> from <span>SAR Images Based</span> on <span>Attention U-Net Model Using Polarimetric</span> and <span>Wind Speed Information</span>.”</span> <em>International Journal of Environmental Research and Public Health</em> 19 (19): 12315. <a href="https://doi.org/10.3390/ijerph191912315">https://doi.org/10.3390/ijerph191912315</a>.
+</div>
+<div id="ref-dasariApplicationCbandSentinel1A2022" class="csl-entry" role="listitem">
+Dasari, Kiran, Lokam Anjaneyulu, and Jayaraju Nadimikeri. 2022. <span>“Application of <span class="nocase">C-band</span> Sentinel-<span>1A SAR</span> Data as Proxies for Detecting Oil Spills of <span>Chennai</span>, <span>East Coast</span> of <span>India</span>.”</span> <em>Marine Pollution Bulletin</em> 174 (January): 113182. <a href="https://doi.org/10.1016/j.marpolbul.2021.113182">https://doi.org/10.1016/j.marpolbul.2021.113182</a>.
+</div>
+<div id="ref-delgadoblascoEffectsDoubleBounce2020" class="csl-entry" role="listitem">
+Delgado Blasco, José Manuel, Magdalena Fitrzyk, Jolanda Patruno, Antonio Miguel Ruiz-Armenteros, and Mattia Marconcini. 2020. <span>“Effects on the <span>Double Bounce Detection</span> in <span>Urban Areas Based</span> on <span>SAR Polarimetric Characteristics</span>.”</span> <em>Remote Sensing</em> 12 (7): 1187. <a href="https://doi.org/10.3390/rs12071187">https://doi.org/10.3390/rs12071187</a>.
+</div>
+<div id="ref-tsokasSARDataApplications2022" class="csl-entry" role="listitem">
+Tsokas, Arsenios, Maciej Rysz, Panos M. Pardalos, and Kathleen Dipple. 2022. <span>“<span>SAR</span> Data Applications in Earth Observation: <span>An</span> Overview.”</span> <em>Expert Systems with Applications</em> 205 (November): 117342. <a href="https://doi.org/10.1016/j.eswa.2022.117342">https://doi.org/10.1016/j.eswa.2022.117342</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -698,7 +731,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./week_8.html" class="pagination-link  aria-label=" &lt;span="" 8:="" classification="" ii&lt;="" span&gt;"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week 8: Classification II</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week 8: Classification II</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

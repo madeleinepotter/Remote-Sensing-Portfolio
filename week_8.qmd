@@ -44,7 +44,7 @@ We produce an accuracy assessment to determine how well the model performed in i
 
 In remote sensing, the most common form of accuracy assessment is to consider the producer's accuracy, user's accuracy, and overall accuracy, which are all derived from a confusion matrix. All measurements and equations to derive them are shown in the matrix below.
 
-![From: [@ebrahimy2021]\]](accuracy_assessment_matrix.jpg)
+![From: [@ebrahimyPerpixelLandCover2021]\]](accuracy_assessment_matrix.jpg)
 
 **Kappa Coefficient:** evaluates how well the classification model performed compared to just assigning random values. Ranges from -1 to 1. It's use in remote sensing is discouraged, if using probably best to use last and with the support of other accuracy measures.
 
@@ -54,7 +54,7 @@ In remote sensing, the most common form of accuracy assessment is to consider th
 
 The curve plots the true positive and false positive rate. The AUC (area under the ROC curve) has a value between 0 and 1, with values closer to 1 having more accurate predictions.
 
-![From: [@classifi]](roc_area.png){fig-align="center"}
+![From: [@ClassificationROCCurve]](roc_area.png){fig-align="center"}
 
 **Cross Validation:** this trains the model on different subsets of the data. There are many different methods of cross validation.
 
@@ -70,13 +70,13 @@ In this section I will focus on the applications of OBIA and sub-pixel analysis.
 
 ### **OBIA**
 
-OBIA has been used extensively in land cover analysis, and is one of the most common methods for detecting informal settlements. This is because splitting up pixels into groups provides additional spectral, geometric and textural information [@kuffer2016] that are useful to detect specific structures that have unique characteristics in informal settlements, such as roofs of dwellings [@mudau2023] .
+OBIA has been used extensively in land cover analysis, and is one of the most common methods for detecting informal settlements. This is because splitting up pixels into groups provides additional spectral, geometric and textural information [@kufferExtractionSlumAreas2016] that are useful to detect specific structures that have unique characteristics in informal settlements, such as roofs of dwellings [@mudauMappingAssessmentHousing2023] .
 
-@fallatah2019 used OBIA to detect informal settlements in Jeddah, Saudi Arabia using Geoimage which offers high-resolution images. The study only looked at 3 smaller study areas within the city and started first by classifying objects into vegetation extent, housing structures, road networks, roofing materials, texture of built up areas and dwelling size before being able to identify and differentiate between formal and informal settlements. Upon further research, I found that OBIA works better on higher resolution images in comparison to lower resolution images [@hossain2019], which probably reflects the choice of remotely sensed data in the Jeddah study.
+@fallatahMappingInformalSettlement2019 used OBIA to detect informal settlements in Jeddah, Saudi Arabia using Geoimage which offers high-resolution images. The study only looked at 3 smaller study areas within the city and started first by classifying objects into vegetation extent, housing structures, road networks, roofing materials, texture of built up areas and dwelling size before being able to identify and differentiate between formal and informal settlements. Upon further research, I found that OBIA works better on higher resolution images in comparison to lower resolution images [@hossainSegmentationObjectBasedImage2019], which probably reflects the choice of remotely sensed data in the Jeddah study.
 
 ### Sub-Pixel Analysis
 
-For sub-pixel analysis, I found that it has been used to detect changes in urban land-cover. Generally, change detection analysis is done on a per-pixel basis, however doing a sub-pixel analysis allows for the capture of changes that may be happening at a finer spatial resolution. One study used Landsat Thematic Mapper data and looked at the effectiveness of this method to detect land cover changes in the cities of Shangai and Xuzhou in China and found that the results were consistent with ground truth data [@du2014].
+For sub-pixel analysis, I found that it has been used to detect changes in urban land-cover. Generally, change detection analysis is done on a per-pixel basis, however doing a sub-pixel analysis allows for the capture of changes that may be happening at a finer spatial resolution. One study used Landsat Thematic Mapper data and looked at the effectiveness of this method to detect land cover changes in the cities of Shangai and Xuzhou in China and found that the results were consistent with ground truth data [@duSubpixelChangeDetection2014].
 
 ## Reflection
 

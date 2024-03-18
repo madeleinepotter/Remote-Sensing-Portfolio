@@ -22,7 +22,7 @@ In remote sensing, classification is a commonly used technique which is the proc
 
 This consists of a flow diagram or a 'tree' of decisions based on the explanatory variables of a dataset. The structure of the decision tree consists of a root node, decision nodes and leaf nodes as can be seen below:
 
-![From: [@randomf]](decision_tree.png){fig-align="center" width="550"}
+![From: [@RandomForest]](decision_tree.png){fig-align="center" width="550"}
 
 **CART Types:**
 
@@ -38,7 +38,7 @@ This consists of a flow diagram or a 'tree' of decisions based on the explanator
 
 Overfitting happens when you produce a good model on the training data that does not perform (therefore generalise) well on unseen data.
 
-![From: [@jim2022]](overfitting.jpg){fig-align="center" width="507"}
+![From: [@jimHowAvoidOverfitting2022]](overfitting.jpg){fig-align="center" width="507"}
 
 **For remotely sensed data, this can be addressed by:**
 
@@ -84,15 +84,15 @@ There are plenty of ways to use classification:
 
 -   Detecting flood prone areas.
 
-I found a specific example that used the Random Forest classifier to detect building damage in Labuan, Indonesia which was caused by the Anak Krakatau volcano tsunami in 2018 [@virtriana2023]. Data used to assess images before and after the tsunami came from Sentinel-2A and Worldview-2. Worldview-2 provided high spatial resolution data (50cm) which allowed for smaller changes to be detected more effectively than Sentinel-2A. xBDand Copernicus data were also used to interpret and compare the accuracy of building damage.
+I found a specific example that used the Random Forest classifier to detect building damage in Labuan, Indonesia which was caused by the Anak Krakatau volcano tsunami in 2018 [@virtrianaMachineLearningRemote2023]. Data used to assess images before and after the tsunami came from Sentinel-2A and Worldview-2. Worldview-2 provided high spatial resolution data (50cm) which allowed for smaller changes to be detected more effectively than Sentinel-2A. xBDand Copernicus data were also used to interpret and compare the accuracy of building damage.
 
 The random forest classifier was specifically used to detect and classify post-tsunami damage to buildings and was chosen due to it's accuracy with object detection.
 
 This study also completed a field survey two years and nine months after the tsunami to observe building changes and recovery efforts. This field survey is what made this study stand out to me. I think completing field surveys after damage assessments is effective as it can track progress and accountability if progress is slow and significantly impacting residents.
 
-![Anak Krakatau collapse that caused the tsunami. Before and After. From: [@anakkra2019]\].](krakatau.png){fig-align="center"}
+![Anak Krakatau collapse that caused the tsunami. Before and After. From: [@AnakKrakatauVolcano2019]\].](krakatau.png){fig-align="center"}
 
-I also found two studies[@qian2015; @shao2012] that compared classification techniques, specifically SVM and CART algorithms for land-cover classification. In both, SVM performed better than the CART, having a higher overall accuracy in land cover classification. However, there are still disadvantages to SVM such as it is not suitable for large datasets and that it does not perform well if the data has a lot of noise. So we should still carefully consider which classifier would be a better fit depending on the project.
+I also found two studies[@qianComparingMachineLearning2015; @shaoComparisonSupportVector2012] that compared classification techniques, specifically SVM and CART algorithms for land-cover classification. In both, SVM performed better than the CART, having a higher overall accuracy in land cover classification. However, there are still disadvantages to SVM such as it is not suitable for large datasets and that it does not perform well if the data has a lot of noise. So we should still carefully consider which classifier would be a better fit depending on the project.
 
 ## Reflections
 

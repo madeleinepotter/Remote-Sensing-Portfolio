@@ -38,7 +38,7 @@ SAR can collect data at different polarizations and as different surfaces respon
 
 -   Double Bounce is most sensitive to horizontal horizontal (HH)
 
-    ![From: \[\@delgadoblascoEffectsDoubleBounce2020\]](polarisation.png){width="608"}
+    ![From: [@delgadoblascoEffectsDoubleBounce2020]](polarisation.png){width="608"}
 
 ### Identifying Change
 
@@ -72,13 +72,11 @@ SAR data has many uses, the table below shows the most popular uses of SAR image
 | Parameter Retrieval             | Wind and wave retrieval, soil moisture, ocean topography                       |
 | Object Detection                | Object detection and recognition, navigation                                   |
 
-: From: @tsokas2022
+: From: @tsokasSARDataApplications2022
 
-Looking at one of the applications, mapping oil spills, I found a study that used C-band Sentinel- 1A data to detect oil spills in Chennai, on the East Coast of India [@dasari2022]. The study used SAR data as it is less expensive than vessel-based and airborne-based detection methods and because of it's cloud penetrating ability that means it is weather independent. The oil spills were only visible in the VV channel, which was converted from linear to dB value to enhance the contrast oil spill in the image. As mentioned in the lectures, dB scale works best for identifying changes and differences in dark pixels such as water, which I think is demonstrated nicely in this study. A support vector machine and neural networks were used to classify the oil spill, which both had an overall accuracy of around 98% which is very high. Neural networks are understood to be 'black boxes' due to their hidden layers as they are hard to understand, so I would be interested to see how another classification method such as a random forest classifier would have performed.
+Looking at one of the applications, mapping oil spills, I found a study that used C-band Sentinel- 1A data to detect oil spills in Chennai, on the East Coast of India [@dasariApplicationCbandSentinel1A2022]. The study used SAR data as it is less expensive than vessel-based and airborne-based detection methods and because of it's cloud penetrating ability that means it is weather independent. The oil spills were only visible in the VV channel, which was converted from linear to dB value to enhance the contrast oil spill in the image. As mentioned in the lectures, dB scale works best for identifying changes and differences in dark pixels such as water, which I think is demonstrated nicely in this study. A support vector machine and neural networks were used to classify the oil spill, which both had an overall accuracy of around 98% which is very high. Neural networks are understood to be 'black boxes' due to their hidden layers as they are hard to understand, so I would be interested to see how another classification method such as a random forest classifier would have performed.
 
-I was interested to see why SAR data suited oil spill analysis and I found out that it is because the patches of oil show as dark spots in the water and the boundary between these patches and the surrounding water is quite visible in SAR images. This is because the oil film can reduce Bragg waves on the ocean surface [@chen2022]. Bragg waves occur when waves (such as radar from the sensor) encounter a periodic structure which means that wavelengths are amplified or weakened depending on their alignment with the periodic structure.
-
-SAR data has also been used to classify forested areas by type and species, as was done in a study in Sweden that used Sentinel- 1 C-Band SAR data [@udali2021]. This was done based on previous research that looked into how backscatter interacts with trees leaves, crown structure, branch geometry, and canopy structure. As radar backscatter is also affected by several other factors (eg. temperature or precipitation) a lot of preprocessing of the satellite imagery was done. This demonstrates just how much has to be taken into consideration with such studies before analysis can even take place. Finally, a Random Forest classifers were used to classify trees by forest type and by species. The model that classified by forest type ended up being the most accurate, this is probably because classification at the leaf level compared to the canopy level is still challenging [@juheonlee2016].
+I was interested to see why SAR data suited oil spill analysis and I found out that it is because the patches of oil show as dark spots in the water and the boundary between these patches and the surrounding water is quite visible in SAR images. This is because the oil film can reduce Bragg waves on the ocean surface [@chenMarineOilSpill2022].
 
 ![Map showing classified trees by tree type. From: @udali2021](tree_map.png){fig-align="center"}
 
