@@ -54,7 +54,7 @@
     "href": "intro.html#what-is-remote-sensing",
     "title": "1  Week 1: Introduction to Remote Sensing",
     "section": "1.2 What is remote sensing?",
-    "text": "1.2 What is remote sensing?\nRemote sensing is the science of collecting information about an object, phenomenon, or area from a distance (NOAA, 2020). This is typically done using sensors that are mounted on satellites or aircrafts.",
+    "text": "1.2 What is remote sensing?\nRemote sensing is the science of collecting information about an object, phenomenon, or area from a distance (NOAA 2024). This is typically done using sensors that are mounted on satellites or aircrafts.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1: Introduction to Remote Sensing</span>"
     ]
@@ -194,7 +194,7 @@
     "href": "intro.html#references",
     "title": "1  Week 1: Introduction to Remote Sensing",
     "section": "1.8 References",
-    "text": "1.8 References",
+    "text": "1.8 References\n\n\n\n\nNOAA. 2024. “What Is Remote Sensing?” https://oceanservice.noaa.gov/facts/remotesensing.html.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1: Introduction to Remote Sensing</span>"
     ]

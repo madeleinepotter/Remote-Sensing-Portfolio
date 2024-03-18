@@ -261,7 +261,7 @@ div.csl-indent {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="accuracy_assessment_matrix.jpg" class="img-fluid figure-img"></p>
-<figcaption>From: <span class="citation" data-cites="ebrahimyPerpixelLandCover2021">(<a href="references.html#ref-ebrahimyPerpixelLandCover2021" role="doc-biblioref">Ebrahimy et al. 2021</a>)</span>]</figcaption>
+<figcaption>From: <span class="citation" data-cites="ebrahimyPerpixelLandCover2021">(<a href="#ref-ebrahimyPerpixelLandCover2021" role="doc-biblioref">Ebrahimy et al. 2021</a>)</span>]</figcaption>
 </figure>
 </div>
 <p><strong>Kappa Coefficient:</strong> evaluates how well the classification model performed compared to just assigning random values. Ranges from -1 to 1. It’s use in remote sensing is discouraged, if using probably best to use last and with the support of other accuracy measures.</p>
@@ -271,7 +271,7 @@ div.csl-indent {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="roc_area.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-<figcaption>From: <span class="citation" data-cites="ClassificationROCCurve">(<a href="references.html#ref-ClassificationROCCurve" role="doc-biblioref"><span>“Classification: <span>ROC Curve</span> and <span>AUC</span> <span></span> <span>Machine Learning</span>”</span> n.d.</a>)</span></figcaption>
+<figcaption>From: <span class="citation" data-cites="ClassificationROCCurve">(<a href="#ref-ClassificationROCCurve" role="doc-biblioref"><span>“Classification: <span>ROC Curve</span> and <span>AUC</span> <span></span> <span>Machine Learning</span>”</span> n.d.</a>)</span></figcaption>
 </figure>
 </div>
 <p><strong>Cross Validation:</strong> this trains the model on different subsets of the data. There are many different methods of cross validation.</p>
@@ -287,12 +287,12 @@ div.csl-indent {
 <p>In this section I will focus on the applications of OBIA and sub-pixel analysis.</p>
 <section id="obia" class="level3" data-number="6.2.1">
 <h3 data-number="6.2.1" class="anchored" data-anchor-id="obia"><span class="header-section-number">6.2.1</span> <strong>OBIA</strong></h3>
-<p>OBIA has been used extensively in land cover analysis, and is one of the most common methods for detecting informal settlements. This is because splitting up pixels into groups provides additional spectral, geometric and textural information <span class="citation" data-cites="kufferExtractionSlumAreas2016">(<a href="references.html#ref-kufferExtractionSlumAreas2016" role="doc-biblioref">Kuffer et al. 2016</a>)</span> that are useful to detect specific structures that have unique characteristics in informal settlements, such as roofs of dwellings <span class="citation" data-cites="mudauMappingAssessmentHousing2023">(<a href="references.html#ref-mudauMappingAssessmentHousing2023" role="doc-biblioref">Mudau and Mhangara 2023</a>)</span> .</p>
-<p><span class="citation" data-cites="fallatahMappingInformalSettlement2019">Fallatah et al. (<a href="references.html#ref-fallatahMappingInformalSettlement2019" role="doc-biblioref">2019</a>)</span> used OBIA to detect informal settlements in Jeddah, Saudi Arabia using Geoimage which offers high-resolution images. The study only looked at 3 smaller study areas within the city and started first by classifying objects into vegetation extent, housing structures, road networks, roofing materials, texture of built up areas and dwelling size before being able to identify and differentiate between formal and informal settlements. Upon further research, I found that OBIA works better on higher resolution images in comparison to lower resolution images <span class="citation" data-cites="hossainSegmentationObjectBasedImage2019">(<a href="references.html#ref-hossainSegmentationObjectBasedImage2019" role="doc-biblioref">Hossain and Chen 2019</a>)</span>, which probably reflects the choice of remotely sensed data in the Jeddah study.</p>
+<p>OBIA has been used extensively in land cover analysis, and is one of the most common methods for detecting informal settlements. This is because splitting up pixels into groups provides additional spectral, geometric and textural information <span class="citation" data-cites="kufferExtractionSlumAreas2016">(<a href="#ref-kufferExtractionSlumAreas2016" role="doc-biblioref">Kuffer et al. 2016</a>)</span> that are useful to detect specific structures that have unique characteristics in informal settlements, such as roofs of dwellings <span class="citation" data-cites="mudauMappingAssessmentHousing2023">(<a href="#ref-mudauMappingAssessmentHousing2023" role="doc-biblioref">Mudau and Mhangara 2023</a>)</span> .</p>
+<p><span class="citation" data-cites="fallatahMappingInformalSettlement2019">Fallatah et al. (<a href="#ref-fallatahMappingInformalSettlement2019" role="doc-biblioref">2019</a>)</span> used OBIA to detect informal settlements in Jeddah, Saudi Arabia using Geoimage which offers high-resolution images. The study only looked at 3 smaller study areas within the city and started first by classifying objects into vegetation extent, housing structures, road networks, roofing materials, texture of built up areas and dwelling size before being able to identify and differentiate between formal and informal settlements. Upon further research, I found that OBIA works better on higher resolution images in comparison to lower resolution images <span class="citation" data-cites="hossainSegmentationObjectBasedImage2019">(<a href="#ref-hossainSegmentationObjectBasedImage2019" role="doc-biblioref">Hossain and Chen 2019</a>)</span>, which probably reflects the choice of remotely sensed data in the Jeddah study.</p>
 </section>
 <section id="sub-pixel-analysis-1" class="level3" data-number="6.2.2">
 <h3 data-number="6.2.2" class="anchored" data-anchor-id="sub-pixel-analysis-1"><span class="header-section-number">6.2.2</span> Sub-Pixel Analysis</h3>
-<p>For sub-pixel analysis, I found that it has been used to detect changes in urban land-cover. Generally, change detection analysis is done on a per-pixel basis, however doing a sub-pixel analysis allows for the capture of changes that may be happening at a finer spatial resolution. One study used Landsat Thematic Mapper data and looked at the effectiveness of this method to detect land cover changes in the cities of Shangai and Xuzhou in China and found that the results were consistent with ground truth data <span class="citation" data-cites="duSubpixelChangeDetection2014">(<a href="references.html#ref-duSubpixelChangeDetection2014" role="doc-biblioref">DU et al. 2014</a>)</span>.</p>
+<p>For sub-pixel analysis, I found that it has been used to detect changes in urban land-cover. Generally, change detection analysis is done on a per-pixel basis, however doing a sub-pixel analysis allows for the capture of changes that may be happening at a finer spatial resolution. One study used Landsat Thematic Mapper data and looked at the effectiveness of this method to detect land cover changes in the cities of Shangai and Xuzhou in China and found that the results were consistent with ground truth data <span class="citation" data-cites="duSubpixelChangeDetection2014">(<a href="#ref-duSubpixelChangeDetection2014" role="doc-biblioref">DU et al. 2014</a>)</span>.</p>
 </section>
 </section>
 <section id="reflection" class="level2" data-number="6.3">
@@ -304,7 +304,7 @@ div.csl-indent {
 <h2 data-number="6.4" class="anchored" data-anchor-id="references"><span class="header-section-number">6.4</span> References</h2>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-ClassificationROCCurve" class="csl-entry" role="listitem">
 <span>“Classification: <span>ROC Curve</span> and <span>AUC</span> <span></span> <span>Machine Learning</span>.”</span> n.d. <em>Google for Developers</em>. https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc. Accessed March 8, 2024.
 </div>

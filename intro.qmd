@@ -16,7 +16,7 @@ bibliography: references.bib
 
 ## **What is remote sensing?**
 
-Remote sensing is the science of collecting information about an object, phenomenon, or area from a distance (NOAA, 2020). This is typically done using sensors that are mounted on satellites or aircrafts.
+Remote sensing is the science of collecting information about an object, phenomenon, or area from a distance [@noaaWhatRemoteSensing2024]. This is typically done using sensors that are mounted on satellites or aircrafts.
 
 ## **Types of Sensors**
 

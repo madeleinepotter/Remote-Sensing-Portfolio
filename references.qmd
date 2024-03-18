@@ -1,4 +1,12 @@
 # References {.unnumbered}
 
-::: {#refs}
-:::
+---
+output:
+  html_document:
+    toc: true
+    toc_location: right
+    toc_title: Contents
+    mathjax: default
+    css: styles.css
+    bibliography: references.bib
+---
