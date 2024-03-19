@@ -1,4 +1,4 @@
-# References {.unnumbered}
+# References
 
 ---
 output:
@@ -12,96 +12,108 @@ css: styles.css
 bibliography: references.bib
 ---
 
-A retrospective view of floods in Jakarta \[WWW Document\], n.d. URL <https://www.jbarisk.com/products-services/event-response/a-retrospective-view-of-floods-in-jakarta/> (accessed 1.30.24).
+*A retrospective view of floods in Jakarta*. (no date). Available at: <https://www.jbarisk.com/products-services/event-response/a-retrospective-view-of-floods-in-jakarta/> (Accessed: 30 January 2024).
 
-Anak Krakatau volcano: Satellites get clear view of collapse, 2019. . BBC News.
+Anzidei, M., Scicchitano, G., Scardino, G., Bignami, C., Tolomei, C., Vecchio, A., Serpelloni, E., De Santis, V., Monaco, C., Milella, M., Piscitelli, A. and Mastronuzzi, G. (2021). \'Relative Sea-Level Rise Scenario for 2100 along the Coast of South Eastern Sicily (Italy) by InSAR Data, Satellite Images and High-Resolution Topography\'. *Remote Sensing*. Multidisciplinary Digital Publishing Institute, 13 (6), p. 1108. doi: [10.3390/rs13061108](https://doi.org/10.3390/rs13061108).
 
-Anzidei, M., Scicchitano, G., Scardino, G., Bignami, C., Tolomei, C., Vecchio, A., Serpelloni, E., De Santis, V., Monaco, C., Milella, M., Piscitelli, A., Mastronuzzi, G., 2021. Relative Sea-Level Rise Scenario for 2100 along the Coast of South Eastern Sicily (Italy) by InSAR Data, Satellite Images and High-Resolution Topography. Remote Sensing 13, 1108. <https://doi.org/10.3390/rs13061108>
+Arif, F. (2009). \'Level-3 Geometric Correction of FORMOSAT-2 Satellite Imagery and Efficient Image Resampling\'. in. Available at: <https://www.semanticscholar.org/paper/Level-3-Geometric-Correction-of-FORMOSAT-2-Imagery-Arif/789f4cf739e992090620f4c0e4598059eb5dedf5> (Accessed: 30 January 2024).
 
-Arif, F., 2009. Level-3 Geometric Correction of FORMOSAT-2 Satellite Imagery and Efficient Image Resampling.
+*BBC News*. (2019). \'Anak Krakatau volcano: Satellites get clear view of collapse\', 3 January. Available at: <https://www.bbc.com/news/science-environment-46743362> (Accessed: 4 March 2024).
 
-Caló, F., Notti, D., Galve, J.P., Abdikan, S., Görüm, T., Pepe, A., Balik Şanli, F., 2017. DInSAR-Based Detection of Land Subsidence and Correlation with Groundwater Depletion in Konya Plain, Turkey. Remote Sensing 9, 83. <https://doi.org/10.3390/rs9010083>
+Caló, F., Notti, D., Galve, J. P., Abdikan, S., Görüm, T., Pepe, A. and Balik Şanli, F. (2017). \'DInSAR-Based Detection of Land Subsidence and Correlation with Groundwater Depletion in Konya Plain, Turkey\'. *Remote Sensing*. Multidisciplinary Digital Publishing Institute, 9 (1), p. 83. doi: [10.3390/rs9010083](https://doi.org/10.3390/rs9010083).
 
-Chaussard, E., Amelung, F., Abidin, H.Z., 2012. SINKING CITIES IN INDONESIA: SPACE-GEODETIC EVIDENCE OF THE RATES AND SPATIAL DISTRIBUTION OF LAND SUBSIDENCE.
+Chaussard, E., Amelung, F. and Abidin, H. Z. (2012). \'SINKING CITIES IN INDONESIA: SPACE-GEODETIC EVIDENCE OF THE RATES AND SPATIAL DISTRIBUTION OF LAND SUBSIDENCE\'.
 
-Chen, Y., Wang, Z., 2022. Marine Oil Spill Detection from SAR Images Based on Attention U-Net Model Using Polarimetric and Wind Speed Information. International Journal of Environmental Research and Public Health 19, 12315. <https://doi.org/10.3390/ijerph191912315>
+Chen, Y. and Wang, Z. (2022). \'Marine Oil Spill Detection from SAR Images Based on Attention U-Net Model Using Polarimetric and Wind Speed Information\'. *International Journal of Environmental Research and Public Health*. Multidisciplinary Digital Publishing Institute, 19 (19), p. 12315. doi: [10.3390/ijerph191912315](https://doi.org/10.3390/ijerph191912315).
 
-Classification: ROC Curve and AUC \| Machine Learning \[WWW Document\], n.d. . Google for Developers. URL <https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc> (accessed 3.8.24).
+*Classification: ROC Curve and AUC \| Machine Learning*. (no date). *Google for Developers*. Available at: <https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc> (Accessed: 8 March 2024).
 
-Dasari, K., Anjaneyulu, L., Nadimikeri, J., 2022. Application of C-band sentinel-1A SAR data as proxies for detecting oil spills of Chennai, East Coast of India. Marine Pollution Bulletin 174, 113182. <https://doi.org/10.1016/j.marpolbul.2021.113182>
+Dasari, K., Anjaneyulu, L. and Nadimikeri, J. (2022). \'Application of C-band sentinel-1A SAR data as proxies for detecting oil spills of Chennai, East Coast of India\'. *Marine Pollution Bulletin*, 174, p. 113182. doi: [10.1016/j.marpolbul.2021.113182](https://doi.org/10.1016/j.marpolbul.2021.113182).
 
-Delgado Blasco, J.M., Fitrzyk, M., Patruno, J., Ruiz-Armenteros, A.M., Marconcini, M., 2020. Effects on the Double Bounce Detection in Urban Areas Based on SAR Polarimetric Characteristics. Remote Sensing 12, 1187. <https://doi.org/10.3390/rs12071187>
+Delgado Blasco, J. M., Fitrzyk, M., Patruno, J., Ruiz-Armenteros, A. M. and Marconcini, M. (2020). \'Effects on the Double Bounce Detection in Urban Areas Based on SAR Polarimetric Characteristics\'. *Remote Sensing*. Multidisciplinary Digital Publishing Institute, 12 (7), p. 1187. doi: [10.3390/rs12071187](https://doi.org/10.3390/rs12071187).
 
-DU, P., LIU, S., LIU, P., TAN, K., CHENG, L., 2014. Sub-pixel change detection for urban land-cover analysis via multi-temporal remote sensing images. Geo-spatial Information Science 17, 26--38. <https://doi.org/10.1080/10095020.2014.889268>
+DU, P., LIU, S., LIU, P., TAN, K. and CHENG, L. (2014). \'Sub-pixel change detection for urban land-cover analysis via multi-temporal remote sensing images\'. *Geo-spatial Information Science*. Taylor & Francis, 17 (1), pp. 26--38. doi: [10.1080/10095020.2014.889268](https://doi.org/10.1080/10095020.2014.889268).
 
-Duncan, C., Owen, H.J.F., Thompson, J.R., Koldewey, H.J., Primavera, J.H., Pettorelli, N., 2018. Satellite remote sensing to monitor mangrove forest resilience and resistance to sea level rise. Methods in Ecology and Evolution 9, 1837--1852. <https://doi.org/10.1111/2041-210X.12923>
+Duncan, C., Owen, H. J. F., Thompson, J. R., Koldewey, H. J., Primavera, J. H. and Pettorelli, N. (2018). \'Satellite remote sensing to monitor mangrove forest resilience and resistance to sea level rise\'. *Methods in Ecology and Evolution*, 9 (8), pp. 1837--1852. doi: [10.1111/2041-210X.12923](https://doi.org/10.1111/2041-210X.12923).
 
-Ebrahimy, H., Mirbagheri, B., Matkan, A.A., Azadbakht, M., 2021. Per-pixel land cover accuracy prediction: A random forest-based method with limited reference sample data. ISPRS Journal of Photogrammetry and Remote Sensing 172, 17--27. <https://doi.org/10.1016/j.isprsjprs.2020.11.024>
+Ebrahimy, H., Mirbagheri, B., Matkan, A. A. and Azadbakht, M. (2021). \'Per-pixel land cover accuracy prediction: A random forest-based method with limited reference sample data\'. *ISPRS Journal of Photogrammetry and Remote Sensing*, 172, pp. 17--27. doi: [10.1016/j.isprsjprs.2020.11.024](https://doi.org/10.1016/j.isprsjprs.2020.11.024).
 
-Fallatah, A., Jones, S., Mitchell, D., Kohli, D., 2019. Mapping informal settlement indicators using object-oriented analysis in the Middle East. International Journal of Digital Earth 12, 802--824. <https://doi.org/10.1080/17538947.2018.1485753>
+Fallatah, A., Jones, S., Mitchell, D. and Kohli, D. (2019). \'Mapping informal settlement indicators using object-oriented analysis in the Middle East\'. *International Journal of Digital Earth*. Taylor & Francis, 12 (7), pp. 802--824. doi: [10.1080/17538947.2018.1485753](https://doi.org/10.1080/17538947.2018.1485753).
 
-Gesch, D.B., 2018. Best Practices for Elevation-Based Assessments of Sea-Level Rise and Coastal Flooding Exposure. Frontiers in Earth Science 6.
+Gesch, D. B. (2018). \'Best Practices for Elevation-Based Assessments of Sea-Level Rise and Coastal Flooding Exposure\'. *Frontiers in Earth Science*, 6. Available at: <https://www.frontiersin.org/articles/10.3389/feart.2018.00230> (Accessed: 19 February 2024).
 
-Hossain, M.D., Chen, D., 2019. Segmentation for Object-Based Image Analysis (OBIA): A review of algorithms and challenges from remote sensing perspective. ISPRS Journal of Photogrammetry and Remote Sensing 150, 115--134. <https://doi.org/10.1016/j.isprsjprs.2019.02.009>
+Google Earth. (no date). *Google Earth Engine*. Available at: <https://www.google.com/intl/en_uk/earth/education/tools/google-earth-engine/> (Accessed: 19 March 2024).
 
-Jim, 2022. How to Avoid Overfitting? \| R-bloggers. URL <https://www.r-bloggers.com/2022/09/how-to-avoid-overfitting/> (accessed 2.29.24).
+Groeneveld, D. P., Ruggles, T. A. and Gao, B.-C. (2023). \'Closed-Form Method for Atmospheric Correction (CMAC) of Smallsat Data Using Scene Statistics\'. *Applied Sciences*. Multidisciplinary Digital Publishing Institute, 13 (10), p. 6352. doi: [10.3390/app13106352](https://doi.org/10.3390/app13106352).
 
-Juheon Lee, Xiaohao Cai, Jan Lellmann, Michele Dalponte, Yadvinder Malhi, Nathalie Butt, Mike Morecroft, Carola-Bibiane Schonlieb, David A. Coomes, 2016. Individual Tree Species Classification From Airborne Multisensor Imagery Using Robust PCA. IEEE Journals & Magazine.
+Hossain, M. D. and Chen, D. (2019). \'Segmentation for Object-Based Image Analysis (OBIA): A review of algorithms and challenges from remote sensing perspective\'. *ISPRS Journal of Photogrammetry and Remote Sensing*, 150, pp. 115--134. doi: [10.1016/j.isprsjprs.2019.02.009](https://doi.org/10.1016/j.isprsjprs.2019.02.009).
 
-Kuffer, M., Pfeffer, K., Sliuzas, R., Baud, I., 2016. Extraction of Slum Areas From VHR Imagery Using GLCM Variance. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing 9, 1830--1840. <https://doi.org/10.1109/JSTARS.2016.2538563>
+Jim. (2022). \'How to Avoid Overfitting? \| R-bloggers\', 6 September. Available at: <https://www.r-bloggers.com/2022/09/how-to-avoid-overfitting/> (Accessed: 29 February 2024).
 
-Lucas, R., Mueller, N., Siggins, A., Owers, C., Clewley, D., Bunting, P., Kooymans, C., Tissott, B., Lewis, B., Lymburner, L., Metternicht, G., 2019. Land Cover Mapping using Digital Earth Australia. Data 4, 143. <https://doi.org/10.3390/data4040143>
+Juheon Lee, Xiaohao Cai, Jan Lellmann, Michele Dalponte, Yadvinder Malhi, Nathalie Butt, Mike Morecroft, Carola-Bibiane Schonlieb, and David A. Coomes. (2016). \'Individual Tree Species Classification From Airborne Multisensor Imagery Using Robust PCA\'. *IEEE Journals & Magazine*. Available at: <https://ieeexplore.ieee.org/document/7500049> (Accessed: 14 March 2024).
 
-McMahon, A., Mihretie, A., Ahmed, A.A., Lake, M., Awoke, W., Wimberly, M.C., 2021a. Remote sensing of environmental risk factors for malaria in different geographic contexts. International Journal of Health Geographics 20, 28. <https://doi.org/10.1186/s12942-021-00282-0>
+Kuffer, M., Pfeffer, K., Sliuzas, R. and Baud, I. (2016). \'Extraction of Slum Areas From VHR Imagery Using GLCM Variance\'. *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*. *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, 9 (5), pp. 1830--1840. doi: [10.1109/JSTARS.2016.2538563](https://doi.org/10.1109/JSTARS.2016.2538563).
 
-McMahon, A., Mihretie, A., Ahmed, A.A., Lake, M., Awoke, W., Wimberly, M.C., 2021b. Remote sensing of environmental risk factors for malaria in different geographic contexts. International Journal of Health Geographics 20, 28. <https://doi.org/10.1186/s12942-021-00282-0>
+Li, H.-X., Yang, J.-L., Zhang, G. and Fan, B. (2013). \'Probabilistic support vector machines for classification of noise affected data\'. *Information Sciences*, 221, pp. 60--71. doi: [10.1016/j.ins.2012.09.041](https://doi.org/10.1016/j.ins.2012.09.041).
 
-Mudau, N., Mhangara, P., 2023. Mapping and Assessment of Housing Informality Using Object-Based Image Analysis: A Review. Urban Science 7, 98. <https://doi.org/10.3390/urbansci7030098>
+Lucas, R., Mueller, N., Siggins, A., Owers, C., Clewley, D., Bunting, P., Kooymans, C., Tissott, B., Lewis, B., Lymburner, L. and Metternicht, G. (2019). \'Land Cover Mapping using Digital Earth Australia\'. *Data*, 4 (4), p. 143. doi: [10.3390/data4040143](https://doi.org/10.3390/data4040143).
 
-NASA Earth Observatory, 2009. Sediment in the Gulf of Mexico \[WWW Document\]. URL <https://earthobservatory.nasa.gov/images/38273/sediment-in-the-gulf-of-mexico> (accessed 1.30.24).
+McMahon, A., Mihretie, A., Ahmed, A. A., Lake, M., Awoke, W. and Wimberly, M. C. (2021a). \'Remote sensing of environmental risk factors for malaria in different geographic contexts\'. *International Journal of Health Geographics*, 20 (1), p. 28. doi: [10.1186/s12942-021-00282-0](https://doi.org/10.1186/s12942-021-00282-0).
 
-NASA Earth Observatory, n.d. Landsat Image Gallery. Landsat Image Gallery. URL <https://landsat.visibleearth.nasa.gov/view.php?id=148303>
+McMahon, A., Mihretie, A., Ahmed, A. A., Lake, M., Awoke, W. and Wimberly, M. C. (2021b). \'Remote sensing of environmental risk factors for malaria in different geographic contexts\'. *International Journal of Health Geographics*, 20 (1), p. 28. doi: [10.1186/s12942-021-00282-0](https://doi.org/10.1186/s12942-021-00282-0).
 
-NOAA, 2024. What is remote sensing? \[WWW Document\]. URL <https://oceanservice.noaa.gov/facts/remotesensing.html> (accessed 3.18.24).
+Moretti, S. and Cigna, F. (2012). \'Perspectives Concerning Satellite EO and Geohazard Risk Management: landslide hazards\'. in, pp. 59--80. doi: [10.5270/esa-geo-hzrd-2012](https://doi.org/10.5270/esa-geo-hzrd-2012).
 
-NOAA, n.d. The Atmospheric Window \[WWW Document\]. URL <https://www.noaa.gov/jetstream/satellites/absorb> (accessed 1.30.24).
+Mudau, N. and Mhangara, P. (2023). \'Mapping and Assessment of Housing Informality Using Object-Based Image Analysis: A Review\'. *Urban Science*. Multidisciplinary Digital Publishing Institute, 7 (3), p. 98. doi: [10.3390/urbansci7030098](https://doi.org/10.3390/urbansci7030098).
 
-Octavianti, T., Charles, K., 2019a. The evolution of Jakarta's flood policy over the past 400 years: The lock-in of infrastructural solutions. Environment and Planning C: Politics and Space 37, 1102--1125. <https://doi.org/10.1177/2399654418813578>
+NASA Earth Observatory. (2009). *Sediment in the Gulf of Mexico*. NASA Earth Observatory. Available at: <https://earthobservatory.nasa.gov/images/38273/sediment-in-the-gulf-of-mexico> (Accessed: 30 January 2024).
 
-Octavianti, T., Charles, K., 2019b. The evolution of Jakarta's flood policy over the past 400 years: The lock-in of infrastructural solutions. Environment and Planning C: Politics and Space 37, 1102--1125. <https://doi.org/10.1177/2399654418813578>
+NASA Earth Observatory. (no date). \'Landsat Image Gallery\'. *Landsat Image Gallery*. Available at: <https://landsat.visibleearth.nasa.gov/view.php?id=148303>.
 
-Pérez-Cutillas, P., Pérez-Navarro, A., Conesa-García, C., Zema, D.A., Amado-Álvarez, J.P., 2023. What is going on within google earth engine? A systematic review and meta-analysis. Remote Sensing Applications: Society and Environment 29, 100907. <https://doi.org/10.1016/j.rsase.2022.100907>
+Njambi, R. (2022). *How persistent scatterer interferometry is used to predict and prevent infrastructure damage*. *UP42 Official Website*. Available at: <https://up42.com/blog/how-persistent-scatterer-interferometry-is-used-to-predict-and-prevent> (Accessed: 19 March 2024).
 
-Permanasari, E., 2019. Reading Political Insinuation in Urban Forms: Saving the Sinking Jakarta Through Giant Sea Wall Project. Geographia Technica 14, 56--65. <https://doi.org/10.21163/GT_2019.141.19>
+NOAA. (2024). *What is remote sensing?* Available at: <https://oceanservice.noaa.gov/facts/remotesensing.html> (Accessed: 18 March 2024).
 
-Qian, Y., Zhou, W., Yan, J., Li, W., Han, L., 2015. Comparing Machine Learning Classifiers for Object-Based Land Cover Classification Using Very High Resolution Imagery. Remote Sensing 7, 153--168. <https://doi.org/10.3390/rs70100153>
+NOAA. (no date). *The Atmospheric Window*. Available at: <https://www.noaa.gov/jetstream/satellites/absorb> (Accessed: 30 January 2024).
 
-Random Forest, n.d. URL <https://blogs.fu-berlin.de/reseda/random-forest/> (accessed 2.29.24).
+Octavianti, T. and Charles, K. (2019a). \'The evolution of Jakarta\'s flood policy over the past 400 years: The lock-in of infrastructural solutions\'. *Environment and Planning C: Politics and Space*, 37 (6), pp. 1102--1125. doi: [10.1177/2399654418813578](https://doi.org/10.1177/2399654418813578).
 
-Reid, C.E., Kubzansky, L.D., Li, J., Shmool, J.L., Clougherty, J.E., 2018. It's not easy assessing greenness: A comparison of NDVI datasets and neighborhood types and their associations with self-rated health in New York City. Health & Place 54, 92--101. <https://doi.org/10.1016/j.healthplace.2018.09.005>
+Octavianti, T. and Charles, K. (2019b). \'The evolution of Jakarta\'s flood policy over the past 400 years: The lock-in of infrastructural solutions\'. *Environment and Planning C: Politics and Space*. SAGE Publications Ltd STM, 37 (6), pp. 1102--1125. doi: [10.1177/2399654418813578](https://doi.org/10.1177/2399654418813578).
 
-Salim, W., Bettinger, K., Fisher, M., 2019. Maladaptation on the Waterfront: Jakarta's Growth Coalition and the Great Garuda. Environment and Urbanization ASIA 10, 63--80. <https://doi.org/10.1177/0975425318821809>
+Pérez-Cutillas, P., Pérez-Navarro, A., Conesa-García, C., Zema, D. A. and Amado-Álvarez, J. P. (2023). \'What is going on within google earth engine? A systematic review and meta-analysis\'. *Remote Sensing Applications: Society and Environment*, 29, p. 100907. doi: [10.1016/j.rsase.2022.100907](https://doi.org/10.1016/j.rsase.2022.100907).
 
-Sarzynski, T., Giam, X., Carrasco, L., Lee, J.S.H., 2020. Combining Radar and Optical Imagery to Map Oil Palm Plantations in Sumatra, Indonesia, Using the Google Earth Engine. Remote Sensing 12. <https://doi.org/10.3390/rs12071220>
+Permanasari, E. (2019). \'Reading Political Insinuation in Urban Forms: Saving the Sinking Jakarta Through Giant Sea Wall Project\'. *Geographia Technica*, 14, pp. 56--65. doi: [10.21163/GT_2019.141.19](https://doi.org/10.21163/GT_2019.141.19).
 
-Sensors \| Free Full-Text \| Urban Greening Effect on Land Surface Temperature \[WWW Document\], n.d. URL <https://www.mdpi.com/1424-8220/22/11/4168> (accessed 1.30.24).
+Qian, Y., Zhou, W., Yan, J., Li, W. and Han, L. (2015). \'Comparing Machine Learning Classifiers for Object-Based Land Cover Classification Using Very High Resolution Imagery\'. *Remote Sensing*. Multidisciplinary Digital Publishing Institute, 7 (1), pp. 153--168. doi: [10.3390/rs70100153](https://doi.org/10.3390/rs70100153).
 
-Shao, Y., Lunetta, R.S., 2012. Comparison of support vector machine, neural network, and CART algorithms for the land-cover classification using limited training data points. ISPRS Journal of Photogrammetry and Remote Sensing 70, 78--87. <https://doi.org/10.1016/j.isprsjprs.2012.04.001>
+\'Random Forest\'. (no date). Available at: <https://blogs.fu-berlin.de/reseda/random-forest/> (Accessed: 29 February 2024).
 
-Su, Y., Guo, Q., Ma, Q., Li, W., 2015. SRTM DEM Correction in Vegetated Mountain Areas through the Integration of Spaceborne LiDAR, Airborne LiDAR, and Optical Imagery. Remote Sensing 7, 11202--11225. <https://doi.org/10.3390/rs70911202>
+Reid, C. E., Kubzansky, L. D., Li, J., Shmool, J. L. and Clougherty, J. E. (2018). \'It\'s not easy assessing greenness: A comparison of NDVI datasets and neighborhood types and their associations with self-rated health in New York City\'. *Health & Place*, 54, pp. 92--101. doi: [10.1016/j.healthplace.2018.09.005](https://doi.org/10.1016/j.healthplace.2018.09.005).
 
-Syahid, L.N., Sakti, A.D., Virtriana, R., Wikantika, K., Windupranata, W., Tsuyuki, S., Caraka, R.E., Pribadi, R., 2020. Determining Optimal Location for Mangrove Planting Using Remote Sensing and Climate Model Projection in Southeast Asia. Remote Sensing 12, 3734. <https://doi.org/10.3390/rs12223734>
+Salim, W., Bettinger, K. and Fisher, M. (2019). \'Maladaptation on the Waterfront: Jakarta\'s Growth Coalition and the Great Garuda\'. *Environment and Urbanization ASIA*. SAGE Publications India, 10 (1), pp. 63--80. doi: [10.1177/0975425318821809](https://doi.org/10.1177/0975425318821809).
 
-Tsokas, A., Rysz, M., Pardalos, P.M., Dipple, K., 2022. SAR data applications in earth observation: An overview. Expert Systems with Applications 205, 117342. <https://doi.org/10.1016/j.eswa.2022.117342>
+Sarzynski, T., Giam, X., Carrasco, L. and Lee, J. S. H. (2020). \'Combining Radar and Optical Imagery to Map Oil Palm Plantations in Sumatra, Indonesia, Using the Google Earth Engine\'. *Remote Sensing*, 12. doi: [10.3390/rs12071220](https://doi.org/10.3390/rs12071220).
 
-Udali, A., Lingua, E., Persson, H.J., 2021. Assessing Forest Type and Tree Species Classification Using Sentinel-1 C-Band SAR Data in Southern Sweden. Remote Sensing 13, 3237. <https://doi.org/10.3390/rs13163237>
+*Sensors \| Free Full-Text \| Urban Greening Effect on Land Surface Temperature*. (no date). Available at: <https://www.mdpi.com/1424-8220/22/11/4168> (Accessed: 30 January 2024).
 
-Virtriana, R., Harto, A.B., Atmaja, F.W., Meilano, I., Fauzan, K.N., Anggraini, T.S., Ihsan, K.T.N., Mustika, F.C., Suminar, W., 2023. Machine learning remote sensing using the random forest classifier to detect the building damage caused by the Anak Krakatau Volcano tsunami. Geomatics, Natural Hazards and Risk 14, 28--51. <https://doi.org/10.1080/19475705.2022.2147455>
+Shao, Y. and Lunetta, R. S. (2012). \'Comparison of support vector machine, neural network, and CART algorithms for the land-cover classification using limited training data points\'. *ISPRS Journal of Photogrammetry and Remote Sensing*, 70, pp. 78--87. doi: [10.1016/j.isprsjprs.2012.04.001](https://doi.org/10.1016/j.isprsjprs.2012.04.001).
 
-Wempen, J.M., 2020. Application of DInSAR for short period monitoring of initial subsidence due to longwall mining in the mountain west United States. International Journal of Mining Science and Technology, Special issue on ground control in mining in 2019 30, 33--37. <https://doi.org/10.1016/j.ijmst.2019.12.011>
+Su, Y., Guo, Q., Ma, Q. and Li, W. (2015). \'SRTM DEM Correction in Vegetated Mountain Areas through the Integration of Spaceborne LiDAR, Airborne LiDAR, and Optical Imagery\'. *Remote Sensing*. Multidisciplinary Digital Publishing Institute, 7 (9), pp. 11202--11225. doi: [10.3390/rs70911202](https://doi.org/10.3390/rs70911202).
 
-World Population Review, 2024. Jakarta Population 2024 \[WWW Document\]. URL <https://worldpopulationreview.com/world-cities/jakarta-population> (accessed 3.18.24).
+Syahid, L. N., Sakti, A. D., Virtriana, R., Wikantika, K., Windupranata, W., Tsuyuki, S., Caraka, R. E. and Pribadi, R. (2020). \'Determining Optimal Location for Mangrove Planting Using Remote Sensing and Climate Model Projection in Southeast Asia\'. *Remote Sensing*. Multidisciplinary Digital Publishing Institute, 12 (22), p. 3734. doi: [10.3390/rs12223734](https://doi.org/10.3390/rs12223734).
 
-Zaitunah, A., Samsuri, Silitonga, A.F., Syaufina, L., 2022. Urban Greening Effect on Land Surface Temperature. Sensors 22, 4168. <https://doi.org/10.3390/s22114168>
+Tsokas, A., Rysz, M., Pardalos, P. M. and Dipple, K. (2022). \'SAR data applications in earth observation: An overview\'. *Expert Systems with Applications*, 205, p. 117342. doi: [10.1016/j.eswa.2022.117342](https://doi.org/10.1016/j.eswa.2022.117342).
 
-Zhao, Q., Yu, L., Xuecao, L., Peng, D., Zhang, Y., Gong, P., 2021. Progress and Trends in the Application of Google Earth and Google Earth Engine. Remote Sensing 13, 3778. <https://doi.org/10.3390/rs13183778>
+Udali, A., Lingua, E. and Persson, H. J. (2021). \'Assessing Forest Type and Tree Species Classification Using Sentinel-1 C-Band SAR Data in Southern Sweden\'. *Remote Sensing*. Multidisciplinary Digital Publishing Institute, 13 (16), p. 3237. doi: [10.3390/rs13163237](https://doi.org/10.3390/rs13163237).
+
+Vassileva, M., Giulio Tonolo, F., Riccardi, P., Lecci, D., Boccardo, P. and Chiesa, G. (2017). \'Satellite SAR interferometric techniques in support to emergency mapping\'. *European Journal of Remote Sensing*. Taylor & Francis, 50 (1), pp. 464--477. doi: [10.1080/22797254.2017.1360155](https://doi.org/10.1080/22797254.2017.1360155).
+
+Virtriana, R., Harto, A. B., Atmaja, F. W., Meilano, I., Fauzan, K. N., Anggraini, T. S., Ihsan, K. T. N., Mustika, F. C. and Suminar, W. (2023). \'Machine learning remote sensing using the random forest classifier to detect the building damage caused by the Anak Krakatau Volcano tsunami\'. *Geomatics, Natural Hazards and Risk*. Taylor & Francis, 14 (1), pp. 28--51. doi: [10.1080/19475705.2022.2147455](https://doi.org/10.1080/19475705.2022.2147455).
+
+Wempen, J. M. (2020). \'Application of DInSAR for short period monitoring of initial subsidence due to longwall mining in the mountain west United States\'. *International Journal of Mining Science and Technology*. (Special issue on ground control in mining in 2019), 30 (1), pp. 33--37. doi: [10.1016/j.ijmst.2019.12.011](https://doi.org/10.1016/j.ijmst.2019.12.011).
+
+World Population Review. (2024). *Jakarta Population 2024*. Available at: <https://worldpopulationreview.com/world-cities/jakarta-population> (Accessed: 18 March 2024).
+
+Zaitunah, A., Samsuri, Silitonga, A. F. and Syaufina, L. (2022). \'Urban Greening Effect on Land Surface Temperature\'. *Sensors*. Multidisciplinary Digital Publishing Institute, 22 (11), p. 4168. doi: [10.3390/s22114168](https://doi.org/10.3390/s22114168).
+
+Zhao, Q., Yu, L., Xuecao, L., Peng, D., Zhang, Y. and Gong, P. (2021). \'Progress and Trends in the Application of Google Earth and Google Earth Engine\'. *Remote Sensing*, 13, p. 3778. doi: [10.3390/rs13183778](https://doi.org/10.3390/rs13183778).
