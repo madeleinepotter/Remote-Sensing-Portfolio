@@ -66,9 +66,9 @@ NOAA, 2024. What is remote sensing? \[WWW Document\]. URL <https://oceanservice.
 
 NOAA, n.d. The Atmospheric Window \[WWW Document\]. URL <https://www.noaa.gov/jetstream/satellites/absorb> (accessed 1.30.24).
 
-Octavianti, T., Charles, K., 2019a. The evolution of Jakarta\'s flood policy over the past 400 years: The lock-in of infrastructural solutions. Environment and Planning C: Politics and Space 37, 1102--1125. <https://doi.org/10.1177/2399654418813578>
+Octavianti, T., Charles, K., 2019a. The evolution of Jakarta's flood policy over the past 400 years: The lock-in of infrastructural solutions. Environment and Planning C: Politics and Space 37, 1102--1125. <https://doi.org/10.1177/2399654418813578>
 
-Octavianti, T., Charles, K., 2019b. The evolution of Jakarta\'s flood policy over the past 400 years: The lock-in of infrastructural solutions. Environment and Planning C: Politics and Space 37, 1102--1125. <https://doi.org/10.1177/2399654418813578>
+Octavianti, T., Charles, K., 2019b. The evolution of Jakarta's flood policy over the past 400 years: The lock-in of infrastructural solutions. Environment and Planning C: Politics and Space 37, 1102--1125. <https://doi.org/10.1177/2399654418813578>
 
 Pérez-Cutillas, P., Pérez-Navarro, A., Conesa-García, C., Zema, D.A., Amado-Álvarez, J.P., 2023. What is going on within google earth engine? A systematic review and meta-analysis. Remote Sensing Applications: Society and Environment 29, 100907. <https://doi.org/10.1016/j.rsase.2022.100907>
 
@@ -78,9 +78,9 @@ Qian, Y., Zhou, W., Yan, J., Li, W., Han, L., 2015. Comparing Machine Learning C
 
 Random Forest, n.d. URL <https://blogs.fu-berlin.de/reseda/random-forest/> (accessed 2.29.24).
 
-Reid, C.E., Kubzansky, L.D., Li, J., Shmool, J.L., Clougherty, J.E., 2018. It\'s not easy assessing greenness: A comparison of NDVI datasets and neighborhood types and their associations with self-rated health in New York City. Health & Place 54, 92--101. <https://doi.org/10.1016/j.healthplace.2018.09.005>
+Reid, C.E., Kubzansky, L.D., Li, J., Shmool, J.L., Clougherty, J.E., 2018. It's not easy assessing greenness: A comparison of NDVI datasets and neighborhood types and their associations with self-rated health in New York City. Health & Place 54, 92--101. <https://doi.org/10.1016/j.healthplace.2018.09.005>
 
-Salim, W., Bettinger, K., Fisher, M., 2019. Maladaptation on the Waterfront: Jakarta\'s Growth Coalition and the Great Garuda. Environment and Urbanization ASIA 10, 63--80. <https://doi.org/10.1177/0975425318821809>
+Salim, W., Bettinger, K., Fisher, M., 2019. Maladaptation on the Waterfront: Jakarta's Growth Coalition and the Great Garuda. Environment and Urbanization ASIA 10, 63--80. <https://doi.org/10.1177/0975425318821809>
 
 Sarzynski, T., Giam, X., Carrasco, L., Lee, J.S.H., 2020. Combining Radar and Optical Imagery to Map Oil Palm Plantations in Sumatra, Indonesia, Using the Google Earth Engine. Remote Sensing 12. <https://doi.org/10.3390/rs12071220>
 
