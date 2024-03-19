@@ -67,7 +67,7 @@ If we want to look at identifying changes through image collections we can look 
 SAR data has many uses, the table below shows the most popular uses of SAR imagery.
 
 | Category                        | Application                                                                    |
-|-------------------------|----------------------------------------------|
+|--------------------------|----------------------------------------------|
 | Mapping and Land Classification | Land cover classification, oil spills, sea ice, glaciers and forest monitoring |
 | Parameter Retrieval             | Wind and wave retrieval, soil moisture, ocean topography                       |
 | Object Detection                | Object detection and recognition, navigation                                   |
@@ -87,3 +87,5 @@ I'm planning on using SAR data in my dissertation to map out floods and informal
 I knew that in remote sensing you have to consider different factors (eg. seasonality) that might affect your analysis but I think the study on forest types and species really highlighted the extent of that and how for certain studies there might be more factors to consider.
 
 I aim to take these considerations forward when working on my dissertation and hopefully later on down the line too!
+
+## References

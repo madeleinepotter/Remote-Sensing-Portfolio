@@ -211,6 +211,7 @@ div.csl-indent {
   </ul></li>
   <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications">Applications</a></li>
   <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections">Reflections</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
     </div>
@@ -257,7 +258,7 @@ div.csl-indent {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="polarisation.png" class="img-fluid figure-img" width="608"></p>
-<figcaption>From: <span class="citation" data-cites="delgadoblascoEffectsDoubleBounce2020">(<a href="references.html#ref-delgadoblascoEffectsDoubleBounce2020" role="doc-biblioref">Delgado Blasco et al. 2020</a>)</span></figcaption>
+<figcaption>From: <span class="citation" data-cites="delgadoblascoEffectsDoubleBounce2020">(<a href="#ref-delgadoblascoEffectsDoubleBounce2020" role="doc-biblioref">Delgado Blasco et al. 2020</a>)</span></figcaption>
 </figure>
 </div></li>
 </ul>
@@ -282,10 +283,10 @@ div.csl-indent {
 <h2 class="anchored" data-anchor-id="applications">Applications</h2>
 <p>SAR data has many uses, the table below shows the most popular uses of SAR imagery.</p>
 <table class="table">
-<caption>From: <span class="citation" data-cites="tsokasSARDataApplications2022">Tsokas et al. (<a href="references.html#ref-tsokasSARDataApplications2022" role="doc-biblioref">2022</a>)</span></caption>
+<caption>From: <span class="citation" data-cites="tsokasSARDataApplications2022">Tsokas et al. (<a href="#ref-tsokasSARDataApplications2022" role="doc-biblioref">2022</a>)</span></caption>
 <colgroup>
-<col style="width: 35%">
-<col style="width: 64%">
+<col style="width: 36%">
+<col style="width: 63%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -308,12 +309,12 @@ div.csl-indent {
 </tr>
 </tbody>
 </table>
-<p>Looking at one of the applications, mapping oil spills, I found a study that used C-band Sentinel- 1A data to detect oil spills in Chennai, on the East Coast of India <span class="citation" data-cites="dasariApplicationCbandSentinel1A2022">(<a href="references.html#ref-dasariApplicationCbandSentinel1A2022" role="doc-biblioref">Dasari, Anjaneyulu, and Nadimikeri 2022</a>)</span>. The study used SAR data as it is less expensive than vessel-based and airborne-based detection methods and because of it’s cloud penetrating ability that means it is weather independent. The oil spills were only visible in the VV channel, which was converted from linear to dB value to enhance the contrast oil spill in the image. As mentioned in the lectures, dB scale works best for identifying changes and differences in dark pixels such as water, which I think is demonstrated nicely in this study. A support vector machine and neural networks were used to classify the oil spill, which both had an overall accuracy of around 98% which is very high. Neural networks are understood to be ‘black boxes’ due to their hidden layers as they are hard to understand, so I would be interested to see how another classification method such as a random forest classifier would have performed.</p>
-<p>I was interested to see why SAR data suited oil spill analysis and I found out that it is because the patches of oil show as dark spots in the water and the boundary between these patches and the surrounding water is quite visible in SAR images. This is because the oil film can reduce Bragg waves on the ocean surface <span class="citation" data-cites="chenMarineOilSpill2022">(<a href="references.html#ref-chenMarineOilSpill2022" role="doc-biblioref">Chen and Wang 2022</a>)</span>.</p>
+<p>Looking at one of the applications, mapping oil spills, I found a study that used C-band Sentinel- 1A data to detect oil spills in Chennai, on the East Coast of India <span class="citation" data-cites="dasariApplicationCbandSentinel1A2022">(<a href="#ref-dasariApplicationCbandSentinel1A2022" role="doc-biblioref">Dasari, Anjaneyulu, and Nadimikeri 2022</a>)</span>. The study used SAR data as it is less expensive than vessel-based and airborne-based detection methods and because of it’s cloud penetrating ability that means it is weather independent. The oil spills were only visible in the VV channel, which was converted from linear to dB value to enhance the contrast oil spill in the image. As mentioned in the lectures, dB scale works best for identifying changes and differences in dark pixels such as water, which I think is demonstrated nicely in this study. A support vector machine and neural networks were used to classify the oil spill, which both had an overall accuracy of around 98% which is very high. Neural networks are understood to be ‘black boxes’ due to their hidden layers as they are hard to understand, so I would be interested to see how another classification method such as a random forest classifier would have performed.</p>
+<p>I was interested to see why SAR data suited oil spill analysis and I found out that it is because the patches of oil show as dark spots in the water and the boundary between these patches and the surrounding water is quite visible in SAR images. This is because the oil film can reduce Bragg waves on the ocean surface <span class="citation" data-cites="chenMarineOilSpill2022">(<a href="#ref-chenMarineOilSpill2022" role="doc-biblioref">Chen and Wang 2022</a>)</span>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="tree_map.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-<figcaption>Map showing classified trees by tree type. From: <span class="citation" data-cites="udali2021">(<a href="references.html#ref-udali2021" role="doc-biblioref"><strong>udali2021?</strong></a>)</span></figcaption>
+<figcaption>Map showing classified trees by tree type. From: <span class="citation" data-cites="udali2021">(<a href="#ref-udali2021" role="doc-biblioref"><strong>udali2021?</strong></a>)</span></figcaption>
 </figure>
 </div>
 </section>
@@ -322,9 +323,12 @@ div.csl-indent {
 <p>I’m planning on using SAR data in my dissertation to map out floods and informal settlements, so I’ve been doing a lot of reading around different methodologies and every study I looked at would have a focus on choosing the right polarisation and scale for SAR data. When reading through these studies, I thought I sort of understood these concepts but after going over it this week I feel like I am finally confident I have a full understanding of it. Which I’m really glad of since I think it’s one of the most important aspects to consider when looking at SAR data as your results will change based on the type of polarisation chosen.</p>
 <p>I knew that in remote sensing you have to consider different factors (eg. seasonality) that might affect your analysis but I think the study on forest types and species really highlighted the extent of that and how for certain studies there might be more factors to consider.</p>
 <p>I aim to take these considerations forward when working on my dissertation and hopefully later on down the line too!</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-chenMarineOilSpill2022" class="csl-entry" role="listitem">
 Chen, Yan, and Zhilong Wang. 2022. <span>“Marine <span>Oil Spill Detection</span> from <span>SAR Images Based</span> on <span>Attention U-Net Model Using Polarimetric</span> and <span>Wind Speed Information</span>.”</span> <em>International Journal of Environmental Research and Public Health</em> 19 (19): 12315. <a href="https://doi.org/10.3390/ijerph191912315">https://doi.org/10.3390/ijerph191912315</a>.
 </div>

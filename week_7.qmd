@@ -16,7 +16,7 @@ bibliography: references.bib
 
 ### Classification
 
-In remote sensing, classification is a commonly used technique which is the process of categorising pixels or objects of an image to .
+In remote sensing, classification is a commonly used technique which is the process of categorising pixels or objects of an image.
 
 ### CART: Classification and Regression Trees
 
@@ -84,15 +84,15 @@ There are plenty of ways to use classification:
 
 -   Detecting flood prone areas.
 
-I found a specific example that used the Random Forest classifier to detect building damage in Labuan, Indonesia which was caused by the Anak Krakatau volcano tsunami in 2018 [@virtrianaMachineLearningRemote2023]. Data used to assess images before and after the tsunami came from Sentinel-2A and Worldview-2. Worldview-2 provided high spatial resolution data (50cm) which allowed for smaller changes to be detected more effectively than Sentinel-2A. xBDand Copernicus data were also used to interpret and compare the accuracy of building damage.
+I found a specific example that used the Random Forest classifier to detect building damage in Labuan, Indonesia which was caused by a tsunami from the Anak Krakatau volcano eruption in 2018 [@virtrianaMachineLearningRemote2023]. Data used to assess images before and after the tsunami came from Sentinel-2A and Worldview-2. Worldview-2 provided high spatial resolution data (50cm) which allowed for smaller changes to be detected more effectively than Sentinel-2A. xBDand Copernicus data were also used to interpret and compare the accuracy of building damage.
 
-The random forest classifier was specifically used to detect and classify post-tsunami damage to buildings and was chosen due to it's accuracy with object detection.
+The random forest classifier was specifically used to detect and classify post-tsunami damage to buildings and was chosen due to it's accuracy with object detection. A significant limitation of this study is that it used all types of damage, including damage done to structures other than just buildings. This may affect the accuracy of the classification of buildings. I was wondering if the use of data on building footprints from sources such as Google or Microsoft buildings might have been able to reduce this limitation.
 
-This study also completed a field survey two years and nine months after the tsunami to observe building changes and recovery efforts. This field survey is what made this study stand out to me. I think completing field surveys after damage assessments is effective as it can track progress and accountability if progress is slow and significantly impacting residents.
+This study also completed a field survey two years and nine months after the tsunami to observe building changes and recovery efforts. I think completing field surveys after damage assessments is effective as it can track progress and accountability if progress is slow and significantly impacting residents.
 
-![Anak Krakatau collapse that caused the tsunami. Before and After. From: [@AnakKrakatauVolcano2019]\].](krakatau.png){fig-align="center"}
+![Anak Krakatau collapse that caused the tsunami. Before and After. From: [@AnakKrakatauVolcano2019].](krakatau.png){fig-align="center"}
 
-I also found two studies[@qianComparingMachineLearning2015; @shaoComparisonSupportVector2012] that compared classification techniques, specifically SVM and CART algorithms for land-cover classification. In both, SVM performed better than the CART, having a higher overall accuracy in land cover classification. However, there are still disadvantages to SVM such as it is not suitable for large datasets and that it does not perform well if the data has a lot of noise. So we should still carefully consider which classifier would be a better fit depending on the project.
+I also found two studies[@qianComparingMachineLearning2015; @shaoComparisonSupportVector2012] that compared classification techniques, specifically SVM and CART algorithms for land-cover classification. In both, SVM performed better than the CART, having a higher overall accuracy in land cover classification. However, there are still disadvantages to SVM such as it is not suitable for large datasets and that it does not perform well if the data has a lot of noise[@liProbabilisticSupportVector2013]. So we should still carefully consider which classifier would be a better fit depending on the project.
 
 ## Reflections
 

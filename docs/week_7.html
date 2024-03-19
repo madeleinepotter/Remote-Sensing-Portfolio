@@ -242,7 +242,7 @@ div.csl-indent {
 <h2 data-number="5.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">5.1</span> Summary</h2>
 <section id="classification" class="level3" data-number="5.1.1">
 <h3 data-number="5.1.1" class="anchored" data-anchor-id="classification"><span class="header-section-number">5.1.1</span> Classification</h3>
-<p>In remote sensing, classification is a commonly used technique which is the process of categorising pixels or objects of an image to .</p>
+<p>In remote sensing, classification is a commonly used technique which is the process of categorising pixels or objects of an image.</p>
 </section>
 <section id="cart-classification-and-regression-trees" class="level3" data-number="5.1.2">
 <h3 data-number="5.1.2" class="anchored" data-anchor-id="cart-classification-and-regression-trees"><span class="header-section-number">5.1.2</span> CART: Classification and Regression Trees</h3>
@@ -301,16 +301,16 @@ div.csl-indent {
 <li><p>Detecting burned areas in forest fires.</p></li>
 <li><p>Detecting flood prone areas.</p></li>
 </ul>
-<p>I found a specific example that used the Random Forest classifier to detect building damage in Labuan, Indonesia which was caused by the Anak Krakatau volcano tsunami in 2018 <span class="citation" data-cites="virtrianaMachineLearningRemote2023">(<a href="#ref-virtrianaMachineLearningRemote2023" role="doc-biblioref">Virtriana et al. 2023</a>)</span>. Data used to assess images before and after the tsunami came from Sentinel-2A and Worldview-2. Worldview-2 provided high spatial resolution data (50cm) which allowed for smaller changes to be detected more effectively than Sentinel-2A. xBDand Copernicus data were also used to interpret and compare the accuracy of building damage.</p>
-<p>The random forest classifier was specifically used to detect and classify post-tsunami damage to buildings and was chosen due to it’s accuracy with object detection.</p>
-<p>This study also completed a field survey two years and nine months after the tsunami to observe building changes and recovery efforts. This field survey is what made this study stand out to me. I think completing field surveys after damage assessments is effective as it can track progress and accountability if progress is slow and significantly impacting residents.</p>
+<p>I found a specific example that used the Random Forest classifier to detect building damage in Labuan, Indonesia which was caused by a tsunami from the Anak Krakatau volcano eruption in 2018 <span class="citation" data-cites="virtrianaMachineLearningRemote2023">(<a href="#ref-virtrianaMachineLearningRemote2023" role="doc-biblioref">Virtriana et al. 2023</a>)</span>. Data used to assess images before and after the tsunami came from Sentinel-2A and Worldview-2. Worldview-2 provided high spatial resolution data (50cm) which allowed for smaller changes to be detected more effectively than Sentinel-2A. xBDand Copernicus data were also used to interpret and compare the accuracy of building damage.</p>
+<p>The random forest classifier was specifically used to detect and classify post-tsunami damage to buildings and was chosen due to it’s accuracy with object detection. A significant limitation of this study is that it used all types of damage, including damage done to structures other than just buildings. This may affect the accuracy of the classification of buildings. I was wondering if the use of data on building footprints from sources such as Google or Microsoft buildings might have been able to reduce this limitation.</p>
+<p>This study also completed a field survey two years and nine months after the tsunami to observe building changes and recovery efforts. I think completing field surveys after damage assessments is effective as it can track progress and accountability if progress is slow and significantly impacting residents.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="krakatau.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-<figcaption>Anak Krakatau collapse that caused the tsunami. Before and After. From: <span class="citation" data-cites="AnakKrakatauVolcano2019">(<a href="#ref-AnakKrakatauVolcano2019" role="doc-biblioref"><span>“Anak <span>Krakatau</span> Volcano: <span>Satellites</span> Get Clear View of Collapse”</span> 2019</a>)</span>].</figcaption>
+<figcaption>Anak Krakatau collapse that caused the tsunami. Before and After. From: <span class="citation" data-cites="AnakKrakatauVolcano2019">(<a href="#ref-AnakKrakatauVolcano2019" role="doc-biblioref"><span>“Anak <span>Krakatau</span> Volcano: <span>Satellites</span> Get Clear View of Collapse”</span> 2019</a>)</span>.</figcaption>
 </figure>
 </div>
-<p>I also found two studies<span class="citation" data-cites="qianComparingMachineLearning2015 shaoComparisonSupportVector2012">(<a href="#ref-qianComparingMachineLearning2015" role="doc-biblioref">Qian et al. 2015</a>; <a href="#ref-shaoComparisonSupportVector2012" role="doc-biblioref">Shao and Lunetta 2012</a>)</span> that compared classification techniques, specifically SVM and CART algorithms for land-cover classification. In both, SVM performed better than the CART, having a higher overall accuracy in land cover classification. However, there are still disadvantages to SVM such as it is not suitable for large datasets and that it does not perform well if the data has a lot of noise. So we should still carefully consider which classifier would be a better fit depending on the project.</p>
+<p>I also found two studies<span class="citation" data-cites="qianComparingMachineLearning2015 shaoComparisonSupportVector2012">(<a href="#ref-qianComparingMachineLearning2015" role="doc-biblioref">Qian et al. 2015</a>; <a href="#ref-shaoComparisonSupportVector2012" role="doc-biblioref">Shao and Lunetta 2012</a>)</span> that compared classification techniques, specifically SVM and CART algorithms for land-cover classification. In both, SVM performed better than the CART, having a higher overall accuracy in land cover classification. However, there are still disadvantages to SVM such as it is not suitable for large datasets and that it does not perform well if the data has a lot of noise<span class="citation" data-cites="liProbabilisticSupportVector2013">(<a href="#ref-liProbabilisticSupportVector2013" role="doc-biblioref">Li et al. 2013</a>)</span>. So we should still carefully consider which classifier would be a better fit depending on the project.</p>
 </section>
 <section id="reflections" class="level2" data-number="5.3">
 <h2 data-number="5.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">5.3</span> Reflections</h2>
@@ -327,6 +327,9 @@ div.csl-indent {
 </div>
 <div id="ref-jimHowAvoidOverfitting2022" class="csl-entry" role="listitem">
 Jim. 2022. <span>“How to <span>Avoid Overfitting</span>? <span></span> <span class="nocase">R-bloggers</span>.”</span>
+</div>
+<div id="ref-liProbabilisticSupportVector2013" class="csl-entry" role="listitem">
+Li, Han-Xiong, Jing-Lin Yang, Geng Zhang, and Bi Fan. 2013. <span>“Probabilistic Support Vector Machines for Classification of Noise Affected Data.”</span> <em>Information Sciences</em> 221 (February): 60–71. <a href="https://doi.org/10.1016/j.ins.2012.09.041">https://doi.org/10.1016/j.ins.2012.09.041</a>.
 </div>
 <div id="ref-qianComparingMachineLearning2015" class="csl-entry" role="listitem">
 Qian, Yuguo, Weiqi Zhou, Jingli Yan, Weifeng Li, and Lijian Han. 2015. <span>“Comparing <span>Machine Learning Classifiers</span> for <span>Object-Based Land Cover Classification Using Very High Resolution Imagery</span>.”</span> <em>Remote Sensing</em> 7 (1): 153–68. <a href="https://doi.org/10.3390/rs70100153">https://doi.org/10.3390/rs70100153</a>.
