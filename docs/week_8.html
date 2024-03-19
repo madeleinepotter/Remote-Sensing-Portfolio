@@ -256,7 +256,7 @@ div.csl-indent {
 </section>
 <section id="accuracy-assessment" class="level3" data-number="6.1.3">
 <h3 data-number="6.1.3" class="anchored" data-anchor-id="accuracy-assessment"><span class="header-section-number">6.1.3</span> Accuracy Assessment</h3>
-<p>We produce an accuracy assessment to determine how well the model performed in identifying different classes in unseen data.</p>
+<p>Accuracy assessments are used to determine how well the model performed in identifying different classes in unseen data.</p>
 <p>In remote sensing, the most common form of accuracy assessment is to consider the producer’s accuracy, user’s accuracy, and overall accuracy, which are all derived from a confusion matrix. All measurements and equations to derive them are shown in the matrix below.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -264,7 +264,7 @@ div.csl-indent {
 <figcaption>From: <span class="citation" data-cites="ebrahimyPerpixelLandCover2021">(<a href="#ref-ebrahimyPerpixelLandCover2021" role="doc-biblioref">Ebrahimy et al. 2021</a>)</span>]</figcaption>
 </figure>
 </div>
-<p><strong>Kappa Coefficient:</strong> evaluates how well the classification model performed compared to just assigning random values. Ranges from -1 to 1. It’s use in remote sensing is discouraged, if using probably best to use last and with the support of other accuracy measures.</p>
+<p><strong>Kappa Coefficient:</strong> evaluates how well the classification model performed compared to just assigning random values. Ranges from -1 to 1. It’s use in remote sensing is discouraged, if it were to be used, it is best to use last and with the support of other accuracy measures.</p>
 <p><strong>F1:</strong> Combines both user accuracy and producer accuracy. Ranges from 0 to 1 with 1 indicating better performance.</p>
 <p><strong>Area Under the Receiver Operating Characteristic Curve (the ROC Curve):</strong></p>
 <p>The curve plots the true positive and false positive rate. The AUC (area under the ROC curve) has a value between 0 and 1, with values closer to 1 having more accurate predictions.</p>
@@ -287,7 +287,7 @@ div.csl-indent {
 <p>In this section I will focus on the applications of OBIA and sub-pixel analysis.</p>
 <section id="obia" class="level3" data-number="6.2.1">
 <h3 data-number="6.2.1" class="anchored" data-anchor-id="obia"><span class="header-section-number">6.2.1</span> <strong>OBIA</strong></h3>
-<p>OBIA has been used extensively in land cover analysis, and is one of the most common methods for detecting informal settlements. This is because splitting up pixels into groups provides additional spectral, geometric and textural information <span class="citation" data-cites="kufferExtractionSlumAreas2016">(<a href="#ref-kufferExtractionSlumAreas2016" role="doc-biblioref">Kuffer et al. 2016</a>)</span> that are useful to detect specific structures that have unique characteristics in informal settlements, such as roofs of dwellings <span class="citation" data-cites="mudauMappingAssessmentHousing2023">(<a href="#ref-mudauMappingAssessmentHousing2023" role="doc-biblioref">Mudau and Mhangara 2023</a>)</span> .</p>
+<p>OBIA has been used extensively in land cover analysis, and is one of the most common methods for detecting informal settlements. This is because splitting up pixels into groups provides additional spectral, geometric and textural information <span class="citation" data-cites="kufferExtractionSlumAreas2016">(<a href="#ref-kufferExtractionSlumAreas2016" role="doc-biblioref">Kuffer et al. 2016</a>)</span> that are useful to detect specific structures that have unique characteristics in informal settlements, such as roofs of dwellings <span class="citation" data-cites="mudauMappingAssessmentHousing2023">(<a href="#ref-mudauMappingAssessmentHousing2023" role="doc-biblioref">Mudau and Mhangara 2023</a>)</span>. However, I think this also brings up the point that successful object based classification methods will require a complete understanding of context. This includes defining key terms such as ‘informal settlements’ in order for the identified unique characteristics to be chosen accurately.</p>
 <p><span class="citation" data-cites="fallatahMappingInformalSettlement2019">Fallatah et al. (<a href="#ref-fallatahMappingInformalSettlement2019" role="doc-biblioref">2019</a>)</span> used OBIA to detect informal settlements in Jeddah, Saudi Arabia using Geoimage which offers high-resolution images. The study only looked at 3 smaller study areas within the city and started first by classifying objects into vegetation extent, housing structures, road networks, roofing materials, texture of built up areas and dwelling size before being able to identify and differentiate between formal and informal settlements. Upon further research, I found that OBIA works better on higher resolution images in comparison to lower resolution images <span class="citation" data-cites="hossainSegmentationObjectBasedImage2019">(<a href="#ref-hossainSegmentationObjectBasedImage2019" role="doc-biblioref">Hossain and Chen 2019</a>)</span>, which probably reflects the choice of remotely sensed data in the Jeddah study.</p>
 </section>
 <section id="sub-pixel-analysis-1" class="level3" data-number="6.2.2">
