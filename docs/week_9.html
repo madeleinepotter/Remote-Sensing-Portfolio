@@ -190,7 +190,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References</span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">References</span></span></a>
   </div>
 </li>
     </ul>
@@ -285,8 +285,8 @@ div.csl-indent {
 <table class="table">
 <caption>From: <span class="citation" data-cites="tsokasSARDataApplications2022">Tsokas et al. (<a href="#ref-tsokasSARDataApplications2022" role="doc-biblioref">2022</a>)</span></caption>
 <colgroup>
-<col style="width: 29%">
-<col style="width: 70%">
+<col style="width: 30%">
+<col style="width: 69%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -309,18 +309,19 @@ div.csl-indent {
 </tr>
 </tbody>
 </table>
-<p>Looking at one of the applications, mapping oil spills, I found a study that used C-band Sentinel- 1A data to detect oil spills in Chennai, on the East Coast of India <span class="citation" data-cites="dasariApplicationCbandSentinel1A2022">(<a href="#ref-dasariApplicationCbandSentinel1A2022" role="doc-biblioref">Dasari, Anjaneyulu, and Nadimikeri 2022</a>)</span>. The study used SAR data as it is less expensive than vessel-based and airborne-based detection methods and because of it’s cloud penetrating ability that means it is weather independent. The oil spills were only visible in the VV channel, which was converted from linear to dB value to enhance the contrast oil spill in the image. As mentioned in the lectures, dB scale works best for identifying changes and differences in dark pixels such as water, which I think is demonstrated nicely in this study. A support vector machine and neural networks were used to classify the oil spill, which both had an overall accuracy of around 98% which is very high. Neural networks are understood to be ‘black boxes’ due to their hidden layers as they are hard to understand, so I would be interested to see how another classification method such as a random forest classifier would have performed.</p>
+<p>Looking at one of the applications, I found a study that used C-band Sentinel- 1A data to detect oil spills in Chennai, on the East Coast of India <span class="citation" data-cites="dasariApplicationCbandSentinel1A2022">(<a href="#ref-dasariApplicationCbandSentinel1A2022" role="doc-biblioref">Dasari, Anjaneyulu, and Nadimikeri 2022</a>)</span>. The study used SAR data as it is less expensive than vessel-based and airborne-based detection methods and because of it’s cloud penetrating ability. The oil spills were only visible in the VV channel, which was converted from linear to dB value to enhance the contrast of oil spill against water. As mentioned in the lectures, dB scale works best for identifying changes and differences in dark pixels such as water, which I think is demonstrated nicely in this study. A support vector machine and neural networks were used to classify the oil spill, which both had an overall accuracy of around 98% which is very high. Neural networks are understood to be ‘black boxes’ due to their hidden layers as they are hard to understand, so I would be interested to see how another classification method such as a random forest classifier would have performed.</p>
 <p>I was interested to see why SAR data suited oil spill analysis and I found out that it is because the patches of oil show as dark spots in the water and the boundary between these patches and the surrounding water is quite visible in SAR images. This is because the oil film can reduce Bragg waves on the ocean surface <span class="citation" data-cites="chenMarineOilSpill2022">(<a href="#ref-chenMarineOilSpill2022" role="doc-biblioref">Chen and Wang 2022</a>)</span>.</p>
+<p>SAR data has also been used to classify forested areas by type and species, as was done in a study in Sweden that used Sentinel- 1 C-Band SAR data <span class="citation" data-cites="udaliAssessingForestType2021">(<a href="#ref-udaliAssessingForestType2021" role="doc-biblioref">Udali, Lingua, and Persson 2021</a>)</span>]. This was done based on previous research that looked into how backscatter interacts with trees leaves, crown structure, branch geometry, and canopy structure. As radar backscatter is also affected by several other factors (eg. temperature or precipitation) a lot of preprocessing of the satellite imagery was done. This demonstrates just how much has to be taken into consideration with such studies before analysis can even take place. Finally, a Random Forest classifers were used to classify trees by forest type and by species. The model that classified by forest type ended up being the most accurate, this is probably because classification at the leaf level compared to the canopy level is still challenging <span class="citation" data-cites="juheonleeIndividualTreeSpecies2016">(<a href="#ref-juheonleeIndividualTreeSpecies2016" role="doc-biblioref">Juheon Lee et al. 2016</a>)</span>].</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="tree_map.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-<figcaption>Map showing classified trees by tree type. From: <span class="citation" data-cites="udali2021">(<a href="#ref-udali2021" role="doc-biblioref"><strong>udali2021?</strong></a>)</span></figcaption>
+<figcaption>Map showing classified trees by tree type. From: <span class="citation" data-cites="udaliAssessingForestType2021">Udali, Lingua, and Persson (<a href="#ref-udaliAssessingForestType2021" role="doc-biblioref">2021</a>)</span></figcaption>
 </figure>
 </div>
 </section>
 <section id="reflections" class="level2">
 <h2 class="anchored" data-anchor-id="reflections">Reflections</h2>
-<p>I’m planning on using SAR data in my dissertation to map out floods and informal settlements, so I’ve been doing a lot of reading around different methodologies and every study I looked at would have a focus on choosing the right polarisation and scale for SAR data. When reading through these studies, I thought I sort of understood these concepts but after going over it this week I feel like I am finally confident I have a full understanding of it. Which I’m really glad of since I think it’s one of the most important aspects to consider when looking at SAR data as your results will change based on the type of polarisation chosen.</p>
+<p>I’m planning on using SAR data in my dissertation to map out floods and informal settlements, so I’ve been doing a lot of reading around different methodologies and every study I looked at would have a focus on choosing the right polarisation and scale for SAR data. When reading through these studies, I thought I sort of understood these concepts but after going over it this week I feel like I am finally confident I have a full understanding of it. Which I’m really glad of since I think it’s one of the most important aspects to consider when looking at SAR data as your results will change based on the type of polarisation chosen. I also think SAR data will be really useful to me due to it’s ability to penetrate through clouds as in the first couple of weeks when doing the practicals, I wanted to find an optical image of Jakarta that had less than 10% cloud cover and I struggled quite hard and had to go back a couple of years. SAR data should help me get more up-to-date images of the city!</p>
 <p>I knew that in remote sensing you have to consider different factors (eg. seasonality) that might affect your analysis but I think the study on forest types and species really highlighted the extent of that and how for certain studies there might be more factors to consider.</p>
 <p>I aim to take these considerations forward when working on my dissertation and hopefully later on down the line too!</p>
 </section>
@@ -338,8 +339,14 @@ Dasari, Kiran, Lokam Anjaneyulu, and Jayaraju Nadimikeri. 2022. <span>“Applica
 <div id="ref-delgadoblascoEffectsDoubleBounce2020" class="csl-entry" role="listitem">
 Delgado Blasco, José Manuel, Magdalena Fitrzyk, Jolanda Patruno, Antonio Miguel Ruiz-Armenteros, and Mattia Marconcini. 2020. <span>“Effects on the <span>Double Bounce Detection</span> in <span>Urban Areas Based</span> on <span>SAR Polarimetric Characteristics</span>.”</span> <em>Remote Sensing</em> 12 (7): 1187. <a href="https://doi.org/10.3390/rs12071187">https://doi.org/10.3390/rs12071187</a>.
 </div>
+<div id="ref-juheonleeIndividualTreeSpecies2016" class="csl-entry" role="listitem">
+Juheon Lee, Xiaohao Cai, Jan Lellmann, Michele Dalponte, Yadvinder Malhi, Nathalie Butt, Mike Morecroft, Carola-Bibiane Schonlieb, and David A. Coomes. 2016. <span>“Individual <span>Tree Species Classification From Airborne Multisensor Imagery Using Robust PCA</span>.”</span> <em>IEEE Journals &amp; Magazine</em>.
+</div>
 <div id="ref-tsokasSARDataApplications2022" class="csl-entry" role="listitem">
 Tsokas, Arsenios, Maciej Rysz, Panos M. Pardalos, and Kathleen Dipple. 2022. <span>“<span>SAR</span> Data Applications in Earth Observation: <span>An</span> Overview.”</span> <em>Expert Systems with Applications</em> 205 (November): 117342. <a href="https://doi.org/10.1016/j.eswa.2022.117342">https://doi.org/10.1016/j.eswa.2022.117342</a>.
+</div>
+<div id="ref-udaliAssessingForestType2021" class="csl-entry" role="listitem">
+Udali, Alberto, Emanuele Lingua, and Henrik J. Persson. 2021. <span>“Assessing <span>Forest Type</span> and <span>Tree Species Classification Using Sentinel-1 C-Band SAR Data</span> in <span>Southern Sweden</span>.”</span> <em>Remote Sensing</em> 13 (16): 3237. <a href="https://doi.org/10.3390/rs13163237">https://doi.org/10.3390/rs13163237</a>.
 </div>
 </div>
 </section>
@@ -739,8 +746,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./references.html" class="pagination-link" aria-label="References">
-        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./references.html" class="pagination-link" aria-label="<span class='chapter-number'>7</span>&nbsp; <span class='chapter-title'>References</span>">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">References</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
